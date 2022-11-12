@@ -2,7 +2,7 @@
 
 - SHM for simple pendulums only works for small angles
 - Integral is used for nonlinear pendulum relationship
--  $\sin(\theta) = \theta$ only holds true
+-  $\sin(\theta) = \theta$ only holds true for small angles
 - Authors want to find a simple and accurate expression for beyond small angle
 
 # Approximation
@@ -28,6 +28,6 @@ $$
 The above integral for $T$ is hard because there is an asymptote at $\theta = \theta_0$. By replacing $\cos \theta$ with $1 - 2\sin^2(\frac{\theta}{2})$ and changing variable with $\sin \varphi = \frac{\sin(\frac{\theta}{2})}{\sin(\frac{\theta}{2})}$, we can change the bounds as shown below
 $$
 \begin{align*}
-T &= 4\sqrt{\frac{L}{g}} \int_{0}^{\frac{\pi}{2}} \frac{1}{\sqrt{1-k^{2\sin^{2}} \varphi}}d\varphi 
+T &= 4\sqrt{\frac{L}{g}} \int_{0}^{\frac{\pi}{2}} \frac{1}{\sqrt{1-k^{2}\sin^{2} \varphi}}d\varphi 
 \end{align*}
 $$
