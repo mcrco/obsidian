@@ -10,13 +10,21 @@
 ![[Screenshot_20221111_114816.png]]
 
 Using torque and rotational inertia, we find that that:
-$\frac{d^{2}\theta}{dt^{2}}+ \frac{g}{L}sin\theta = 0$ , which we can solve for $T = 2\pi \sqrt{\frac{L}{g}}$ 
+$\frac{d^{2}\theta}{dt^{2}}+ \frac{g}{L}sin\theta = 0$ . Substituting $\sin \theta$ for $\theta$ because the two quantities are approximately equal for angles smaller than $7^{\circ}$, we get
+$$
+\begin{align*}
+\frac{d^{2}\theta}{dt^{2}} + \frac{g}{L}\theta  &= 0 \\
+r^{2} + \frac{g}{L} &= 0 \\
+r &= \pm i\sqrt{ \frac{g}{L} }
+\end{align*}
+$$
+, to find that $T_{0} = 2\pi \sqrt{\frac{L}{g}}$ 
 
 Using Conservation of Energy to integrate for period:
 $$
 \begin{align*}
 mgL(1- \cos\theta_0) &= \frac{1}{2} mL^{2}(\frac{d\theta}{dt})^{2}+ mgL(1-\cos(\theta)) \\
-\frac{d\theta}{dt} &= \pm \sqrt{\frac{2g}{L}(\cos\theta - cos\theta_{0)}}\\
+\frac{d\theta}{dt} &= \pm \sqrt{\frac{2g}{L}(\cos\theta - cos\theta_{0})}\\
 \end{align*} 
 $$
 Integrate from $\theta = 0$ to $\theta = \theta_0$ to find $\frac{T}{4}$
