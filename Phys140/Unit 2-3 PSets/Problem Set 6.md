@@ -110,4 +110,21 @@ m\ddot{x} &= -kx\\
 \ddot{x} &= -\frac{k}{m} x
 \end{align*}
 $$
-5. a. 
+5. a. Writing the Lagrangian
+$$
+\begin{align*}
+L &= T - V\\
+T &= \frac{1}{2} mv^2\\
+v &= \frac{d}{dt} r\theta = \dot{r}\theta + r\dot{\theta}\\
+T &= \frac{1}{2}m(\dot{r}\theta + r\dot{\theta})^2\\
+V &= \frac{1}{2}kr^2\\
+L &= \frac{1}{2}m(\dot{r}\theta + r\dot{\theta})^{2} - \frac{1}{2}kr^2\\
+\end{align*}
+$$
+	b. Write the Hamiltonian
+$$
+\begin{align*}
+H &= \frac{1}{2}m(\dot{r}\theta + r\dot{\theta})^{2} + \frac{1}{2}kr^2\\
+H &= \frac{m^{2} \dot{r}^{2}}{2} + m r\theta \dot{r} \dot{\theta} + 
+\end{align*}
+$$
