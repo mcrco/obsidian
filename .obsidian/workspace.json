@@ -20,6 +20,17 @@
             }
           },
           {
+            "id": "58f97f6426758b74",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
+            }
+          },
+          {
             "id": "ccc77c700f7b7a8a",
             "type": "leaf",
             "state": {
@@ -114,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4b127825c4bf3e90",
@@ -131,7 +141,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Phys140/Unit 2-3 PSets/Problem Set 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +157,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Phys140/Unit 2-3 PSets/Problem Set 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +178,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Phys140/Unit 2-3 PSets/Problem Set 7.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,17 +196,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ccc77c700f7b7a8a",
+  "active": "58f97f6426758b74",
   "lastOpenFiles": [
+    "ML Textbook/Linear Algebra.md",
     "Phys140/Unit 2-3 PSets/Problem Set 6.md",
+    "Phys140/Unit 2-3 PSets/Problem Set 7.md",
     "Web Dev Notes/Meteor.md",
     "Phys140/Unit 2-3 PSets/Simple Pendulum Beyond Small Angle Regime.md",
     "Math101C/14.4.md",
     "Pasted image 20221111165023.png",
     "pendulum.png.md",
     "Math101C/14.3.md",
-    "Multivar/14.4.md",
-    "Multivar/14.3.md",
-    "2022-11-10.md"
+    "Multivar/14.4.md"
   ]
 }
