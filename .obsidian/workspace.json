@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "57b3bf48374c4ba3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e830ece709c8dcd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f859ef4832db181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phys140/Unit 2-3 PSets/Problem Set 6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "075dc82bb3cbbb21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phys140/Unit 2-3 PSets/Simple Pendulum Beyond Small Angle Regime.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f759a372f87fb18",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6b124f444601bd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4aba40d1bcc1457c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3605ef25836dbbfc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4ff4747c33d6430d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4b127825c4bf3e90",
+    "type": "split",
+    "children": [
+      {
+        "id": "8075b23dfabc2235",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25ef7275504fca62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Phys140/Unit 2-3 PSets/Simple Pendulum Beyond Small Angle Regime.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c61e88fd0c2e84b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Phys140/Unit 2-3 PSets/Simple Pendulum Beyond Small Angle Regime.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc479421c5afb22c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d531436e1511ebb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Phys140/Unit 2-3 PSets/Simple Pendulum Beyond Small Angle Regime.md"
+              }
+            }
+          },
+          {
+            "id": "409ac63b8de6abe4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "075dc82bb3cbbb21",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2022-11-16 23.24.03.excalidraw.md",
+    "1.excalidraw.md",
+    "Test.md",
+    "Phys140/Unit 2-3 PSets/Problem Set 6.md",
+    "Phys140/Unit 2-3 PSets/Simple Pendulum Beyond Small Angle Regime.md",
+    "Excalidraw/Drawing 2022-11-16 23.07.48.excalidraw.md",
+    "Excalidraw/Drawing 2022-11-16 23.15.36.excalidraw.md",
+    "Phys140/Unit 2-3 PSets/Screenshot_20221111_114816.png",
+    "Math101C/14.4 Triple Integral.md",
+    "diagram1.excalidraw.md"
+  ]
+}

@@ -41,4 +41,21 @@
 - system of linear equations: $\mathbf{A}x = b$, where $x = [x_{1}, x_{2}, \dots, x_{n}]$ is a set of variables we are solving for
 
 # Identity and Inverse Matrices
-- used to solve for 
+
+- used to solve for system of linear equations
+- identity matrix is square matrix with main diagonal having all 0s
+	- multiplying by vector returns original vector
+- matrix inverse: $\mathbf{A}^{-1}\mathbf{A} = I_{n}$
+
+Using matrix inverses to solve for $\mathbf{A}x = b$ 
+$$
+\begin{align*}
+\mathbf{A}x &= b\\
+\mathbf{A}^{-1}Ax &= \mathbf{A}^{-1}b\\
+x &= \mathbf{A}^{-1}b
+\end{align*}
+$$
+$\mathbf{A}^{-1}$ should be used mainly as a theoretical tool, not a computer application.
+
+# Linear Dependence and Span
+
