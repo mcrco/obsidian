@@ -1,10 +1,6 @@
 [
-  "obsidian-git",
+  "obsidian-excalidraw-plugin",
   "obsidian-latex-suite",
-  "obsidian-relative-line-numbers",
-<<<<<<< HEAD
-  "obsidian-excalidraw-plugin"
-=======
-  "quick-latex"
->>>>>>> origin/main
+  "obsidian-git",
+  "obsidian-relative-line-numbers"
 ]
