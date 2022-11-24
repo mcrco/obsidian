@@ -124,7 +124,6 @@ $$
 	b. Write the Hamiltonian
 $$
 \begin{align*}
-H &= \frac{1}{2}m(\dot{r}\theta + r\dot{\theta})^{2} + \frac{1}{2}kr^2\\
-H &= \frac{m^{2} \dot{r}^{2}}{2} + m r\theta \dot{r} \dot{\theta} + 
+
 \end{align*}
 $$
