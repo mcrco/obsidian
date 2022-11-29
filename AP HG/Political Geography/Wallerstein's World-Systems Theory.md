@@ -17,9 +17,13 @@ Colonialism -> global context. Independent states are possible, but independent 
 
 Core and periphery are defined as processes, but some places can be labelled as such as well
 
-1. **Core**: processes that incorporate high education, high salaries, high tech, more wealth
+1. **Core**: processes that incorporate high education, high salaries, high tech, high consumption, more wealth
 2. **Periphery**: processes that incorporate low levels of every factor above
-3. **Semiperiphery**: plaes where both core and periphery processes occur
+3. **Semiperiphery**: places where both core and periphery processes occur
 	Core usually exploits the periphery. Semiperiphery acts as a buffer bewteen core and periphery -> no polarization into two extremes
 
+# Effects
 
+World-systems theory explains how colonial powers amassed large wealth.
+Mercantilism -> first wave of colonialism -> extracting goods from America and slave labor from Africa.
+Industrial Revolution -> second wave of colonialism -> cheap industrial labor, raw materials, plantations
