@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c5c8ea936c0abb7b",
+        "id": "dfa32042053c40ce",
         "type": "tabs",
         "children": [
           {
-            "id": "dee86c2b9112622c",
+            "id": "96aa1282d34dc305",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Math101C/14.6.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f58386aaad676ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AP HG/Political Geography/Political Organization of Space into States and Nations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math101C/14.6.md",
+                "file": "AP HG/Political Geography/Political Organization of Space into States and Nations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math101C/14.6.md",
+                "file": "AP HG/Political Geography/Political Organization of Space into States and Nations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math101C/14.6.md"
+                "file": "AP HG/Political Geography/Political Organization of Space into States and Nations.md"
               }
             }
           },
@@ -145,17 +158,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "dee86c2b9112622c",
+  "active": "5f58386aaad676ef",
   "lastOpenFiles": [
-    "Math101C/14.5 Triple Integral with Cylindrical and Spherical Coordinates.md",
-    "AP HG/Political Geography/Wallerstein's World-Systems Theory.md",
-    "AP HG/Political Geography/Chapter 8 Political Geography.md",
     "Math101C/14.6.md",
+    "AP HG/Political Geography/Political Organization of Space into States and Nations.md",
+    "Math101C/14.5 Triple Integral with Cylindrical and Spherical Coordinates.md",
+    "ML Textbook/Linear Algebra.md",
     "Phys140/Unit 2-3 PSets/Problem Set 6.md",
+    "Phys140/Unit 2-3 PSets/Problem Set 7.md",
     "Test.md",
     "Snippets.md",
     "Math101C/test.md",
-    "Math101C/test.pdf",
-    "Math101C/14.4 Triple Integral.md"
+    "Math101C/test.pdf"
   ]
 }
