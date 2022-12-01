@@ -70,9 +70,45 @@ Stateless can be multistate.
 
 # European Colonialism and Diffusion of Nation-State Model
 
-# Colonies
+European concepts of state, sovereignty, nation staes -> rest of the world through 2 waves.
 
-Map on page 247
-1800: American independence
-Next wave: Africa, Asia
-Then Africa and Asia gain independence after ww1
+## First Wave
+- 1600s - late 1700s
+- Spain and Portugal first
+- Britain, France, Netherlands followed
+- Mainly Americas, India, Indies
+- established capitalism
+- Ended w/ indpendence movements in Americas in late 1700's
+
+## Second Wave
+- late 1800s
+- Berlin Conference 1844-45
+- Colonizers: Britain, France, Netherlands, Belgium, Germany, Italy
+- Colonies: Africa and  Asia
+- Purpose: economic profit, Christianity spread
+- Europe controlled world -> nation-state model worldwide and interdependent commerce
+- ended after WW2 when African and Asia gain independence
+
+## Colonialism
+- exploitation -> cultural landscape (plantations, ports, mines, railroads)
+- political organization and global economy remain, econ still interdependent
+	- Example: Gabon, Africa railroad -> Libreville because plywood, but not Port Gentil because latter is for global oil corporations
+
+## Construction of Capitalist World Economy
+
+### Impact:
+
+- Europe dominates world in global economic orer
+	- some negatives (Spain getting drained)
+- Russia and US profit from indigenous lands
+- Japan controlled Korea + East and Southeast Asia + Pacific islands
+- uneven global distribution of power
+	- GNI
+		- Haiti: 1840
+		- Norway: 40420
+
+To understand impact on distribution of power, we need to analyze countries as part of global system scale. Enter [[Wallerstein's World-Systems Theory]].
+
+## Impact of Nation-State Idea
+
+We still try to apply nation-state idea to Yugoslavia and Israel/Palestine.

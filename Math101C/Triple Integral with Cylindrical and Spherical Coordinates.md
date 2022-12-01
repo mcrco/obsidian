@@ -137,3 +137,6 @@ V &= \int_{\theta = 0}^{\theta = 2\pi} \int_{\phi = \pi/6}^{\phi = 5\pi/6} \int_
 &= \int_{\theta = 0}^{\theta = 2\pi} \int_{\phi = \pi/6}^{\phi = 5\pi/6} \frac{8}{3} - \csc^3 \theta \, d\phi  \, d\theta  \\
 \end{align}
 $$
+# Bounds are Bad?
+
+Then change them! [[Changing Bounds for Integrals with the Jacobian]]

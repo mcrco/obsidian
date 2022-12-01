@@ -100,3 +100,6 @@ $$
 &= \int_{0}^{3} [-2ye^{9-x^{2}-z} - 2yz] _{0}^{9-y^{2}} \, dx  \\
 \end{align}
 $$
+# Cartesian coordinate system is too hard?
+
+Use [[Triple Integral with Cylindrical and Spherical Coordinates]]!

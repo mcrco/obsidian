@@ -46,6 +46,8 @@ J = \begin{pmatrix}
 \end{gather}
 $$
 
+Basically converting [[Triple Integral for Volume with Cartesian Coordinates]] with [[Triple Integral with Cylindrical and Spherical Coordinates]]!
+
 # Examples
 
 ## Example 1
