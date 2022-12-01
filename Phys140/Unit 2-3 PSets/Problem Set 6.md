@@ -129,10 +129,10 @@ $$
 H &= T + V \\
 T &= \frac{1}{2}m \dot{r}^{2} + \frac{1}{2}m(r\dot{\theta})^{2} \\
 p_{r} &= m \dot{r} \implies \dot{r} = \frac{p_{r}}{m} \\
-p_{\theta} &= m \dot{\theta} \implies \dot{\theta} = \frac{p_{\theta}}{m} \\
+p_{\theta} &= \frac{ \partial L }{ \partial \dot{\theta} } = mr^{2}\dot{\theta} \implies \dot{\theta} = \frac{p_{\theta}}{mr^{2}} \\
 V &= \frac{1}{2}kr^2 + mgr(1-\cos \theta) \\
-H &= \frac{1}{2m}(p_{r}^{2} + p_{\theta}^{2}) + \frac{1}{2}kr^2\\
--\frac{ \partial H }{ \partial x } &= -kr  \implies \\ 
+H &= \frac{p_{r}^2}{2m} + \frac{p_{\theta}^{2}}{2m} + \frac{1}{2}kr^2\\
+-\frac{ \partial H }{ \partial r } &= -kr  \implies \dot{p}_{\theta} \\ 
 \frac{d}{dt} \frac{ \partial H }{ \partial p_{\theta} } &= \frac{1}{m}(p_{r} + p_{\theta})
 \end{align*}
 $$

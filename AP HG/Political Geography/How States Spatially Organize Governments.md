@@ -1,5 +1,9 @@
-1950s: Richard Hartshorne said forces within state that unify are **centripetal**, forces within state that divide are **centrifugal**. Balance of both -> state exists. Cannot conclude if one thing is either/or.
-- Example: war can unify -> centripetal, after war internal struggle -> centrifugal
+1950s: Richard Hartshorne said forces within state that unify are **centripetal**, forces within state that divide are **centrifugal**. Balance of both -> state exists.
+Cannot conclude if one thing is either/or.
+- Examples: 
+	- war can unify -> centripetal, after war internal struggle -> centrifugal
+	- language 
+	- politics
 - Factors: timing, scale, interaction, perspective
 
 Government tries to unify through
@@ -24,6 +28,7 @@ Form of government can promote nation building and ease tensions.
 	- small nations suppressed
 		- Brittons in France
 		- Basques in Spain
+			- help by including more in national assembly
 
 ## Federal System
 
@@ -52,6 +57,7 @@ Ethnicity, language, religion -> devolutionary movements.
 	- Slovakia discriminate against 11% Hungarians -> push for autonomy
 - Yugoslavia
 - Lithuania and Ukraine
+- Russia vs Moldova and Kalingrad
 - Sudan
 	- Muslim North, non-Muslim South
 - Srik Lanka
@@ -59,6 +65,7 @@ Ethnicity, language, religion -> devolutionary movements.
 - China
 	- Tibet, Ughyur
 - UK and Scotland are peaceful, even evolutionary b/c EU support small groups
+	- still want to secede because Brexit and EU market is important
 
 ### Economic Devolutionary Forces
 
@@ -79,7 +86,7 @@ Devolutionary pressure comes from variety of sources.
 
 #### Brazil
 - 1990s: Rio Grande, Santa Catarina, Paran in south wanted separation b/c taxes -> Amazonia in North
-- Pampaas
+- Pampas
 
 ### Spatial Influences on Devolution
 
