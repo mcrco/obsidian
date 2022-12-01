@@ -53,10 +53,12 @@ State provides security, goods, services -> nationalism -> nation-state:
 - state with >1 nations
 - Includes almost every state.
 - Yugoslavia had too many nations != state
+- Iraq: Iraqi and Kurds
 
 **Multistate nation**
 - nation = many states
 - Transylvania connected to both Hungary and Romania
+- Kurdistan?
 - "Nations will defend their territory like language, religion, or way of life" - White
 
 **Stateless nations**
@@ -64,5 +66,13 @@ State provides security, goods, services -> nationalism -> nation-state:
 - Palestine Arabs have control over Gaza + occupied territories but not state yet.
 - Kurds in Kurdistan w/ Diyarbakir but no state, need consent of Turkey
 
+Stateless can be multistate.
+
 # European Colonialism and Diffusion of Nation-State Model
 
+# Colonies
+
+Map on page 247
+1800: American independence
+Next wave: Africa, Asia
+Then Africa and Asia gain independence after ww1
