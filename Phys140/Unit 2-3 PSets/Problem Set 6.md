@@ -131,10 +131,26 @@ T &= \frac{1}{2}m \dot{r}^{2} + \frac{1}{2}m(r\dot{\theta})^{2} \\
 p_{r} &= m \dot{r} \implies \dot{r} = \frac{p_{r}}{m} \\
 p_{\theta} &= \frac{ \partial L }{ \partial \dot{\theta} } = mr^{2}\dot{\theta} \implies \dot{\theta} = \frac{p_{\theta}}{mr^{2}} \\
 V &= \frac{1}{2}kr^2 + mgr(1-\cos \theta) \\
-H &= \frac{p_{r}^2}{2m} + \frac{p_{\theta}^{2}}{2m} + \frac{1}{2}kr^2\\
--\frac{ \partial H }{ \partial r } &= -kr  \implies \dot{p}_{\theta} \\ 
-\frac{d}{dt} \frac{ \partial H }{ \partial p_{\theta} } &= \frac{1}{m}(p_{r} + p_{\theta})
+H &= \frac{p_{r}^2}{2m} + \frac{p_{\theta}^{2}}{2mr^{2}} + \frac{1}{2}kr^2\\
 \end{align*}
+$$
+
+c. Lagrangian:
+$$
+\begin{align}
+L &= \frac{1}{2}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2}) - \frac{1}{2}kr^2\\
+\frac{ \partial L }{ \partial r } &= -kr \\
+\frac{d}{dt} \frac{ \partial L }{ \partial \dot{r} } &= m\ddot{r}  \\
+\ddot{r} &= -\frac{k}{m}r
+\end{align}
+$$
+Hamiltonian:
+$$
+\begin{align}
+-\frac{ \partial H }{ \partial r } &= -kr  \implies \dot{p}_{\theta} \\ 
+\frac{d}{dt} \frac{ \partial H }{ \partial \dot{r} } &= m \ddot{r} \\
+m \ddot{r} &= -kr \implies \ddot{r} = -\frac{k}{m}r \\
+\end{align}
 $$
 
 6. a. Kinetic and potential energy in terms of Cartesian coordinates:
