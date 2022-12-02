@@ -4,11 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c5c8ea936c0abb7b",
+        "id": "dfa32042053c40ce",
         "type": "tabs",
         "children": [
           {
-            "id": "dee86c2b9112622c",
+            "id": "cbf66bd7940c89e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AP HG/Political Geography/How States Spatially Organize Governments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "953aaf1522eadd80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AP HG/Political Geography/Boundary Establishment and Disputes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52a7144ede44ce28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phys140/Unit 2-3 PSets/Problem Set 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1050a21af76c238f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,28 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1958001add9af54a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math101C/Changing Bounds for Integrals with the Jacobian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00455149baad5c76",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,17 +181,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "dee86c2b9112622c",
+  "active": "1050a21af76c238f",
   "lastOpenFiles": [
-    "Math101C/Changing Bounds for Integrals with the Jacobian.md",
-    "Phys140/Unit 2-3 PSets/Problem Set 6.md",
     "Phys140/Unit 2-3 PSets/Problem Set 7.md",
+    "Phys140/Unit 2-3 PSets/Problem Set 6.md",
+    "AP HG/Political Geography/Boundary Establishment and Disputes.md",
     "AP HG/Political Geography/How States Spatially Organize Governments.md",
     "AP HG/Political Geography/Political Organization of Space into States and Nations.md",
-    "Math101C/14.6.md",
-    "AP HG/Political Geography/Chapter 8 Political Geography.md",
-    "Math101C/14.5 Triple Integral with Cylindrical and Spherical Coordinates.md",
-    "AP HG/Political Geography/Wallerstein's World-Systems Theory.md",
-    "Test.md"
+    "Math101C/Triple Integral for Volume with Cartesian Coordinates.md",
+    "Math101C/Changing Bounds for Integrals with the Jacobian.md",
+    "Math101C/Triple Integral with Cylindrical and Spherical Coordinates.md",
+    "Math101C/14.3.md",
+    "ML Textbook/Linear Algebra.md"
   ]
 }
