@@ -95,7 +95,7 @@ $$
 \int f_{x} \, dx = \int 2xy \, dx \implies f(x, y) = x^{2}y + g(y) \\
 \int f_{y} \, dy = \int x^{2} - y \, dy \implies f(x, y) = x^{2}y - \frac{y^{2}}{2} + h(x) \\
 \implies g(y) = \frac{y^{2}}{2}, C = h(x)\\
-\implies f(x, y) = x^{2} - \frac{y^{2}}{2} + c
+\implies f(x, y) = x^{2} - \frac{y^{2}}{2} + c \\
 \end{gather}
 $$
 

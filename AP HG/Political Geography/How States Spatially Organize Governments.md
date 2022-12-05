@@ -99,4 +99,12 @@ Distance/geographical barries -> devolution.
 
 Electoral districts are big part of internal poli-geo. Ex: 1994: South Africa provides majority rules but gives power to 9 new states.
 
+**Gerrymandering**: redrawing voting region border to help a party
+
+**Majority/minority district**: 
+
+# Geo Politics
+
+# Heartland Theory
+
 # TODO
