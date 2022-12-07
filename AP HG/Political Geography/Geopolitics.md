@@ -80,13 +80,10 @@ But national interest still strong -> nations -> states
 - 184 in 1993
 - 192 in 2006
 
-Multistate orgnizations like Al-Qaeda was threat to world order.
+Supranational orgnizations like Al-Qaeda was threat to world order.
 
 **unilateralism**: new world order w/ US as dominant power and UN following
 
-
+US invasion of Iraq -> rift between US and some European countries -> some Asia countries turn away -> China and India become powerful + globalization + EU economically strong -> US power is undermined.
 
  
-
-
-

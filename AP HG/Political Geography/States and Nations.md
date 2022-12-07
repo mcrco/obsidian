@@ -27,6 +27,10 @@ Early 17th century: Republic of Venice, Brandenburg, Papal states, Hungary, mino
 
 Creation of wealthy middle class -> decline of nobility -> urban power > land -> 1780's upheaval, including French revolution.
 
+## Rebuttal
+
+Challenged by [[Supranational Organizations]].
+
 # Nations
 
 **Nations**
