@@ -5,6 +5,7 @@ Contradiction: nations want to separate and have autonomy but we are becoming mo
 - entity composed of 3+ states with administrative structure for mutial benefit and pursuit of goals
 - 60 major ones today
 	- NATO
+		- ## Expand More
 	- NAFTA
 	- subsidiaries -> 100
 

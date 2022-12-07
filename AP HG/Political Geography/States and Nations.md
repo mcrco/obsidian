@@ -1,7 +1,10 @@
 **Political Geography**: study of political organization of the world
+
 **State**: politcally organized territory with a permanent population, defined territory, and government
+
 **Territoriality**: central to concept of state, "the attempt by an individual or group to affect, influence, or control people, phenomena, and relationships by delimiting and asserting contorl over a geographic area", takes on many forms and reflects huamn organization - **Robert Sack**
 	**Robert Ardrey**: territoriality is animalistic instinct to defend territory
+
 **Sovereignty**: control over territory politically and militarily, state => sovereign
 **Territorial Integrity**: control over territory, can defend
 

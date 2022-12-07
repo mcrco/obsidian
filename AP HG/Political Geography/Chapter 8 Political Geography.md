@@ -1,3 +1,5 @@
+Read about Field not at beginning
+
 
 State = country
 p241: nation = state = country, but nation is defined culturally, while state is defined politically

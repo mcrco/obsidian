@@ -103,8 +103,4 @@ Electoral districts are big part of internal poli-geo. Ex: 1994: South Africa pr
 
 **Majority/minority district**: 
 
-# Geo Politics
-
-# Heartland Theory
-
 # TODO
