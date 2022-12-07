@@ -72,3 +72,14 @@ $$
 
 F is not conservative.
 
+## Example 3
+
+Find the potential function of $\vec{F}(x, y, z) = <\frac{1}{y}, -\frac{x}{y^{2}}, i$
+
+$$
+\begin{align}
+f(x, y, z) &= \int \frac{1}{y} \, dx = \frac{x}{y} + g(y, z) \\
+&= \int \frac{-x}{y^{2}} \, dy = \frac{x}{y} + h(x, z)  \\
+&= \int 2z \, d
+\end{align}
+$$
