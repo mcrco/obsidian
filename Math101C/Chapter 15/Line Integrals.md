@@ -79,3 +79,59 @@ W &= \int _{C} \vec{F} \cdot \vec{T} \, dr \\
 &= \int _{C} \vec{F} \, dr  
 \end{align}
 $$
+
+# Examples
+
+## Example 4
+
+Find the work done by $\vec{F}$ over the curve in the direction of increasing $t$.
+$$
+\vec{F} = -8z\hat{i} + 8x\hat{j} + 3y\hat{k}, \, 0 \leq t \leq 1, \, \vec{r}(t) = <t, t, t>
+$$
+Solution:
+
+$$
+\begin{align}
+\vec{r}'(t) &= <1, 1, 1> \\
+\vec{F}(t) &= <-8t, 8t, 3t> \\
+W &= \int_{0}^{1} (-8t + 8t + 3t) \cdot 1 \, dt \\
+&= \frac{3}{2}
+\end{align}
+$$
+
+## Example 5
+
+Find the line integral of $\int _{C} 2xy \, ds$ where $C$ is the segment $(-2, 1)$ to $(1, 3)$
+
+Solution:
+
+Setting arbitrary values for $t$, @ $t=0$ C is @ $(-2, 1)$, @ $t=1$ C @ $(1, 3)$
+
+Using equation of lines:
+
+$$
+\begin{align}
+x &= a_{1}t - 2 \implies a_{1} = 3\\
+y&= a_{2}t+1 \implies a_{2} = 2\\
+\vec{r}(t) &= <3t - 2, 2t + 1> \\
+S &= \int_{0}^{1} 2(3t-2)(2t+1)\cdot \sqrt{ 13 } \, dt \\
+&= -\sqrt{ 13 }
+\end{align}
+$$
+
+## Example 6
+
+Find the line intergral $\int x^{2} \, ds$ where C is the curve.
+
+$$
+$$
+
+Solution:
+
+let $x = t$
+$$
+\begin{align}
+\vec{r}(t) = <t, t^{2}+1>\\
+
+\end{align}
+$$
