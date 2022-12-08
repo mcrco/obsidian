@@ -1,4 +1,4 @@
-picom# Overview
+# Overview
 
 Boundaries separate states territories.
 

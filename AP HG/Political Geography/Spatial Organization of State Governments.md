@@ -1,4 +1,4 @@
-picom1950s: Richard Hartshorne said forces within state that unify are **centripetal**, forces within state that divide are **centrifugal**. Balance of both -> state exists.
+1950s: Richard Hartshorne said forces within state that unify are **centripetal**, forces within state that divide are **centrifugal**. Balance of both -> state exists.
 Cannot conclude if one thing is either/or.
 - Examples: 
 	- war can unify -> centripetal, after war internal struggle -> centrifugal
@@ -101,6 +101,4 @@ Electoral districts are big part of internal poli-geo. Ex: 1994: South Africa pr
 
 **Gerrymandering**: redrawing voting region border to help a party
 
-**Majority/minority district**: 
-
-# TODO
+**Majority/minority district**: majority of population in district is a minority overall
