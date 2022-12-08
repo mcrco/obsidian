@@ -1,18 +1,34 @@
 # Derivation
 
-$$
-uh yeah
-[9:55 PM]
+![[Pasted image 20221207225239.png]]
+
+The formula for the surface area is
 
 $$
+A = \int_{a}^{b} f(x, y) \, dS
+$$
+
+We know that 
 
 $$
-\int_{a}^{b} f(x(t), y(t)) \mid\mid r(t)\mid\mid \, dt 
+\begin{align}
+dS &= \sqrt{ (dx)^{2} + (dy)^{2} } \\
+&= \frac{1}{dt}\sqrt{ (dx)^{2} + (dy)^{2} }dt \\
+&= \sqrt{ \left( \frac{dx}{dt} \right)^{2} + \left( \frac{dy}{dt} \right)^{2} }dt
+\end{align}
+$$
+
+So the final surface area formula becomes
+
+$$
+\begin{align}
+A &= \int_{a}^{b} f(x, y) \sqrt{ \left( \frac{dx}{dt} \right)^{2} + \left( \frac{dy}{dt} \right)^{2} } \, dt  \\
+&= \int_{a}^{b} f(x(t), y(t)) \mid\mid r(t)\mid\mid \, dt 
+\end{align}
 $$
 
 # Uses
 
-Line integral can be used to
 - calculate area of curvy sheet with given height
 - measure mass of wire
 - work done of particle moving in the force field

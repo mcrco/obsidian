@@ -1,0 +1,23 @@
+{
+  "snippets_file": "snippet table \"Table environment\" b\n\\begin{table}[${1:htpb}]\n\t\\centering\n\t\\caption{${2:caption}}\n\t\\label{tab:${3:label}}\n\t\\begin{tabular}{${5:c}}\n\t$0${5/((?<=.)c|l|r)|./(?1: & )/g}\n\t\\end{tabular}\n\\end{table}\nendsnippet\n",
+  "snippets": [
+    "snippet table \"Table environment\" b",
+    "\\begin{table}[${1:htpb}]",
+    "\t\\centering",
+    "\t\\caption{${2:caption}}",
+    "\t\\label{tab:${3:label}}",
+    "\t\\begin{tabular}{${5:c}}",
+    "\t$0${5/((?<=.)c|l|r)|./(?1: & )/g}",
+    "\t\\end{tabular}",
+    "\\end{table}",
+    "endsnippet"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": false,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}
