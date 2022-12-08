@@ -1,4 +1,4 @@
-Geopolitics is interplay among geogrpahy, power, politics, and IR. It helps us understand arragnements/forces that transform the world map.
+picomGeopolitics is interplay among geogrpahy, power, politics, and IR. It helps us understand arragnements/forces that transform the world map.
 
 # Classical Geopolitics
 

@@ -1,4 +1,4 @@
-Contradiction: nations want to separate and have autonomy but we are becoming more and more interconnected.
+picomContradiction: nations want to separate and have autonomy but we are becoming more and more interconnected.
 
 # Supranational Organizations
 
@@ -113,5 +113,5 @@ EEC success -> other states joining (12 total) -> European Community
 ### Religion in Global Affairs
 
 - extremists and terrorism threaten the state
-- mission -> unity in short term, failure to stabilize -> weaken in long term (centripetal and centrifugal forces in [[State Government Spatial Organization]])
+- mission -> unity in short term, failure to stabilize -> weaken in long term (centripetal and centrifugal forces in [[Spatial Organization of State Governments]])
 - potential Islam vs Judeo-Christian world order

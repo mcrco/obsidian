@@ -1,4 +1,4 @@
-1950s: Richard Hartshorne said forces within state that unify are **centripetal**, forces within state that divide are **centrifugal**. Balance of both -> state exists.
+picom1950s: Richard Hartshorne said forces within state that unify are **centripetal**, forces within state that divide are **centrifugal**. Balance of both -> state exists.
 Cannot conclude if one thing is either/or.
 - Examples: 
 	- war can unify -> centripetal, after war internal struggle -> centrifugal
