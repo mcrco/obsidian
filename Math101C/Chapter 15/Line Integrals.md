@@ -1,6 +1,10 @@
 # Derivation
 
-Some shit I can't type in time
+$$
+uh yeah
+[9:55 PM]
+
+$$
 
 $$
 \int_{a}^{b} f(x(t), y(t)) \mid\mid r(t)\mid\mid \, dt 
