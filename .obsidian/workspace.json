@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "02c6979af70fe3d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AP HG/Political Geography/States and Nations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math101C/Chapter 15/Line Integrals.md",
+                "file": "AP HG/Political Geography/States and Nations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math101C/Chapter 15/Line Integrals.md",
+                "file": "AP HG/Political Geography/States and Nations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math101C/Chapter 15/Line Integrals.md"
+                "file": "AP HG/Political Geography/States and Nations.md"
               }
             }
           },
@@ -144,10 +157,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "497980e71a878ec9",
+  "active": "02c6979af70fe3d2",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2022-12-07 22.48.06.excalidraw.md",
     "Math101C/Chapter 15/Line Integrals.md",
+    "Excalidraw/Drawing 2022-12-07 22.48.06.excalidraw.md",
     "AP HG/Political Geography/Chapter 8 Political Geography.md",
     "AP HG/Political Geography/Supranational Organizations.md",
     "AP HG/Political Geography/Spatial Organization of State Governments.md",
