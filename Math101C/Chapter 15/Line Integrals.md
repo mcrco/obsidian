@@ -1,4 +1,4 @@
-# Derivation
+# Derivation for 3D Surface Area
 
 ![[Pasted image 20221207225239.png]]
 
