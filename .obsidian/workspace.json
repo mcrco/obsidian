@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a28869f0b757d57c",
+        "id": "aff389fad4f52442",
         "type": "tabs",
         "children": [
           {
-            "id": "497980e71a878ec9",
+            "id": "1ab0c6fd05bd656f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math101C/Chapter 15/Line Integrals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02c6979af70fe3d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AP HG/Political Geography/States and Nations.md",
+                "file": "AP HG/Political Geography/Supranational Organizations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4b127825c4bf3e90",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AP HG/Political Geography/States and Nations.md",
+                "file": "AP HG/Political Geography/Supranational Organizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AP HG/Political Geography/States and Nations.md",
+                "file": "AP HG/Political Geography/Supranational Organizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AP HG/Political Geography/States and Nations.md"
+                "file": "AP HG/Political Geography/Supranational Organizations.md"
               }
             }
           },
@@ -157,17 +145,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "02c6979af70fe3d2",
+  "active": "1ab0c6fd05bd656f",
   "lastOpenFiles": [
-    "Math101C/Chapter 15/Line Integrals.md",
-    "Excalidraw/Drawing 2022-12-07 22.48.06.excalidraw.md",
-    "AP HG/Political Geography/Chapter 8 Political Geography.md",
-    "AP HG/Political Geography/Supranational Organizations.md",
-    "AP HG/Political Geography/Spatial Organization of State Governments.md",
-    "AP HG/Political Geography/Boundaries.md",
+    "CS102/CS102 Chapter 7 HW.md",
+    "Excalidraw/Drawing 2022-12-08 18.21.22.excalidraw.md",
+    "AP HG/Math101C/Chapter 15/Line Integrals.md",
+    "AP HG/Math101C/Chapter 15/Line Integral of Conservative Vector Fields.md",
     "AP HG/Political Geography/Geopolitics.md",
-    "AP HG/Political Geography/Wallerstein's World-Systems Theory.md",
+    "AP HG/Political Geography/Chapter 8 Political Geography.md",
+    "AP HG/Political Geography/Boundaries.md",
+    "AP HG/Political Geography/Spatial Organization of State Governments.md",
     "AP HG/Political Geography/States and Nations.md",
-    "Untitled.md"
+    "AP HG/Math101C/Chapter 14/Changing Bounds for Integrals with the Jacobian.md"
   ]
 }
