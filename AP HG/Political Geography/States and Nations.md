@@ -1,4 +1,4 @@
-**Political Geography**: study of political organization of the world
+created the Berlin Conference in Africa, they created colonies and shaped their economiDepay**Political Geography**: study of political organization of the world
 
 **State**: politcally organized territory with a permanent population, defined territory, and government
 
