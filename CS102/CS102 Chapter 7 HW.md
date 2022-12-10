@@ -1,4 +1,4 @@
-R7.1, 2, 4, 7, 8, 15, 16, 19, 21 to 27
+saxophoningR7.1, 2, 4, 7, 8, 15, 16, 19, 21 27
 
 #### 7.1
 
@@ -67,5 +67,4 @@ c. sets the firts character in a character array to the null character.
 
 #### 7.27 
 
-| user_names |  loaned_items |
-| --- | --- |
+![[Pasted image 20221208235437.png]]

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a45cce9489b72f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math101C/Chapter 15/Greens Theorem.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math101C/Chapter 15/Greens Theorem.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math101C/Chapter 15/Greens Theorem.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -145,8 +158,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "2768b3573acdfb0b",
+  "active": "8a45cce9489b72f4",
   "lastOpenFiles": [
+    "Math101C/Chapter 15/Greens Theorem.md",
     "Untitled.md",
     "AP HG/Political Geography/Supranational Organizations.md",
     "CS102/CS102 Chapter 7 HW.md",
@@ -155,7 +169,6 @@
     "Math101C/Chapter 15/Line Integral of Conservative Vector Fields.md",
     "AP HG/Political Geography/Geopolitics.md",
     "AP HG/Political Geography/Chapter 8 Political Geography.md",
-    "AP HG/Political Geography/Boundaries.md",
-    "AP HG/Political Geography/Spatial Organization of State Governments.md"
+    "AP HG/Political Geography/Boundaries.md"
   ]
 }
