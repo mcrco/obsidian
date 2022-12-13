@@ -1,5 +1,3 @@
-lovely those are statelss nations
-[11:40 PM]
 # Derivation for 3D Surface Area
 
 ![[Pasted image 20221207225239.png]]
