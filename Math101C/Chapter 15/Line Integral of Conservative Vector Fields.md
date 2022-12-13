@@ -2,7 +2,7 @@ Recall $\vec{F}$ is a conservative vector field iff $\vec{F}=\nabla f$ for some 
 
 If $\vec{F}$ is a conservative vector field, the path is indpendent -- it doesn't matter which path we move from a to b because the same amount of wokr is done
 
-**Fundamental Theorem of Calculus Part 1**
+# Fundamental Theorem of Calculus Part 1
 
 $$
 \begin{align}
@@ -17,7 +17,7 @@ $$
 \vec{F} = \nabla f = <f_{x}, f_{y}, f_{z}>
 $$
 
-**Fundamental Theorem of Line Integral**
+# Fundamental Theorem of Line Integral
 
 $$
 \begin{align}
@@ -53,7 +53,7 @@ Find potential function:
 
 $$
 \begin{align}
-f(x, y) &= \int xe^{2y} \, dx = \frac{x^{2}}{2}e^{2y} = g(y)  \\
+f(x, y) &= \int xe^{2y} \, dx = \frac{x^{2}}{2}e^{2y} + g(y)  \\
 &= \int x^{2}e^{2y} \, dy = \frac{x^{2}}{2}e^{2y} + g(x) \\
 &\implies f(x, y) = \frac{x^{2}}{2}e^{2y} + C
 \end{align}
