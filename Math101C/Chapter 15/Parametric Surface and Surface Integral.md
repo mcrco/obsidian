@@ -86,3 +86,86 @@ $$
 &= 2\pi
 \end{align}
 $$
+
+## Example 3
+
+Evaluate $\iint f(x, y, z) dS$ where $f(x, y, z)=\frac{xy}{z}$, $S: z=x^{2} + y^{2}, \, 4\leq x^{2} + y^{2} \leq 16$  in Quadrant 1
+
+### Solution
+
+$$
+\begin{align}
+\iint f(x,y,z) \cdot \sqrt{ 1 + g_{x}^{2} + g_{y}^{2} } dS  
+&= \int_{0}^{\frac{\pi}{2}} \int_{r=2}^{r=4} \frac{\cos \theta + \sin \theta}{r} \sqrt{ 1 + 4x^{2} + 4y^{2} } \, dr  \, d\theta  \\
+&= \int_{0}^{\frac{\pi}{2}} \int_{2}^{4} \sin \theta \cos \theta \sqrt{ 1 + 4r^{2} }\, dr  \, d\theta 
+&= 18.91 
+\end{align}
+$$
+
+# Parameter Surface Integral
+
+## Parametric Equation
+
+$$
+\begin{gather}
+x = x(u, v) \\
+y = y(u, v) \\
+z = z(u, v) \\
+\vec{r}(u, v) = <x(u, v), y(u, v), z(u, v)>
+\end{gather}
+$$
+
+## Surface Integral w/ Parametric Surface
+
+If S is a surface given as $\vec{r}(u,v) = <x(u,v), y(u,v), z(u,v)$ over region $D$ in the uv plane, then the surface integral of $f(x,y,z)$ over $S$ is
+
+$$
+\iint_{S} f(x,y,z) dS = \iint_{D} f(x(u, v), y(u,v), z(u,v)) \lvert \vec{r}_{u} \times \vec{r}_{v} \rvert dA
+$$
+
+# Examples
+
+## Example 4
+
+Use parametric surface to evaluate
+
+$$
+\iint_{S} f(x,y,z) dS, \, S: y=3x^{2}, \, 0 \leq x \leq 4, \, 0\leq z\leq 4, \, f(x,y,z) = 3x
+$$
+
+### Solution
+
+$$
+\begin{align}
+x&=u \\
+y&=3u^{2} \\
+z&=v \\
+\vec{r}(u, v)&= <u, 3u^{2}, v> \\
+\end{align}
+$$
+
+$$
+\begin{gather}
+0 \leq u \leq 4 \\
+0 \leq v \leq 4 \\
+\end{gather}
+$$
+
+$$
+\begin{align}
+\int_{u=0}^{u=4} \int_{v=0}^{v=4} 3u | |<1, 6u, 0> \times <0, 0, 1>| | \, dv  \, du &= \int_{0}^{4} \int_{0}^{4} 3u\sqrt{ 1+36u^{2} } \, du  \, dv  \\
+&= 1539.89
+\end{align}
+$$
+
+## Example 5
+
+Find $\iint_{S}(y=5)dS$ where $\vec{r}(u,v) = <u,v,2v>$, $0 \leq u \leq 1$, $0\leq v\leq u$
+
+### Solution
+
+$$
+\begin{align}
+\int_{u=0}^{u=} \int_{v=0}^{v=u} (v+5) \sqrt{ 5 } \, dv  \, du &= \frac{8\sqrt{ 5 }}{3}
+\end{align}
+$$
