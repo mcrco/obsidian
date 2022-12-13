@@ -4,19 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "39990fef239affe9",
+        "id": "c7be95e55ee0af80",
         "type": "tabs",
         "children": [
           {
-            "id": "848d8a3164503c0d",
+            "id": "c1bcefe9b764d75a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fathomd/To Do.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "4a1ecea7b2316ad7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fathomd/To Do.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fathomd/To Do.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fathomd/To Do.md"
+                "file": "Phys140/CM Project 2 Notes.md"
               }
             }
           },
@@ -144,17 +152,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "848d8a3164503c0d",
+  "active": "c1bcefe9b764d75a",
   "lastOpenFiles": [
-    "Math101C/Chapter 15/Vector Fields.md",
-    "Math101C/Chapter 15/Line Integrals.md",
-    "Math101C/Chapter 15/Line Integral of Conservative Vector Fields.md",
-    "Fathomd/To Do.md",
-    "Excalidraw/Drawing 2022-12-07 22.48.06.excalidraw.md",
-    "Pasted image 20221208235437.png",
-    "CS102/CS102 Chapter 7 HW.md",
-    "AP HG/Political Geography/Wallerstein's World-Systems Theory.md",
+    "Phys140/CM Project 2 Notes.md",
+    "Math101C/Chapter 15/Parametric Surface and Surface Integral.md",
+    "Math101C/Chapter 15/Greens Theorem.md",
     "AP HG/Political Geography/Spatial Organization of State Governments.md",
-    "AP HG/Political Geography/States and Nations.md"
+    "Math101C/Chapter 15/Line Integrals.md",
+    "Phys140/CM Project 2 MOI.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled.md",
+    "AP HG/Political Geography/Supranational Organizations.md",
+    "CS102/CS102 Chapter 7 HW.md"
   ]
 }
