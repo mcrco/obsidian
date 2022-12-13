@@ -45,3 +45,22 @@ S &= \int_{x=0}^{x=1} \int_{y=x^{3}}^{y=x} (2y - x^{2}) \, dy  \, dx \\
 &= 0.1074
 \end{align}
 $$
+
+## Example 3
+
+Use Green's theortem to find work done by force $\vec{F}$ on particle moving counterclockwise around the closed path $C: r=2\cos \theta$
+$$
+\vec{F} = (e^{x} - 3y)\hat{i} + (e^{y}+ 6x)\hat{j}
+$$
+
+### Solution
+
+$$
+\begin{align}
+W &= \oint \vec{F} dr \\ 
+&= \iint_{R} f_{yx} - f_{xy} dA \\
+&= \int_{\theta=0}^{\theta=\pi} \int_{r=0}^{r=2\cos \theta} (6-(-3)) 
+r \, dr  \, d\theta  \\
+&= 9\pi
+\end{align}
+$$
