@@ -1,4 +1,4 @@
-lovely In plane $R^{2}$, $\vec{F}(x, y) =  <P(x, y), Q(x, y)> =  P \hat{i} + Q \hat{j}$
+In plane $R^{2}$, $\vec{F}(x, y) =  <P(x, y), Q(x, y)> =  P \hat{i} + Q \hat{j}$
 
 In plane $R^{3}$, $\vec{F}(x, y) =  <P(x, y, z), Q(x, y, z), R(x, y, z)> =  P \hat{i} + Q \hat{j} + R \hat{k}$
 

@@ -62,9 +62,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "684a38be7908e16b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math101C/Chapter 15/Test Review.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math101C/Chapter 15/Test Review.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math101C/Chapter 15/Test Review.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -189,8 +201,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1081f94d99058b2a",
+  "active": "684a38be7908e16b",
   "lastOpenFiles": [
+    "Math101C/Chapter 15/Test Review.md",
     "Math101C/Chapter 15/Flux Integral.md",
     "Math101C/Chapter 15/Parametric Surface and Surface Integral.md",
     "Math101C/Chapter 15/Greens Theorem.md",
@@ -199,7 +212,6 @@
     "Math101C/Chapter 15/Line Integrals.md",
     "Phys140/CM Project 2 MOI.md",
     "conflict-files-obsidian-git.md",
-    "Untitled.md",
-    "AP HG/Political Geography/Supranational Organizations.md"
+    "Untitled.md"
   ]
 }
