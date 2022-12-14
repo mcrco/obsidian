@@ -110,3 +110,40 @@
 - friction between screws
 - also used pendulum
 - 
+
+# Eco Clean (Nathan)
+
+## Design
+
+- recycled cardboard lmao
+- wooden chassis
+- pvc
+- cleans up environment even though im pretty sure those cardboard pieces are biodegradable
+
+## COM
+
+- prove by torque (force through com = no torque)
+- found by cog with dangling string
+
+## COR
+
+- collision with wall
+- measured velocity before and after
+
+## MoI
+
+- proof with pendulum
+- rly good percent error
+
+## Rot Kin
+
+- roll down ramp
+- used experimental values with kinematics equations
+
+## DHM
+
+- same as us with up down motion
+- very good R^2 fit with underdamped
+- drag coefficient calculation
+- nathan has a thing for graphs
+

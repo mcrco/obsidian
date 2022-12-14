@@ -11,8 +11,12 @@
             "id": "1fac5d33123f70b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Phys140/CM Project 2 Notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -67,16 +71,11 @@
             "id": "684a38be7908e16b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Phys140/CM Project 2 Notes.md"
               }
             }
           },
@@ -201,17 +200,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "684a38be7908e16b",
+  "active": "1fac5d33123f70b8",
   "lastOpenFiles": [
+    "Math101C/Chapter 15/Greens Theorem.md",
     "Math101C/Chapter 15/Test Review.md",
+    "conflict-files-obsidian-git.md",
     "Math101C/Chapter 15/Flux Integral.md",
     "Math101C/Chapter 15/Parametric Surface and Surface Integral.md",
-    "Math101C/Chapter 15/Greens Theorem.md",
     "Phys140/CM Project 2 Notes.md",
     "AP HG/Political Geography/Spatial Organization of State Governments.md",
     "Math101C/Chapter 15/Line Integrals.md",
     "Phys140/CM Project 2 MOI.md",
-    "conflict-files-obsidian-git.md",
     "Untitled.md"
   ]
 }
