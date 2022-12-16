@@ -147,3 +147,55 @@
 - drag coefficient calculation
 - nathan has a thing for graphs
 
+# Portable Christmas Tree (Chris Michael Nathan Josh)
+
+## Design
+
+- tree
+
+## CoR
+
+- spring hit wall
+- vertical camera work
+
+## CoM
+
+- very hard to calculate
+- used pendulum
+- graphed velocity of cart and used coefficient?
+
+## MoI
+
+- wheels
+- same breakdown as us
+
+## Rot Kin
+
+- acceleration isn't constant
+- use integral derirvation for their own case
+- angular velocity vs time -> angular displacement
+
+## Rot Dyn
+
+- mousetrap torque to find force by graphing velocity with respect to time -> angular accleeration -> torque -> force
+
+## Energy
+
+- used translational KE and rotational KE 
+- rot KE small -> efficient
+
+## SHM
+
+- 13% error
+- some shit i don't understand
+
+### Lagrange
+
+- used lagrangian because unknown force/acceleration
+- friction and frictionless
+- what the hell
+- worse than shm
+
+## DHM
+
+- ok it works and they found b or smth my brain got friend during the previous concept

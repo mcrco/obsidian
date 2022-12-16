@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "71cba15d484163b3",
+            "id": "1ae22946fdfde819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math101C/Chapter 15/Curl and Divergence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6984a07a45edbfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math101C/Chapter 15/Greens Theorem.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math101C/Chapter 15/Greens Theorem.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math101C/Chapter 15/Greens Theorem.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math101C/Chapter 15/Greens Theorem.md"
+                "file": "Phys140/CM Project 2 Notes.md"
               }
             }
           },
@@ -169,12 +157,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c6984a07a45edbfd",
+  "active": "1ae22946fdfde819",
   "lastOpenFiles": [
-    "Math101C/Chapter 15/Curl and Divergence.md",
     "Math101C/Chapter 15/Flux Integral.md",
-    "Phys140/CM Project 2 Notes.md",
+    "Math101C/Chapter 15/Curl and Divergence.md",
     "Math101C/Chapter 15/Greens Theorem.md",
+    "Phys140/CM Project 2 Notes.md",
     "Math101C/Chapter 15/Test Review.md",
     "conflict-files-obsidian-git.md",
     "Math101C/Chapter 15/Parametric Surface and Surface Integral.md",
