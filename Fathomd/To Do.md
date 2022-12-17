@@ -8,6 +8,7 @@
 - [ ] add new games for invoice payments only
 - [ ] table for class section
 - [ ] total cost vs participant cost
+- [ ] set color
 
 ## Class Page
 
