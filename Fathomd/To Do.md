@@ -1,6 +1,6 @@
 # 12/9/22
 
-- [ ] Sort classes by date in completed class section (maybe dropdown)
+- [x] Sort classes by date in completed class section (maybe dropdown)
 
 ## New Classes
 
@@ -8,7 +8,7 @@
 - [ ] add new games for invoice payments only
 - [ ] table for class section
 - [ ] total cost vs participant cost
-- [ ] set color
+- [x] set color
 
 ## Class Page
 
