@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math101C/Dot Product Cross Product.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math101C/Dot Product Cross Product.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math101C/Dot Product Cross Product.md",
+                "file": "Phys140/CM Project 2 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math101C/Dot Product Cross Product.md"
+                "file": "Phys140/CM Project 2 Notes.md"
               }
             }
           },
@@ -231,6 +231,7 @@
   },
   "active": "a638795b087d246a",
   "lastOpenFiles": [
+    "Math101C/Dot Product Cross Product.md",
     "Math101C/Chapter 15/Curl and Divergence.md",
     "Fathomd/To Do.md",
     "Math101C/Chapter 15/Parametric Surface and Surface Integral.md",
@@ -239,7 +240,6 @@
     "Math101C/Chapter 15/Flux Integral.md",
     "Math101C/Chapter 15/Greens Theorem.md",
     "AP HG/Test Review.md",
-    "conflict-files-obsidian-git.md",
-    "Math101C/Chapter 15/Vector Fields.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
