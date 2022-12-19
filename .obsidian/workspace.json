@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math101C/Chapter 11/Matrix Products.md",
+                "file": "Math101C/Chapter 11/Geometric Applications of Dot Products and Cross Products.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math101C/Chapter 11/Matrix Products.md",
+                "file": "Math101C/Chapter 11/Geometric Applications of Dot Products and Cross Products.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math101C/Chapter 11/Matrix Products.md",
+                "file": "Math101C/Chapter 11/Geometric Applications of Dot Products and Cross Products.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math101C/Chapter 11/Matrix Products.md"
+                "file": "Math101C/Chapter 11/Geometric Applications of Dot Products and Cross Products.md"
               }
             }
           },
@@ -144,10 +144,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "15a9330f3c98a799",
+  "active": "4aba40d1bcc1457c",
   "lastOpenFiles": [
     "ML/Linear Algebra.md",
-    "Math101C/Chapter 11/Matrix Products.md",
+    "Math101C/Chapter 11/Geometric Applications of Dot Products and Cross Products.md",
     "Math101C/Chapter 15/Curl and Divergence.md",
     "Math101C/Chapter 15/Greens Theorem.md",
     "Excalidraw/Drawing 2022-12-19 11.47.00.excalidraw.md",

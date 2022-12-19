@@ -111,12 +111,14 @@ $$
 
 where $\phi$ is the angle between vector $\vec{c}$ and the height of the parallelpiped. 
 
-The height of the parallelpiped can also be written as the component of $\vec{c}$ onto the orthogonal vector of $\vec{a}$ and $\vec{b}$, which is the cross product of them.
+The height of the parallelpiped can also be written as the component of $\vec{c}$ onto the orthogonal vector of $\vec{a}$ and $\vec{b}$, which is $\vec{a} \times \vec{b}$. $\cos \phi$ can also be rewritten in terms of dot products and magnitudes of the vectors.
 
 We can now rewrite the volume again:
 
 $$
 \begin{align}
-V = \lvert \lvert \vec{a} \times \vec{b} \rvert \rvert ()
+V &= \lvert \lvert \vec{a} \times \vec{b} \rvert \rvert \lvert \lvert \vec{c} \rvert \rvert \frac{(\vec{a} \times \vec{b}) \cdot \vec{c}}{\lvert \lvert \vec{a}\times \vec{b} \rvert \rvert \lvert \lvert \vec{c} \rvert \rvert } \\
+&= (\vec{a} \times \vec{b}) \cdot \vec{c}
 \end{align}
 $$
+
