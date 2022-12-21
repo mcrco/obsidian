@@ -104,7 +104,7 @@ $$
 ### Derivation
 
 We know that the volume of a parallelpiped is the product of the area of the base (formed by $\vec{a}$ and $\vec{b}$) and the height, we can plug in a few values we already know:
-
+12
 $$
 V = \lvert \lvert \vec{a} \times \vec{b} \rvert \rvert (\lvert \lvert \vec{c} \rvert \rvert \cos \phi)
 $$
