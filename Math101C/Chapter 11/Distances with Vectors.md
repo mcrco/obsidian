@@ -1,4 +1,6 @@
-# Point to Line
+[
+
+](https://www.youtube.com/watch?v=8YmhU6cbO_8)# Point to Line
 
 ## Formula
 $$

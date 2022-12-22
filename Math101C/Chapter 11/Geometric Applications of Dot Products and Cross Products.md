@@ -1,3 +1,5 @@
+Finally, you can choose to include a fundingUrl in your plugin manifest. Users will be shown a link in-app to donate to you. You can put your Buy Me A Coffee links or Ko-fi here.
+
 # Dot Product
 
 The dot product or scalar product is the index wise multiplication of two vectors, denoted by the syntax below
