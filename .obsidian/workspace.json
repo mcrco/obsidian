@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f2b95336f1640b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electricity and Magnetism/Electrostatics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4b127825c4bf3e90",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete Structures/Sets and Logic.md",
+                "file": "Electricity and Magnetism/Electrostatics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete Structures/Sets and Logic.md",
+                "file": "Electricity and Magnetism/Electrostatics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete Structures/Sets and Logic.md"
+                "file": "Electricity and Magnetism/Electrostatics.md"
               }
             }
           },
@@ -145,10 +157,10 @@
     "direction": "horizontal",
     "width": 236.5
   },
-  "active": "42995ec5a93fbd21",
+  "active": "1f2b95336f1640b0",
   "lastOpenFiles": [
-    "AP HG/Human Environment/Change of Earth's Environment Over Time.md",
     "Discrete Structures/Sets and Logic.md",
+    "AP HG/Human Environment/Change of Earth's Environment Over Time.md",
     "AP HG/Human Environment/Human Response to Environmental Change.md",
     "ML/Probability and Information Theory.md",
     "Fathomd/To Do.md",
