@@ -4,15 +4,16 @@
 
 ## New Classes
 
-- [ ] duplicate class option to create a new class
+- [x] duplicate class option to create a new class
 - [ ] add new games for invoice payments only
 - [ ] table for class section
-- [ ] total cost vs participant cost
+- [ ] fix bug for nav bar disappear after 2 duplication
+- [x] total cost vs participant cost
 - [x] set color
 
 ## Class Page
 
-- [ ] duplicate class option
+- [x] duplicate class option
 - [ ] sessions
 - [ ] changeable
 
