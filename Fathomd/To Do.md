@@ -1,6 +1,7 @@
 # 12/9/22
 
 - [x] Sort classes by date in completed class section (maybe dropdown)
+- [x] class tile width
 
 ## New Classes
 
