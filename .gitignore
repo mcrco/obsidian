@@ -1,4 +1,4 @@
 .obsidian/test*
-.obsidian/workspace.json
-.obsidian/workspaces.json
-.obsidian/workspace-mobile.json
+*.obsidian/workspace.json
+*.obsidian/workspaces.json
+*.obsidian/workspace-mobile.json
