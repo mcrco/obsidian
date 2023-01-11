@@ -4,5 +4,6 @@
   "obsidian-git",
   "obsidian-relative-line-numbers",
   "obsidian-tikzjax",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "cm-editor-syntax-highlight-obsidian"
 ]

@@ -15,6 +15,8 @@ Purpose of research was to find charge. He tried different kinds of liquids and 
 
 To conduct experiment, he shot an extremely small drop of oil and shot an xray to ionize it. It then would pass through an electric field.
 
+![[millikan.png]]
+
 The plan was to equate the force of the electric field on the ionized particle and the gravitational force in 
 
 $$
@@ -37,18 +39,18 @@ $$
 $$and that the force of gravity was 
 
 $$
-(\rho_{0} - \rho_{a}\frac{4}{3})\pi r^{3}g
+(\rho_{0} - \rho_{a})\frac{4}{3}\pi r^{3}g
 $$ 
+
 
 Equating the two,
 
 $$
 \begin{align}
-6\pi \eta rv &= (\rho-0 - \rho_{a}) \frac{4}{3}\pi r^{3}g \\
-
+6\pi \eta rv &= (\rho_0 - \rho_{a}) \frac{4}{3}\pi r^{3}g \\
+r &= \sqrt{ \frac{9\eta v}{2g(\rho_{0} - \rho_{a})} } \\
+\frac{qV}{d} &= \rho_{oil} \frac{4}{3}\pi \left(\sqrt{ \frac{9\eta v}{2g(\rho_{0} - \rho_{a})} }\right)^{3}g \\
+\implies q &= \frac{\rho_{oil} \frac{4}{3}\pi \left(\sqrt{ \frac{9\eta v}{2g(\rho_{0} - \rho_{a})} }\right)^{3}gd}{V} \\
+\implies q &= 1.6 \cdot 10^{-19} \text{ Coloumbs}
 \end{align}
 $$
-
-INSERT MORE STUFF
-
-

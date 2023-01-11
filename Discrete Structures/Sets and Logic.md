@@ -1,4 +1,4 @@
-# Set
+# Set Definitions and Math
 
 - collection of objects
 - use {} to denote sets
@@ -50,6 +50,85 @@ $$
 |P(A)| = 2^{|A|}
 $$
 
+## Combining Sets
 
+### Union
 
+Union combines two sets. 
 
+$$
+\begin{align}
+A = \{ 1,2,6 \} \\
+B = \{ 1,4,7 \} \\
+A \cup B = \{ 1,2,4,6,7 \}
+\end{align}
+$$
+
+### Intersection
+
+Intersection finds the intersection of sets
+
+$$
+\begin{align}
+A = \{ 1,2,6 \} \\
+B = \{ 1,4,7 \} \\
+A \cap B = \{ 1 \}
+\end{align}
+$$
+
+Two sets $A$ and $B$ are disjoint if 
+
+$$
+A \cap B = \{  \}
+$$
+
+### Set Difference
+
+Subtracting set $B$ from set $A$ means
+
+$$
+A - B = {x \in A | x \notin B}
+$$
+
+Example:
+
+$$
+\begin{align}
+A &= \{ 1,2,5,7,8 \} \\
+B &= \{ 1,2,3 \} \\
+A - B &= \{ 5,7,8 \}
+\end{align}
+$$
+
+Now, $B$ and $\{ 5,7,8 \}$ are complements.
+
+## Partition
+
+A partition is the breakdown of a set into disjoint subsets.
+
+# Implementation in C++
+
+```cpp
+#include set
+
+// Create a set
+set<int> int_set
+
+// Insert element
+int_set.insert(1)
+
+// Get set size
+int_set.size()
+
+// Iterate through elements
+set<int> :: iterator iter;
+iter = int_set.begin();
+while (iter != int_set.end()) {
+	cout << *iter;
+}
+
+// Find element
+iter = int_set.find(1);
+cout << (iter != int_set.end());
+
+```
