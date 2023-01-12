@@ -4,10 +4,13 @@ Electrons are ~ $9\cdot 10^{-31}$ kg. Protons are $1.6\cdot 10^{-17}$ kg. Neutro
 
 Protons are made from 2 up quarks and 1 down quark. Neutrons are made from 2 down quarks and 1 up quarks. Down quarks are $9\cdot 10^{-30}$ kg, up quarks are $4 \cdot 10^{-30}$ kg.
 
-| Particle | Symbol  | Mass               | Composition               | Charge | Mobility |
-| -------- | ------- | ------------------ | ------------------------- | ------ | -------- |
-| Proton   | $p^{+}$ | $1.6\cdot10^{-17}$ | 2 up quarks, 1 down quark | +      | mobile   |
-| Electorn | e       |                    |                           |        |          |
+| Particle   | Symbol  | Mass                 | Composition               | Charge         | Mobility |
+| ---------- | ------- | -------------------- | ------------------------- | -------------- | -------- |
+| Proton     | $p^{+}$ | $1.6\cdot10^{-17}$   | 2 up quarks, 1 down quark | +              | yes      |
+| Electron   | $e^{-}$ | $9\cdot 10^{-31}$ kg |                           | -              |          |
+| Neutrons   | e       | $1.7\cdot 10^{-27}$  | 2 down quarks, 1 up quark | 0              |          |
+| down quark | d       | $9\cdot 10^{-30}$    |                           | $-\frac{1}{3}$ |          |
+| up quark   | u       | $4\cdot 10^{-30}$    |                           | $+\frac{2}{3}$ |          |
 
 # Millikan Oil Experiment
 
