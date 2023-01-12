@@ -116,6 +116,7 @@
     {trigger: "mp", replacement: "\\mp", options: "m"},
     {trigger: "...", replacement: "\\dots", options: "mA"},
     {trigger: "<->", replacement: "\\leftrightarrow ", options: "mA"},
+    {trigger: "<--", replacement: "\\leftarrow ", options: "mA"},
     {trigger: "->", replacement: "\\to", options: "mA"},
     {trigger: "!>", replacement: "\\mapsto", options: "mA"},
     {trigger: "invs", replacement: "^{-1}", options: "mA"},

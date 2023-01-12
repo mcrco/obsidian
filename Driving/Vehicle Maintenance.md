@@ -1,2 +1,0 @@
-- Clean/adjust windows and mirrors
-- 

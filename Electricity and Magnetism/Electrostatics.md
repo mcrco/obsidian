@@ -56,6 +56,3 @@ r &= \sqrt{ \frac{9\eta v}{2g(\rho_{0} - \rho_{a})} } \\
 \implies q &= 1.6 \cdot 10^{-19} \text{ Coloumbs}
 \end{align}
 $$
-
-# Attraction
-
