@@ -1,4 +1,4 @@
- on particle moving counterclockwise around the closed path I on particle moving counterclockwise around the closed path f $\vec{F}$ is a vector field containing surface S, then $\vec{F}$ describes teh velocity of the flow or fluid at any point across the surface.
+On a particle moving counterclockwise around the closed path I on particle moving counterclockwise around the closed path f $\vec{F}$ is a vector field containing surface S, then $\vec{F}$ describes the velocity of the flow or fluid at any point across the surface.
 
 The volume of fluid (amount of flow) crossing the surface S per unit of time is called flux of F across S.
 

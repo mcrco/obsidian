@@ -67,3 +67,27 @@ $$
 Given a positive source and a negative sink, we can visualize the electric field as follows:
 
 ![[electric field.drawio.png]]
+
+## Electric Flux
+
+Given an electric field around a particle with charge $Q$, the electric flux is calculated with the formula
+
+$$
+\phi_{electric} = \frac{Q}{\epsilon_{0}} = \vec{E}dA,
+$$
+
+where $\epsilon_{0}$ is the permittivity of the space around the particle (how well space stores electrical energy), $A$ is the surface area.
+
+Since the magnetic field is a sphere, 
+
+$$
+\begin{align}
+dA &= R^{2} \int_{0}^{\pi} \sin \theta \, d\theta \int_{0}^{2\pi} \phi \, d\phi \\
+&= 4\pi R^{2} \\
+\vec{E}dA &= \vec{E} \cdot 4\pi R^{2} \\
+\implies \vec{E}\cdot 4\pi R^{2} &= \frac{Q}{\epsilon_{0}} \\
+\implies \vec{E} &= \frac{kQ}{r^{2}},
+\end{align}
+$$
+
+deriving $k$ to be $\frac{4\pi}{\epsilon_{0}}$.
