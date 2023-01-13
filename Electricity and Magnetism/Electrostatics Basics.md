@@ -56,3 +56,23 @@ r &= \sqrt{ \frac{9\eta v}{2g(\rho_{0} - \rho_{a})} } \\
 \implies q &= 1.6 \cdot 10^{-19} \text{ Coloumbs}
 \end{align}
 $$
+
+# Coloumb's Law
+
+Given two charges $q_{1}$ and $q_{2}$ separated by a distance $r$, the Coloumbic force between them is
+
+$$
+\vec{F}_{e} = \frac{q_{1}q_{2}}{r^{2}}
+$$
+
+## Neglecting Gravitational Forces at Atomic Level
+
+At the atomic level, we can neglect gravitational forces because the Coloumbic forces are so much stronger.
+
+$$
+\begin{align}
+\vec{F}_{e} &= \frac{(9\cdot 10^{9})(1.6 \cdot 10^{-19}) (1.6\cdot 10^{-19})}{(5\cdot 10^{-10})^{2}} \\
+\vec{F}_{g} &= \frac{(6.67\cdot 10^{-11})(1.6 \cdot 10^{-27}) (9\cdot 10^{-31})}{(5\cdot 10^{-10})^{2}} \\
+\implies \frac{\vec{F}_{e}}{\vec{F}g} &= 10^{39}
+\end{align}
+$$

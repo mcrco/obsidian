@@ -50,6 +50,6 @@ RNNs learn to use $\mathbf{h}^{t}$ as a lossy summary of past inputs (it's a fix
 
 Below is a recurrent graph and an unfolded graph of a RNN's hidden state (left and right, respectively).
 
-![[unfolded rnn.png]]
+![[unfolded rnn h.png]]
 
 The benefit of the unfolded RNN representation is that rather than having the hidden state as a function of all past inputs, you can define a singular function that uses the same parameters at each time step and requires input of the same length. It also makes visualizing the forwards and backwards computation of outputs and losses and gradients easier.-   Under Options > Files and Links, set the New link format to always use Absolute Path in Vault.

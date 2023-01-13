@@ -95,6 +95,7 @@
     {trigger: "trace", replacement: "\\mathrm{Tr}", options: "mA"},
     {trigger: "det", replacement: "\\det", options: "mA"},
     {trigger: "re", replacement: "\\mathrm{Re}", options: "mA"},
+    {trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
     {trigger: "im", replacement: "\\mathrm{Im}", options: "mA"},
 
 
@@ -111,7 +112,6 @@
     {trigger: "ooo", replacement: "\\infty", options: "mA"},
     {trigger: "sum", replacement: "\\sum", options: "mA"},
     {trigger: "prod", replacement: "\\prod", options: "mA"},
-    {trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
     {trigger: "pm", replacement: "\\pm", options: "m"},
     {trigger: "mp", replacement: "\\mp", options: "m"},
     {trigger: "...", replacement: "\\dots", options: "mA"},
