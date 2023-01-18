@@ -37,7 +37,7 @@ Relationship holds true for $y=g(x, z)$ and $x = g(y, z)$, just substitute varia
 - center of mass
 - pressure and gravitation
 - electrical charge
-- Gauss's Law
+- [[Gauss's Law]]
 
 # Examples
 

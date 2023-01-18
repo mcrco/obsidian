@@ -124,4 +124,6 @@ $$
 
 This makes sense because as the length of a rod approaches 0, it is simply a point, and we have rederived the expression for the electric field of a point charge.
 
+# Electric Field Within Shapes
 
+To solve for electric fields within shapes, we must use [[Gauss's Law]].
