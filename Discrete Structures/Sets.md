@@ -1,9 +1,36 @@
-# Set Definitions and Math
+# Sets
 
 - collection of objects
 - use {} to denote sets
 - no order
 - no duplicate objects
+
+## Implementation in C++
+
+```cpp
+#include set
+
+// Create a set
+set<int> int_set
+
+// Insert element
+int_set.insert(1)
+
+// Get set size
+int_set.size()
+
+// Iterate through elements
+set<int> :: iterator iter;
+iter = int_set.begin();
+while (iter != int_set.end()) {
+	cout << *iter;
+}
+
+// Find element
+iter = int_set.find(1);
+cout << (iter != int_set.end());
+
+```
 
 ## Belonging
 
@@ -64,6 +91,12 @@ A \cup B = \{ 1,2,4,6,7 \}
 \end{align}
 $$
 
+Can also find partial union:
+
+$$
+A \cup_{i=1}^2 B = \{ 1,2,4 \}
+$$
+
 ### Intersection
 
 Intersection finds the intersection of sets
@@ -106,29 +139,14 @@ Now, $B$ and $\{ 5,7,8 \}$ are complements.
 
 A partition is the breakdown of a set into disjoint subsets.
 
-# Implementation in C++
+## Cartesian Product
 
-```cpp
-#include set
+Gives set involving all possible pairs between sets $A$ and $B$
 
-// Create a set
-set<int> int_set
-
-// Insert element
-int_set.insert(1)
-
-// Get set size
-int_set.size()
-
-// Iterate through elements
-set<int> :: iterator iter;
-iter = int_set.begin();
-while (iter != int_set.end()) {
-	cout << *iter;
-}
-
-// Find element
-iter = int_set.find(1);
-cout << (iter != int_set.end());
-
-```
+$$
+\begin{align}
+A &= \{ 1,2 \} \\
+B &= \{ 3,4,5 \} \\
+A \times B &= \{ (1,3), (1,4), (2,3), (2,4), (2,5) \}
+\end{align}
+$$

@@ -1,0 +1,99 @@
+# Logic
+
+**Propositions** are statements that are either true or false. 
+
+$p, q, r, s$ are propositions.
+
+## Conjunction
+
+Conjunction is the && operator in C++. We write it as $p \land q$. 
+
+| $p$ | $q$ | $p \land q$ |
+| --- | --- | ----------- |
+| T   | T   | T           |
+| T   | F   | F           |
+| F   | T   | F           |
+| F   | F   | F           |
+
+## Or
+
+Conjunction is the || operator in C++. We write it as $p \lor q$. 
+
+| $p$ | $q$ | $p \land q$ |
+| --- | --- | ----------- |
+| T   | T   | T           |
+| T   | F   | T           |
+| F   | T   | T           |
+| F   | F   | F           |
+
+## Not
+
+!= in C++. 
+
+| $p$ | $-p$ |
+| --- | ---- |
+| T   | F    |
+| F   | T    | 
+
+## Conditional Proposition
+
+Pretty much the if statement in C++
+
+Code:
+
+```cpp
+if (p) 
+	do q;
+```
+
+Formal:
+
+$p \implies q$
+
+| $p$ | $q$ | $p \implies q$ |
+| --- | --- | -------------- |
+| T   | T   | T              |
+| T   | F   | F              |
+| F   | T   | T              |
+| F   | F   | T              |
+
+## Biconditional Proposition
+
+P happens if and only if q.
+
+$$
+p \iff q
+$$
+
+| $p$ | $q$ | $p \iff q$ |
+| --- | --- | ---------- |
+| T   | T   | T          |
+| T   | F   | F          |
+| F   | T   | F          |
+| F   | F   | T          |
+
+## Logical Equivalence
+
+Two propositions produce the same ouput.
+
+### Example
+
+Is $p \land q$ logically equivalent to $-p \lor -q$?
+
+| p   | q   | $p \land q$ | $-p \lor -q$ |
+| --- | --- | ----------- | ------------ |
+| T   | T   | T           | F            |
+| T   | F   | F           | F            |
+| F   | T   | F           | F            |
+| F   | F   | F           | T            |
+
+Nope.
+
+## DeMorgan's Law
+
+$$
+\begin{align}
+-(p \land q) &\leftrightarrow -p \lor q \\
+- (p \lor q) &\leftrightarrow  -p \land -q
+\end{align}
+$$
