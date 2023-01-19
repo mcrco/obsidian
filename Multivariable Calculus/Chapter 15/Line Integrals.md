@@ -95,7 +95,7 @@ The work done is
 $$
 \begin{align}
 W &= \int _{C} \vec{F} \cdot \vec{T} \, dr \\
-&= \int _{F} \vec{F} \frac{\vec{r}'(t)}{\mid \vec{r}'(t) \mid} |\vec{r}'(t)| \, dt \\
+&= \int _{C} \vec{F} \frac{\vec{r}'(t)}{\mid \vec{r}'(t) \mid} |\vec{r}'(t)| \, dt \\
 &= \int _{C} \vec{F} \, dr  
 \end{align}
 $$
@@ -147,6 +147,7 @@ $$
 $$
 
 Solution:
+
 
 let $x = t$
 $$

@@ -14,7 +14,7 @@ To demonstrate Gauss's Law in this situation, we take a cylinder with radius $R$
 
 $$
 \begin{align}
-\phi = \vec{E} d\vec{A} &= \frac{Q_{enc}}{\epsilon_{0}} \\
+\phi = \oint \vec{E} d\vec{A} &= \frac{Q_{enc}}{\epsilon_{0}} \\
 \implies \vec{E} \cdot 2\pi rL &= \frac{Q}{\epsilon_{0}} \\
 \implies \vec{E} &= \frac{Q}{2\pi rL\epsilon_{0}}
 \end{align}
@@ -45,4 +45,33 @@ $$
 
 # Nonuniform Density
 
-## 
+## Electric Field Outside Object
+
+### Conductors and Non-Conductors
+
+Gauss's Law states that 
+
+$$
+\vec{E} 2\pi rL = \frac{Q_{enc}}{\epsilon_{0}}
+$$
+
+Given the same cylinder dimensions and $\rho = -Cr$, we solve for $Q_{enc}$.
+
+$$
+\begin{align}
+Q_{enc} &= \int_{0}^{L} \, dz \cdot \int_{0}^{R} -Cr \cdot r \, dr \int_{0}^{2\pi}  \, d\theta  \\
+&= 2\pi L \left[ \frac{-Cr^{3}}{r} \right]_{0}^{R} \\
+&= -\frac{2C\pi LR^{3}}{3}
+\end{align}
+$$
+
+Plugging back into Gauss's Law:
+
+$$
+\begin{align}
+\vec{E}_{out} \cdot 2\pi rL &= -\frac{2C\pi LR^{3}}{3\epsilon_{0}} \\
+\implies \vec{E}_{out} &= \frac{-CR^{3}}{3r\epsilon_{0}}\hat{i}
+\end{align}
+$$
+
+### 

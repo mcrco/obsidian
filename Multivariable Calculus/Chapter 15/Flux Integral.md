@@ -1,4 +1,4 @@
-On a particle moving counterclockwise around the closed path I on particle moving counterclockwise around the closed path f $\vec{F}$ is a vector field containing surface S, then $\vec{F}$ describes the velocity of the flow or fluid at any point across the surface.
+For a particle moving counterclockwise around the closed path f $\vec{F}$ is a vector field containing surface S, then $\vec{F}$ describes the velocity of the flow or fluid at any point across the surface.
 
 The volume of fluid (amount of flow) crossing the surface S per unit of time is called flux of F across S.
 
@@ -7,7 +7,7 @@ $$
 \iint_{S} \vec{F}\cdot \vec{N}dS
 $$
 
-where $\vec{F}= <P,Q,R>$ and $\vec{N}$ is unit normal across S.
+where $\vec{F}= <P,Q,R>$ and $\vec{N}$ is unit normal across $S$.
 
 If a fluid has mass density $\rho(x,y,z)$ at a point then flux is`
 

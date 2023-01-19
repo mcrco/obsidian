@@ -22,7 +22,7 @@ $$
 
 # Evaluating a Surface Integral
 
-Let $S$ be a sufrace given by $z=g(x, y)$ and let $R$ be it sprojection onto the xy-plane. If $g,g_{x}, g_{y}$ are continuous on $R$ and $f$ is continuous on $S$, then the surface integral of $f$ over $S$ is 
+Let $S$ be a surface given by $z=g(x, y)$ and let $R$ be it sprojection onto the xy-plane. If $g,g_{x}, g_{y}$ are continuous on $R$ and $f$ is continuous on $S$, then the surface integral of $f$ over $S$ is 
 
 $$
 \iint_{S} f(x, y, z) dS = \iint_{R} f(x, y, g(x, y))\sqrt{ 1+[g_{x}(x, y)]^{2} + [g_{y}(x, y)]^{2}} dA
