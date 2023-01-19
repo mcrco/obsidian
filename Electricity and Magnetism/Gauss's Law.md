@@ -6,7 +6,9 @@ $$
 
 $\phi_{E}$ is the electric flux of the enclosed space across its surface, meaning Gauss's Law is a variation of a [[Parametric Surface and Surface Integral|Surface Integral]] or a [[Flux Integral]]. 
 
-# Electric Field Outside of Object
+# Uniform Charge Density
+
+## Electric Field Outside of Object
 
 To demonstrate Gauss's Law in this situation, we take a cylinder with radius $R$, height $L$, and charge $Q$. 
 
@@ -20,17 +22,15 @@ $$
 
 This holds true for both conductors and non-conductors.
 
-# Electric Field Inside Object
+## Electric Field Inside Object
 
-## Conductors
+### Conductors
 
 Conductors have an internal electric field of 0.
 
-## Non-Conductors
+### Non-Conductors
 
 For this, we need the density of the charge, $\rho$. 
-
-### Uniform Density
 
 $$
 \begin{align}
@@ -43,6 +43,6 @@ $$
 \end{align}
 $$
 
-## Nonuniform Density
+# Nonuniform Density
 
-### 
+## 

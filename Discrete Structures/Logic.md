@@ -39,16 +39,16 @@ Conjunction is the || operator in C++. We write it as $p \lor q$.
 
 Pretty much the if statement in C++
 
-Code:
+$p \implies q$
+
+### Code
 
 ```cpp
 if (p) 
 	do q;
 ```
 
-Formal:
-
-$p \implies q$
+### Truth Table
 
 | $p$ | $q$ | $p \implies q$ |
 | --- | --- | -------------- |
@@ -56,6 +56,16 @@ $p \implies q$
 | T   | F   | F              |
 | F   | T   | T              |
 | F   | F   | T              |
+
+### Creating New Propositions
+
+Based on $p \implies q$, we can make 3 new propositions:
+
+1. Converse: $q \implies p$
+2. Inverse: $-p \implies -q$
+3. Contrapositive $-q \implies -p$
+
+The contrapositive is the only statement necessarily logically equivalent to the $p \implies q$.
 
 ## Biconditional Proposition
 
