@@ -16,5 +16,9 @@
 
 - [x] duplicate class option
 - [ ] sessions
-- [ ] changeable
+- [ ] use Sessions from session-collections.coffee to display sessions
+- [ ] get players from users and match with classId to display players?
+- [ ] change sessions to include classId
+- [ ] create new class by copying code for create new session and tweaking
+- [ ] modify form to use form.js???
 
