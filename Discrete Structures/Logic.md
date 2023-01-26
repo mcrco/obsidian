@@ -107,3 +107,37 @@ $$
 - (p \lor q) &\leftrightarrow  -p \land -q
 \end{align}
 $$
+
+## Rules
+
+### Addition
+
+Given $p$ is true, $p \lor q$ must be true.
+
+### Modus Ponens
+
+Given $p \implies q$ and $p$ is true, $q$ must be true.
+
+## Negating Quantifiers
+
+### Examples
+
+$P(x)$: x is an accountant
+$Q(x)$: x owns a Porsche
+
+All accountants own Porches:
+
+$$
+\forall x (P(x) \implies Q(x))
+$$
+
+To negate,
+
+$$
+\exists x (P(x) \implies Q(x))
+$$
+
+is not true.
+
+
+
