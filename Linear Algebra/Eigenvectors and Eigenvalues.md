@@ -1,6 +1,6 @@
 # [](https://github.com/jackyzha0/quartz#quartz)
 
-# Quartz**Eigenvectors** of a matrix are vectors that remain within their original [[Linear Combinations and Span|span]] after the [[Linear Transformations and Matrices|linear transformation]] represented by the matrix. **Eigenvalues** are the factors by which the eigenvectors are scaled.
+# Quartz**Eigenvectors** of a matrix are vectors that remain within their original [[Linear Combinations and Span|span]] after the [[Linear Transformations|linear transformation]] represented by the matrix. **Eigenvalues** are the factors by which the eigenvectors are scaled.
 
 One example use case is finding the eigenvector of a 3-D rotation, which is the axis of rotation. 
 
@@ -22,7 +22,7 @@ $$
 (\mathbf{A} - \lambda \mathbf{I})\vec{v} = 0
 $$
 
-Since the eigenvector is non-zero, we must have the whole product equal to 0. The only time this happens is in a matrix vector multiplicaiton, which can also be viewed as a [[Linear Transformations and Matrices|linear transformation]], is when the [[Determinants|determinant]] of the matrix/linear transformation is 0. Solving as said,
+Since the eigenvector is non-zero, we must have the whole product equal to 0. The only time this happens is in a matrix vector multiplicaiton, which can also be viewed as a [[Linear Transformations|linear transformation]], is when the [[Determinants|determinant]] of the matrix/linear transformation is 0. Solving as said,
 
 $$
 \begin{align}
