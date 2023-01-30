@@ -126,6 +126,8 @@
     {trigger: "and", replacement: "\\cap", options: "mA"},
     {trigger: "orr", replacement: "\\cup", options: "mA"},
     {trigger: "inn", replacement: "\\in", options: "mA"},
+    {trigger: "nsseq", replacement: "\\nsubseteq", options: "mA"},
+    {trigger: "sseq", replacement: "\\subseteq", options: "mA"},
     {trigger: "\\subset eq", replacement: "\\subseteq", options: "mA"},
     {trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
     {trigger: "=>", replacement: "\\implies", options: "mA"},
