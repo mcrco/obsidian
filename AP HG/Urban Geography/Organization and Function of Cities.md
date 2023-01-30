@@ -4,7 +4,9 @@ Every model studies the **functional zonation** of cities (division of cities in
 
 **Zones** refer to areas with same function. Key economic zone is **central business district** aka downtown concentration of business/commerce with skyscrapers and whatnot. 
 
-**Central cities** are non-suburban urban areas aka old city and contain 30% of population. **Suburbs** are functional areas adjacent to central city and have 50% of populuation.
+**Central cities** are non-suburban urban areas aka old city and contain 30% of population. **Suburbs** are functional areas adjacent to centr[
+
+](https://www.youtube.com/watch?v=PqG4ErqfxPs&t=485s)al city and have 50% of populuation.
 
 **Suburbanizatoin** is the process by which lands outside of urban area -> urbanized as people and business from city move there, transforming large areas of land and isolating wealthy people. 
 

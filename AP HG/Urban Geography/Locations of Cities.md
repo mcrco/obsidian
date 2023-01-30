@@ -4,7 +4,9 @@ To study distribution of cities, geographers look at 3 key traits: population, t
 
 These 3 features create a sort of hiearchy between cities. For example, San Francisco/San Jose would be the dominant city here since they have large trade areas and populations.
 
-**Rank size rule** states that population of city should be inversely proportional to place in hiearchy, unless there is one immensely influential city in a country, like Mexico or France.
+**Rank size rule** states that population of city should be inversely proportional to place in hiearchy, unless there is one immensely influential city in a country, like Mexico or France.[
+
+](https://www.youtube.com/watch?v=PqG4ErqfxPs&t=485s)
 
 # Central Place Theory
 
