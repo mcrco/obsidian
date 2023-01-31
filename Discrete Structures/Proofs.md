@@ -116,3 +116,66 @@ Our previous proof for $n^{2}$ is odd if $n$ is odd will come in handy.
 Assume $n^{2}$ is even, but $n$ is odd.
 
 By our lemma, $n^{2}$ should then be odd, but that contradicts our assumption. 
+
+#### Proof 2
+
+##### Claim
+
+$\sqrt{ 2 }$ is irrational.
+
+##### Preliminary Ideas
+
+Rational numbers can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime integers.
+
+##### Proof of Claim
+
+Assume $\sqrt{ 2 }$ is rational.
+
+$$
+\begin{align}
+\sqrt{ 2 } &= \frac{m}{n} \\
+2 &= \frac{m^{2}}{n^{2}} \\
+2n^{2} &= m^{2} \\
+\implies m &= 4p^{2} \\
+\implies n^{2} &= 2p^{2}
+\end{align}
+$$
+
+That means $m$ and $n$ share a prime factor, 2, but they are supposed to be relatively prime.
+
+## Proof by Contrapositive
+
+In a proof by contrapositive, you claim the contrapositive and prove it because it's logically equivalent to the original claim.
+
+### Example Proof 1
+
+#### Claim
+
+If $n^{2}$ is even, then $n$ is even.
+
+#### Proof
+
+**Contrapositive**: If $n$ is not even, then $n^{2}$ is not even. OR, If $n$ is odd, then $n^{2}$ is odd.
+
+$$
+\begin{align}
+n^{2} &= (2k+1)^{2} \\
+&= 4k^{2} + 4k + 1 \\
+&= 2(2k^{2} + 2k ) + 1
+\end{align}
+$$
+
+Since we proved that $n^{2}$ is odd if $n = (2k+1)$ by the definition of an odd number, we have proved the original claim.
+
+### Example Proof 2
+
+#### Claim
+
+If a product of 2 positive real numbers is greater than 100, then at least one of the numbers is greater than 10.
+
+If $x > 0$, $y > 0$, $xy > 100$, then $x > 10$ or y > 10.
+
+#### Proof
+
+**Contrapositve**: If $x \leq 10$ and $y \leq 10$, then $x \leq 0$ and $y \leq 0$ or $xy \leq 100$
+
