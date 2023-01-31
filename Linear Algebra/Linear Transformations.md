@@ -2,7 +2,9 @@ A linear/matrix transformation is just a function. However, in linear algebra we
 
 A linear transformation is a transformation that keeps grid of space straight and origin constant. 
 
-Constants for vector's components in linear combination of basis vectors -> remains the same for linearly transformed basis vectors.
+# Matrix of a Transformation
+
+The constants for vector's components in linear combination of basis vectors remain the same for linearly transformed basis vectors.
 
 All of this means that all you need is 4 numbers to represent linear transformation: the terminal point of $\hat{i}$ and the terminal point of $\hat{j}$ after the transformation. Given that $\hat{i}$ lands at $(a,b)$ and $\hat{j}$ lands at $(c,d)$, you can then package the transformation into a 2x2 matrix: 
 
@@ -14,6 +16,8 @@ b & d
 \end{bmatrix}
 \end{align}
 $$
+
+This matrix is called the **standard matrix**.
 
 To transform any vector $(x,y)$,  you can just compute as follows:
 
@@ -41,11 +45,11 @@ y
 \end{bmatrix}
 $$
 
-This explains rotation matrices, which are applied in physics and whatnot. 
+A good example of a transformation matrix with its columns as the new basis vectors are rotation matrices.
 
 You can use the inverse of a matrix to find the reversing transformation.
 
-# Example Problems
+# Example Problems for Linear Transformations
 
 ## Problem 1
 
@@ -163,4 +167,69 @@ $$
 $$
 
 These 3 equations contradict one another.
+
+# Example Problems for Matrices
+
+## Problem 1
+
+Find the standard matrix A for the dilation transformation $T(\vec{x}) = 3\vec{x}, \, \vec{x} \in \mathbb{R^{2}}$
+
+
+$$
+\begin{align}
+\vec{e}_{1} &= \begin{bmatrix}
+3 \\
+0
+\end{bmatrix} \\
+\vec{e}_{2} &= \begin{bmatrix}
+0 \\
+3
+\end{bmatrix} \\
+\mathbf{A} &= \begin{bmatrix}
+3 & 0 \\
+0 & 3
+\end{bmatrix} \\
+\end{align}
+$$
+
+## Problem 2
+
+$T(\vec{x})$ rotates points about the origin with an angle of $\theta = \frac{-3\pi}{2}$. 
+
+$$
+\begin{align}
+T(\vec{e}_{1}) &= \begin{bmatrix}
+0 \\
+1
+\end{bmatrix} \\
+T(\vec{e_{2}}) &= \begin{bmatrix}
+-1 \\
+0
+\end{bmatrix} \\
+\mathbf{A} &= \begin{bmatrix}
+0 & -1 \\
+1 & 0
+\end{bmatrix}
+\end{align}
+$$
+
+## Problem 3
+
+Find the standard matrix for the reflection across the plane x + y + z = 1.
+
+$$
+\begin{align}
+D &= \frac{|ax + by + cz + d|}{\lvert \lvert \vec{n} \rvert \rvert } \\
+e_{i} &\to e_{i} - 2D \cdot \frac{\vec{n}}{\lvert \lvert \vec{n} \rvert \rvert } \\
+D_{e_{1}} &= \begin{bmatrix}
+1 \\
+0 \\
+0
+\end{bmatrix} - 2() \\
+\mathbf{A} &= \begin{bmatrix}
+
+\end{bmatrix}
+\end{align}
+$$
+
 

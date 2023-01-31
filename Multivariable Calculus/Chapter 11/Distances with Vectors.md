@@ -1,8 +1,5 @@
-[
+# Point to Line
 
-](https://www.youtube.com/watch?v=8YmhU6cbO_8)# Point to Line
-
-## Formula
 $$
 \frac{\vec{n}\cdot \vec{PQ}}{\lvert \lvert \vec{n} \rvert \rvert }
 $$
@@ -21,7 +18,6 @@ $$
 
 # Point to Vector
 
-## Formula
 $$
 \frac{\lvert \lvert \vec{PQ}\times \vec{v} \rvert \rvert }{\lvert \lvert \vec{v} \rvert \rvert }
 $$
@@ -44,8 +40,20 @@ $$
 
 ## Formula
 
+Given that the plane is in the form 
+
+$$
+ax + by + cz + d = 0
 $$
 
+and the point is in the form
+
+$$
+(x, y, z)
+$$
+
+$$
+D = \frac{ax + by + cz + d|}{\lvert \lvert \vec{n} \rvert \rvert }
 $$
 
 We can use the same approach as [[#Point to Line]]. 
