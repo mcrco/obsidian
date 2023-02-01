@@ -49,6 +49,22 @@ A good example of a transformation matrix with its columns as the new basis vect
 
 You can use the inverse of a matrix to find the reversing transformation.
 
+# Onto Transformations
+
+$T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is **onto** if each $\vec{b}$ in $\mathbb{R}^{m}$ is the image of at least one $\vec{x}$ in $\mathbb{R}^{n}$. In other words, every $\vec{b}$ in $\mathbb{R}^{m}$ has a preimage in $\mathbb{R}^{n}$ such that $\vec{b} = T(\vec{x})$.
+
+Given its transformation matrix $\mathbf{A}$, we know that the reduced form of $\mathbf{A}$ must have a pivot position in each row so that if you augment matrix $\mathbf{A}$ with a vector $\vec{b}$, there will be no constraints on the possible values of b in the rightmost column.
+
+# One-to-one Transformation
+
+$T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is **one-to-one** if each $\vec{b}$ in $\mathbb{R}^{m}$ is the image of at most one $\vec{x}$ in $\mathbb{R}^{n}$. In other words, every $\vec{b}$ in $\mathbb{R}^{m}$ has a preimage in $\mathbb{R}^{n}$ such that $\vec{b} = T(\vec{x})$.
+
+Given its transformation matrix $\mathbf{A}$, it must satisfy the condition 
+
+$$
+
+$$
+
 # Example Problems for Linear Transformations
 
 ## Problem 1
@@ -75,7 +91,7 @@ $$
 \end{pmatrix}
 $$
 
-**Calculate $T(\vec{u}) = \mathbf{A}\vec{u}$ **
+**Calculate $T(\vec{u}) = \mathbf{A}\vec{u}$ 
 
 $$
 \mathbf{A} \cdot \vec{u} = \begin{pmatrix}
