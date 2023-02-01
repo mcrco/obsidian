@@ -61,11 +61,7 @@ Diagram:
 
 Kinematics:
 $$
-\begin{align}
-x &= v_{x}t \implies t = \frac{x}{v_{x}} \\
-y &= \frac{1}{2}at^{2} \\
-y &= \frac{1}{2}\left( \frac{qE}{m} \right)\left( \frac{x^{2}}{v_{x}^{2}} \right)
-\end{align}
+#### Arguments
 $$
 
 ## Dipoles
