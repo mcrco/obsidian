@@ -35,8 +35,8 @@ For this, we need the density of the charge, $\rho$.
 $$
 \begin{align}
 \vec{E} \cdot 2\pi rL &= \frac{Q_{enc}}{\epsilon_{0}} \\
-\rho &= \frac{Q_{enc}}{V_{enc}} \\
-&= \frac{Q}{\pi R^{2}L} \\
+\rho &= \frac{Q_{enc}}{V_{enc}} = \frac{Q}{V} \\
+\implies \frac{Q}{\pi R^{2}L} 
 &= \frac{Q_{enc}}{\pi r^{2}L} \\
 \implies Q_{enc} &= \frac{Qr^{2}}{R^{2}} \\
 \implies \vec{E} &= \frac{Qr}{2\pi R^{2}L\epsilon_{0}}
@@ -73,5 +73,3 @@ $$
 \implies \vec{E}_{out} &= \frac{-CR^{3}}{3r\epsilon_{0}}\hat{i}
 \end{align}
 $$
-
-### 
