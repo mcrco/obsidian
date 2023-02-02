@@ -98,6 +98,8 @@
     {trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
     {trigger: "im", replacement: "\\mathrm{Im}", options: "mA"},
     {trigger: "fora", replacement: "\\forall", options: "mA"},
+    {trigger: "not", replacement: "\\lnot", options: "mA"},
+    {trigger: "tf", replacement: "\\therefore", options: "mA"},
 
 
     // Visual operations
