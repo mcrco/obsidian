@@ -179,3 +179,85 @@ If $x > 0$, $y > 0$, $xy > 100$, then $x > 10$ or y > 10.
 
 **Contrapositve**: If $x \leq 10$ and $y \leq 10$, then $x \leq 0$ and $y \leq 0$ or $xy \leq 100$
 
+Given that $10 \geq x \geq 0$ and $10 \geq y \geq 0$, by PI4 from earlier, 
+
+$$
+xy \leq 100
+$$
+
+Since we've proved the contrapositive, the original claim must be true.
+
+## Proof by Cases
+
+Break something up into cases and prove each case.
+
+### Example Proof 1
+
+#### Claim
+
+If $n$ is not divisible by 3, $n^{2}$ has a remainder of 1 when divided by 3.
+
+#### Proof
+
+**Case 1**: $n \equiv 1 \pmod 3$
+
+$$
+\begin{align}
+n &= 3q + 1 \\
+n^{2} &= (3q + 1)^{2} \\
+&= 9q^{2} + 6q + 1 \\
+&= 3(3q^{2} + 2q) + 1
+\end{align}
+$$
+
+
+**Case 2**: $n \equiv 2 \pmod 3$
+
+$$
+\begin{align}
+n &= 3q + 1 \\
+n^{2} &= (3q + 2)^{2} \\
+&= 9q^{2} + 12q + 4 \\
+&= 3(3q^{2} + 4q + 1) + 1
+\end{align}
+$$
+
+## Proof By Induction
+
+- can only prove something true for a counting-type subset of integers
+- like a row of dominoes
+	- prove for first item, first item proves second item, second proves third and so on
+
+### Formal Template
+
+#### Claim
+
+$S(n)$ is true for $n = 1,2,3,\dots$
+
+#### Proof
+
+1. Prove base step $S(1)$
+2. Prove $S(n) \implies S(n + 1)$
+3. Conclude $S(n)$ is true for all positive integers $n$
+
+### Example Proof 1
+
+#### Claim
+
+Sum of the first $n$ odd numbersr is $n^{2}$.
+
+#### Proof
+
+$S(1)$ is true because $1 = 1^{2}$.
+
+Given that $S(2)$ is $(n - 1)^{2} + (2n - 1)$,
+
+$$
+\begin{align}
+S(n) &= (n - 1)^{2} + (2n - 1) \\
+&= n^{2} - 2n + 1 + 2n - 1 \\
+&= n^{2}
+\end{align}
+$$
+
+Now, we know that $S(n - 1) \implies S(n)$, and since $S(1)$ is true, $S(2)$ must be true and $S(n)$ must be true for all positive integers.
