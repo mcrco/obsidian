@@ -261,3 +261,53 @@ S(n) &= (n - 1)^{2} + (2n - 1) \\
 $$
 
 Now, we know that $S(n - 1) \implies S(n)$, and since $S(1)$ is true, $S(2)$ must be true and $S(n)$ must be true for all positive integers.
+
+### Example Proof 2
+
+#### Claim
+
+$2n + 1 \leq 2^{n}$ for $n \in \mathbb{Z^{+}}, n\geq 3$ 
+
+#### Proof
+
+**Base Step**: $n = 3$
+
+$$
+\begin{align}
+S(3): 2 \cdot 3 + 1 &\leq 2^{3} \\
+7 &\leq 8 \\
+\end{align}
+$$
+
+**Inductive Step**
+
+Assume $2n + 1 \leq 2^{n}$.
+
+$$
+\begin{align}
+2(n + 1) + 1  &= 2n + 3 \\
+&= (2n + 1) + 2 \\
+&\leq 2^{n} + 2
+\end{align}
+$$
+
+Now, we prove the lemma $2 < 2^{n}$ for $n \geq 3$
+
+$$
+\begin{align}
+2 &\leq 2^{n} \\
+1 &\leq 2^{n - 1}
+\end{align}
+$$
+
+The above is always true given $n \geq 3$.
+
+Applying the lemma, we get
+
+$$
+\begin{align}
+2(n + 1) + 1 \leq 2^{n} + 2^{n} \\
+2(n + 1) + 1 \leq 2^{n + 1}
+\end{align}
+$$
+

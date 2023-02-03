@@ -233,19 +233,31 @@ $$
 
 Find the standard matrix for the reflection across the plane x + y + z = 1.
 
+### Solution
+
+The transformation can be described as subtracting the normal unit vector of the plane multiplied by 2 times the magnitude of the displacement between the the point (vector) and the plane. To find displacement, we modify the distance formula between a point and a plane to not include the absolute value sign - this gives us the position of the point relative to the plane (above or below).
+
 $$
 \begin{align}
-D &= \frac{|ax + by + cz + d|}{\lvert \lvert \vec{n} \rvert \rvert } \\
-e_{i} &\to e_{i} - 2D \cdot \frac{\vec{n}}{\lvert \lvert \vec{n} \rvert \rvert } \\
-D_{e_{1}} &= \begin{bmatrix}
-1 \\
-0 \\
-0
-\end{bmatrix} - 2() \\
+D &= \frac{ax + by + cz + d}{\lvert \lvert \vec{n} \rvert \rvert } \\
+&= \frac{x + y + z - 1}{\sqrt{ 3 }} \\
+\hat{n} &= \frac{<1,1,1>}{\sqrt{ 3 }} \\
+\vec{v} &\to \vec{v} - 2D \cdot \hat{n} \\
+<x, y, z> &\to <x, y, z> - 2<\frac{x + y + z - 1}{3}, \dots> \\
+&\to <\frac{1}{3}x - \frac{2}{3}y - \frac{2}{3}z + \frac{2}{3}, \dots> \\
 \mathbf{A} &= \begin{bmatrix}
-
+\frac{1}{3} & -\frac{2}{3} & -\frac{2}{3}  \\
+-\frac{2}{3} & \frac{1}{3} & -\frac{2}{3}  \\
+-\frac{2}{3} & -\frac{2}{3} & \frac{1}{3}  
+\end{bmatrix} \\
+\mathbf{b} &= \begin{bmatrix}
+\frac{2}{3} \\
+\frac{2}{3} \\
+\frac{2}{3} \\
 \end{bmatrix}
 \end{align}
 $$
+
+
 
 
