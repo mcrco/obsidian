@@ -20,9 +20,58 @@
 		- Abu Dhabi: >50% of GDP
 		- Dubai: 25% GDP
 		- Qaywayn: <1%
-- GNI doesn't count for harm done by products -> analysts focus on developmnent of tech + other measures
-	- occupational structure of labor
-	- productivity per worker
-	- transportation and communication facilities per person
-	- 
+- GNI doesn't count for harm done by products -> alternative measurements
 
+## Alternative Measurements
+
+- occupational structure of labor: people in farming vs people in tech jobs
+- productivity per worker: production per capita
+- transportation and communication facilities per person: infrastructure for econ per capita
+- dependency ratio: ratio of dependents to employed
+	- bad demographic -> high dr
+- other measurements from before
+	- literacy rate
+	- infant mortality
+	- etc
+- still do not account for different levels of development within a state
+
+# Development  Models
+
+Different couyntries develop differently: take Japan (agrarian -> industrial) vs Sudan for example.
+
+Criticisms of development models:
+- Western bias in indicators of development (industry can hurt poor countries)
+- doesn't consider geography/interrelations
+- treates states as autonomous (goes against [[Wallerstein's World-Systems Theory]])
+
+## Rostow's Modernization Model
+
+### 5 stages of development
+
+1. traditional
+	- farming
+	- rigid social strucutre
+	- conservative tech
+2. preconditions
+	- new leader -> progressive
+3. takeoff
+	- kinda industrial revolution
+	- sustained growth
+	- urbanization + industrialization
+4. drive to maturity
+	- tech diffusion
+	- industrial specialization
+	- international trade expand
+5. high mass consumption
+	- high production + income
+	- majority of work is services
+	- core
+
+### Shortcomings
+
+- climbing up ladder is function of many nations not just one
+- international position
+- cultural differences
+- industrialization not necessarily good
+	- foreign investment -> foreign benefits
+	- environment damage

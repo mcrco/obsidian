@@ -1,0 +1,4 @@
+- International organizations use indices of devlopemnt to help poor nations. 
+- UN Human Development Index
+	- 3 basic dimensions
+		- 
