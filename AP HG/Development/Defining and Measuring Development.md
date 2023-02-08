@@ -1,7 +1,7 @@
 - Wealth is a function of what, how, and where.
 - **Development**: progress made in technology, production, socioeconomic welfare
 
-# Gross National Income
+# Gross National Incowme
 
 - GNP measures total value of officially recorded goods and services produced by citizens/corporations of a country in a year (includes inside and outside country)
 - GDP measures only inside of country
