@@ -8,7 +8,7 @@ Every model studies the **functional zonation** of cities (division of cities in
 
 ](https://www.youtube.com/watch?v=PqG4ErqfxPs&t=485s)al city and have 50% of populuation.
 
-**Suburbanizatoin** is the process by which lands outside of urban area -> urbanized as people and business from city move there, transforming large areas of land and isolating wealthy people. 
+**Suburbanizatoin** is the process by which lands outside of urban area -> urbanized as people and business from city move there, transforming large areas of land and isolating wealthyprimate citi people. 
 
 # Modeling NA City
 
