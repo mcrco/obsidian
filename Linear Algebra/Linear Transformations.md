@@ -47,7 +47,7 @@ $$
 
 A good example of a transformation matrix with its columns as the new basis vectors are rotation matrices.
 
-You can use the inverse of a matrix to find the reversing transformation.
+You can use the [[Inverse of a Matrix]] to find the reversing transformation.
 
 # Onto Transformations
 
