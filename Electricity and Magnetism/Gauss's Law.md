@@ -73,3 +73,4 @@ $$
 \implies \vec{E}_{out} &= \frac{-CR^{3}}{3r\epsilon_{0}}\hat{i}
 \end{align}
 $$
+

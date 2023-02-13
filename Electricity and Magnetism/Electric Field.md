@@ -61,7 +61,6 @@ Diagram:
 
 Kinematics:
 $$
-#### Arguments
 $$
 
 ## Dipoles
