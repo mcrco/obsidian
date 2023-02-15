@@ -49,21 +49,29 @@ A good example of a transformation matrix with its columns as the new basis vect
 
 You can use the [[Inverse of a Matrix]] to find the reversing transformation.
 
+# One-to-one Transformation
+
+$T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is **one-to-one** if each $\vec{b}$ in $\mathbb{R}^{m}$ is the image of at most one $\vec{x}$ in $\mathbb{R}^{n}$. In other words, every $\vec{b}$ in $\mathbb{R}^{m}$ has a preimage in $\mathbb{R}^{n}$ such that $\vec{b} = T(\vec{x})$.
+
+Or equivalently,
+
+$$
+\mathbf{A}\vec{x} = 0
+$$
+
+has only $\vec{0}$ as the solution.
+
+Given its transformation matrix $\mathbf{A}$, it must satisfy the condition that there are at least as many rows as columns, the columns are linearly independent, and there must be a pivot position in each column.
+
+Also called an [[Functions#Injective||injective function]].
+
 # Onto Transformations
 
 $T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is **onto** if each $\vec{b}$ in $\mathbb{R}^{m}$ is the image of at least one $\vec{x}$ in $\mathbb{R}^{n}$. In other words, every $\vec{b}$ in $\mathbb{R}^{m}$ has a preimage in $\mathbb{R}^{n}$ such that $\vec{b} = T(\vec{x})$.
 
 Given its transformation matrix $\mathbf{A}$, we know that the reduced form of $\mathbf{A}$ must have a pivot position in each row so that if you augment matrix $\mathbf{A}$ with a vector $\vec{b}$, there will be no constraints on the possible values of b in the rightmost column.
 
-# One-to-one Transformation
-
-$T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is **one-to-one** if each $\vec{b}$ in $\mathbb{R}^{m}$ is the image of at most one $\vec{x}$ in $\mathbb{R}^{n}$. In other words, every $\vec{b}$ in $\mathbb{R}^{m}$ has a preimage in $\mathbb{R}^{n}$ such that $\vec{b} = T(\vec{x})$.
-
-Given its transformation matrix $\mathbf{A}$, it must satisfy the condition 
-
-$$
-
-$$
+Also called an [[Functions#Onto||onto function]].
 
 # Example Problems for Linear Transformations
 
