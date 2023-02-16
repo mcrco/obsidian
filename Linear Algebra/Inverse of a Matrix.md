@@ -78,3 +78,37 @@ E_{6} = \begin{pmatrix}
 \end{align}
 $$
 
+# Properties
+
+## Theorem 1
+
+$$
+(\mathbf{A}\mathbf{B})^{-1} = \mathbf{B}^{-1} \cdot \mathbf{A}^{-1}
+$$
+
+
+## Theorem 2
+
+Given Theorem 1, we can use an [[Proofs#Proof By Induction|inductive proof]] to show that given that $A_{1}, A_{2}, A_{3} \dots A_{n}$ are invertible matrices,
+
+$$
+(A_{1} \cdot A_{2} \cdot A_{3} \dots A_{n}) ^{-1} = A_{n}^{-1} \cdot A_{n - 1}^{-1} \dots A_{1}^{-1}
+$$
+
+Base case: n = 2
+
+The theorem literally states this is true
+
+Inductive step: 
+
+Let $A = (A_{1} \cdot A_{2} \dots A_{n})$, $B = A_{n + 1}$
+
+$$
+\begin{align}
+(A_{1} \cdot A_{2} \dots A_{n+1})^{-1} &= (A \cdot B)^{-1} \\
+&= B^{-1} \cdot A^{-1} \\
+&= A_{n + 1}^{-1} \cdot A_{n}^{-1} \cdot A_{n - 1}^{-1} \dots A_{1}
+\end{align}
+$$
+
+$S(n+ 1)$ holds true given $S(n)$ is true.

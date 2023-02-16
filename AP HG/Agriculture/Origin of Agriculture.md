@@ -46,7 +46,7 @@ How these activities, such as agriculture, are produced ([[Wallerstein's World-S
 	- sheep in turkey
 - started when people became more sedentary
 - reasons:
-	- cermony
+	- ceremony
 	- scavengers
 	- protection
 	- pets
