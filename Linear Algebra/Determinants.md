@@ -8,6 +8,8 @@ If the orientation of space is inverted, then determinant is negative. You can u
 
 Above properties are for 2-D but apply to 3D as well. 
 
+# Calculation
+
 The determinant is calculated as follows for a transformation:
 
 $$
@@ -16,4 +18,71 @@ a & b \\
 c & d
 \end{bmatrix} \right)
 = ad - bc
+$$
+
+For larger matrices, we use
+
+## Laplace's Expansion
+
+Calculate $\det(A)$
+
+$$
+A = \begin{pmatrix}
+2 & 0 & 0 & 1 & 3 \\
+0 & 4 & 0 & 5 & 0 \\
+1 & 0 & -1 & 0 & 0 \\
+0 & 0 & 0 & 2 & 1 \\
+4 & 1 & 0 & 0 & -2
+\end{pmatrix}
+$$
+
+$$
+\begin{align}
+\det(A) &= 1 \cdot \det(\begin{pmatrix}
+0 & 0 & 1 & 3 \\
+4 & 0 & 5 & 0 \\
+0 & 0 & 2 & 1 \\
+1 & 0 & 0 & -2
+\end{pmatrix}) -1\cdot \det(\begin{pmatrix}
+2 & 0 & 1 & 3 \\
+0 & 4 & 5 & 0 \\
+0 & 0 & 2 & 1 \\
+4 & 1 & 0 & -2
+\end{pmatrix}) \\
+&= 0 - 2\det \begin{pmatrix}
+2 & 0 & 3 \\
+0 & 4 & 0 \\
+4 & 1 & -2
+\end{pmatrix} + \det \begin{pmatrix}
+2 & 0 & 1 \\
+0 & 4 & 5 \\
+4 & 1 & 0
+\end{pmatrix} \\
+&= -2 \cdot 4\det \begin{pmatrix}
+2 & 3 \\
+4 & -2
+\end{pmatrix} + 2\det \begin{pmatrix}
+4 & 5 \\
+1 & 0
+\end{pmatrix} + \det \begin{pmatrix}
+0 & 4 \\
+4 & 1
+\end{pmatrix} \\
+&= 128 -10+-16 \\
+&= 102
+\end{align}
+$$
+
+Or you can calculate the same using the 
+
+## Triangle Method
+
+$$
+A \to \begin{pmatrix}
+2 & 0 & 0 & 1 & 3 \\
+0 & 4 & 0 & 5 & 0 \\
+0 & 0 & -1 & -\frac{1}{2} & -\frac{3}{2} \\
+0 & 0 & 0 & 2 & 1 \\
+0 & 0 & 0 & 0 & -\frac{51}{8}
+\end{pmatrix}
 $$
