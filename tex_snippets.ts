@@ -99,7 +99,7 @@
     {trigger: "im", replacement: "\\mathrm{Im}", options: "mA"},
     {trigger: "fora", replacement: "\\forall", options: "mA"},
     {trigger: "lnot", replacement: "\\lnot", options: "mA"},
-    {trigger: "not", replacement: "\not", options: "mA"},
+    {trigger: "not", replacement: "\\not", options: "mA"},
     {trigger: "tf", replacement: "\\therefore", options: "mA"},
 
 

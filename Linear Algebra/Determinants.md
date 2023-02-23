@@ -1,3 +1,5 @@
+# Geometric Intuition
+
 One good way of measuring [[Linear Transformations|linear transformations]] is with how the area of a given region changes. You can think of the determinant of a matrix as a measure of the linear transformation the matrix represents.
 
 When a linear transformation is applied to the space, every region in the space changes area by the same factor, called the **determinant**. For example, if a transformation increases every area by 3, its determinant 3
@@ -10,7 +12,7 @@ Above properties are for 2-D but apply to 3D as well.
 
 # Calculation
 
-The determinant is calculated as follows for a transformation:
+The determinant of a $2\times 2$ matrix is calculated as follows:
 
 $$
 \det \left( \begin{bmatrix}
@@ -20,11 +22,21 @@ c & d
 = ad - bc
 $$
 
-For larger matrices, we use
+## Determinant of Matrix Product
+
+The determinant the product of two matrices is just the product of their determinants.
+
+$$
+\det(AB) = \det A \cdot \det B
+$$
+
+### Proof
+
+
 
 ## Laplace's Expansion
 
-Calculate $\det(A)$
+For larger matrices, such as 
 
 $$
 A = \begin{pmatrix}
@@ -35,6 +47,10 @@ A = \begin{pmatrix}
 4 & 1 & 0 & 0 & -2
 \end{pmatrix}
 $$
+
+we use Laplace's Expansion. Laplace's Expansion states that 
+
+... TODO ...
 
 $$
 \begin{align}
@@ -77,6 +93,8 @@ Or you can calculate the same using the
 
 ## Triangle Method
 
+First, we convert the matrix into row echelon.
+
 $$
 A \to \begin{pmatrix}
 2 & 0 & 0 & 1 & 3 \\
@@ -87,10 +105,11 @@ A \to \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Then, multiplying the diagonal: 
+Then, multiplying along the diagonal and by the determinants of any elementary matrices used in converting to row echelon form: 
 
 $$
 \det A = 102
 $$
 
-This works because 
+### Proof
+
