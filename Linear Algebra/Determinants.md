@@ -86,3 +86,11 @@ A \to \begin{pmatrix}
 0 & 0 & 0 & 0 & -\frac{51}{8}
 \end{pmatrix}
 $$
+
+Then, multiplying the diagonal: 
+
+$$
+\det A = 102
+$$
+
+This works because 
