@@ -15,6 +15,23 @@
 - transitive
 	- if $(x, y)$ and $(y, z)$ are in relation, then $(x, z)$ is also in relation
 
+## Equivalence Relation
+
+- reflexive
+- symmetric
+- transitive
+
+## Partial Order
+
+- reflexive
+- antisymmetric
+- transitive
+
+## Total Order
+
+- same as partial order but
+- for any $x,y$, either $(x,y)$ is a relation or $(y,x)$ is a relation
+
 # Graphs
 
 - vertices and edges

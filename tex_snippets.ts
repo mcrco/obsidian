@@ -82,6 +82,7 @@
     {trigger: "([a-zA-Z])bar", replacement: "\\bar{[[0]]}", options: "rmA"},
     {trigger: "([a-zA-Z])hat", replacement: "\\hat{[[0]]}", options: "rmA"},
     {trigger: "([a-zA-Z])ddot", replacement: "\\ddot{[[0]]}", options: "rmA"},
+    {trigger: "([a-zA-Z])bf", replacement: "\\mathbf{[[0]]}", options: "rmA"},
     {trigger: "ddot", replacement: "\\ddot{$0}", options: "mA"},
     {trigger: "([a-zA-Z])dot", replacement: "\\dot{[[0]]}", options: "rmA"},
     {trigger: "conj", replacement: "^{*}", options: "mA"},

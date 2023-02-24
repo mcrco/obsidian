@@ -22,18 +22,6 @@ c & d
 = ad - bc
 $$
 
-## Determinant of Matrix Product
-
-The determinant the product of two matrices is just the product of their determinants.
-
-$$
-\det(AB) = \det A \cdot \det B
-$$
-
-### Proof
-
-
-
 ## Laplace's Expansion
 
 For larger matrices, such as 
@@ -48,9 +36,11 @@ A = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-we use Laplace's Expansion. Laplace's Expansion states that 
+we use Laplace's Expansion. Laplace's Expansion states that the definition of the determinant of a matrix is 
 
-... TODO ...
+$$
+\det A = \sum_{i=1}^{n} (-1)^{i + 1}a_{i_{1}}
+$$
 
 $$
 \begin{align}
@@ -89,11 +79,9 @@ $$
 \end{align}
 $$
 
-Or you can calculate the same using the 
-
 ## Triangle Method
 
-First, we convert the matrix into row echelon.
+If we have a matrix with an upper or lower triangle (upper triangle shown below)
 
 $$
 A \to \begin{pmatrix}
@@ -111,5 +99,119 @@ $$
 \det A = 102
 $$
 
-### Proof
+This is just an extension of Laplace's Expansion.
 
+# Determinant of Matrix Product
+
+The determinant the product of two matrices is just the product of their determinants.
+
+$$
+\det(AB) = \det A \cdot \det B
+$$
+
+## Proof
+
+To prove it, we must start with proving the above property for elementary matrices.
+
+### Row Swapping
+
+The formula for the determinant of a row-swapping elementary matrix $\mathbf{E}$ by a matrix $\mathbf{A}$ is 
+
+$$
+-\det \mathbf{A}
+$$
+
+Our lord and savior Chris Ge provides both an informal and formal proof. Since I hate collared shirts, the informal proof is as follows:
+
+1. Swapping adjacent rows -> determinant is multiplied by -1 (Laplace's Expansion)
+2. Swapping two non-adjacent rows $i$ and $j$ is the same as making $2(j - i) - 1$ swaps -> determinant is multiplied by -1.
+
+### Row Multiplication
+
+Given an elementary matrix $\mathbf{E}$ that multiplies a row of a matrix $\mathbf{A}$ by a factor $c$, the determinant of $\mathbf{EA}$ is 
+
+$$
+c\det \mathbf{A}
+$$
+
+or equivalently
+
+$$
+\det \mathbf{C}\det \mathbf{A}
+$$
+
+We know that the determinant of $\mathbf{C}$ is just $c$ by the [[#Triangle Method]].
+
+The proof for this formula is pretty intuitive; if you use Laplace's Expansion along the row of $\mathbf{A}$ that was scaled by the factor $c$, then the determinant is naturally going to be multiplied by $\frac{1}{c}$.
+
+### Row Addition/Subtraction
+
+Given an elementary matrix $\mathbf{E}$ that performs row addition within a matrix $\mathbf{A}$, the determinant of $\mathbf{EA}$ is just 
+
+$$
+\det \mathbf{A}
+$$
+
+or equivalently
+
+$$
+\det \mathbf{E} \det \mathbf{A}
+$$
+
+This is because the determinant, according to Laplace's Expansion, is a linear function of the rows and columns of the matrix. Therefore, adding rows to each other means that they cancel out eventually. 
+
+Here's an example. Let 
+
+$$
+\mathbf{A} = \begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{bmatrix}
+$$
+
+The determinant is 
+
+$$
+\det \mathbf{A} = a_{11}(a_{22}a_{33} - a_{23}a_{32}) - a_{12}(a_{21}a_{33} - a_{23}a_{31}) + a_{13}(a_{21}a_{32} - a_{22}a_{31})
+$$
+
+Now, if we add two of $R_{1}$ to $R_{2}$, 
+
+$$
+\mathbf{A} = \begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} + 2a_{11} & a_{22} + 2a_{12} & a_{23} + 2a_{13} \\
+a_{31} & a_{32} & a_{33}
+\end{bmatrix}
+$$
+
+The determinant is 
+
+$$
+\begin{align}
+\det \mathbf{A} &= a_{11}((a_{22} + 2a_{12})a_{33} - (a_{23} + 2a_{13})a_{32}) \\
+&- a_{12}((a_{21} + 2a_{11})a_{33} - (a_{23} + 2a_{13})a_{31})  \\
+&+ a_{13}((a_{21} + 2a_{11})a_{32} - (a_{22}+2a_{13})a_{31}) \\
+&= a_{11}(a_{22}a_{33} - a_{23}a_{32}) - a_{12}(a_{21}a_{33} - a_{23}a_{31}) + a_{13}(a_{21}a_{32} - a_{22}a_{31})
+\end{align}
+$$
+
+Thus ending our proof.
+
+### Combining Elementary Matrices
+
+Now that we have our above lemmas, we can just combine them all to say that for any matrices $\mathbf{A}$ and $\mathbf{B}$, as long as one of them are [[Inverse of a Matrix|invertible]], 
+
+$$
+\det \mathbf{AB} = \det \mathbf{A}\det \mathbf{B}
+$$
+
+This is because invertible matrices can be written as the product of a series of elementary matrices, allowing us to expand out the determinant of the product as a product of many determinants of elementary matrices.
+
+$$
+\begin{align}
+\det \mathbf{AB} &= \det(\mathbf{E}_{1}\mathbf{E}_{2}\dots \mathbf{E}_{n}\mathbf{B}) \\
+&= \det \mathbf{E}_{1}\det \mathbf{E}_{2}\dots \det \mathbf{E}_{n}\det \mathbf{B}
+\end{align}
+$$
