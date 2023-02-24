@@ -1,3 +1,5 @@
+	- 
+
 # Intro
 
 - soybeans in South Dakota
@@ -14,5 +16,5 @@ Above shows the impact of agriculture on our society and how it shapes our lives
 1. [[Origin of Agriculture]]
 2. [[Industralization and Agriculture]]
 3. [[Agriculture and Cultural Landscape]]
-4. [[Global Agriculture and Agribusiness]]
+4. [[Global Pattern of Agriculture and Agribusiness]]
 
