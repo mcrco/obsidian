@@ -215,3 +215,28 @@ $$
 &= \det \mathbf{E}_{1}\det \mathbf{E}_{2}\dots \det \mathbf{E}_{n}\det \mathbf{B}
 \end{align}
 $$
+
+# Properties
+
+
+1. If $A$ is invertible
+$$
+\det A^{-1} = \frac{1}{\det A}
+$$
+
+2. If one row of $A$ is a multiple of another row, then
+
+$$
+\det A = 0
+$$
+
+3. If A has a row or column of all zeroes, then
+
+$$
+\det A = 0
+$$
+
+4. If $\det A = 0$, then $A$ is not invertible
+
+
+
