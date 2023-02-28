@@ -2,7 +2,7 @@
   "obsidian-latex-suite",
   "obsidian-relative-line-numbers",
   "obsidian-tikzjax",
-  "table-editor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian"
 ]

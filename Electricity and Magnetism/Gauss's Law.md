@@ -1,10 +1,10 @@
-Solving for the electric field of a single particle is simple, but solving for the electric field with space is more challenging. To do this, we must enclose the space in a Gaussian shape and then use Gauss's Law:
+Solving for the electric field of a single particle is simple, but solving for the electric field with space is more challenging. To do this, we must enclose the space in a Gaussian shape and then use Gauss's Law.
+
+Gauss's Law states that the [[Flux Integral|electric flux through a closed surface]] $\propto$ the charge enclosed within that surface.
 
 $$
 \phi_{E} = \oint \vec{E} d\vec{A} = \frac{Q_{enc}}{\epsilon_{0}}
 $$
-
-$\phi_{E}$ is the electric flux of the enclosed space across its surface, meaning Gauss's Law is a variation of a [[Parametric Surface and Surface Integral|Surface Integral]] or a [[Flux Integral]]. 
 
 # Uniform Charge Density
 

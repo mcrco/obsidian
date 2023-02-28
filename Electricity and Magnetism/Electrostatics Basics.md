@@ -76,3 +76,12 @@ $$
 \implies \frac{\vec{F}_{e}}{\vec{F}g} &= 10^{39}
 \end{align}
 $$
+
+# [[Electric Field]], Electric Potential, Work-Energy
+
+| Vector | Scalar |
+| ------------- | ------------- |
+| $\vec{F} = \frac{kq^{2}}{r^{2}}$ | $U_{e} = \int \vec{F} \, d\vec{r} = \frac{kq^{2}}{r}$ |
+| $\vec{E} = \frac{kq}{r^{2}}$ | $V = \int \vec{E} \, d\vec{r} = \frac{kq}{r}$
+
+As seen in the table above, electric potential can be describe with an analogy of gravitational potential. It's the g constant.

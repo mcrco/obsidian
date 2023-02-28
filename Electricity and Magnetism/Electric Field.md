@@ -24,7 +24,7 @@ $$
 \phi_{electric} = \frac{Q}{\epsilon_{0}} = \vec{E}dA,
 $$
 
-where $\epsilon_{0}$ is the permittivity of the space around the particle (how well space stores electrical energy), $A$ is the surface area.
+where $\epsilon_{0}$ is the permittivity of the space around the particle (how well space stores electrical energy), $A$ is the surface area. This formula is [[Gauss's Law]].
 
 Since the magnetic field is a sphere, 
 
