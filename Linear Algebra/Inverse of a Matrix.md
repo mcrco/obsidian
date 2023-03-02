@@ -74,7 +74,8 @@ E_{6} = \begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end{pmatrix}
+\end{pmatrix} \\
+A^{-1} = E_{1}E_{2}E_{3}E_{4}E_{5}E_{6}
 \end{align}
 $$
 
