@@ -9,6 +9,8 @@ $$
 I = \frac{\Delta q}{\Delta t} = \frac{neA\Delta d}{\Delta t}
 $$
 
+where $n$ is the number of electrons per meter cubed, $e$ is the charge, and $A$ is the cross sectional area.
+
 The speed of electrons is called drift velocity and is defined as follows
 
 $$
@@ -31,7 +33,7 @@ Power is defined as energy over time. Since we know that voltage is energy per c
 
 $$
 \begin{align}
-P = \frac{dU}{dt} &= \frac{dV}{dq} \cdot \frac{dq}{dt} \\
+P = \frac{dU}{dt} &= \frac{dU}{dq} \cdot \frac{dq}{dt} \\
 &= IV \\
 &=I^{2}R \\
 &= \frac{V^{2}}{R}
