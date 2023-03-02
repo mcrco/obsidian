@@ -34,7 +34,7 @@ Power is defined as energy over time. Since we know that voltage is energy per c
 $$
 \begin{align}
 P = \frac{dU}{dt} &= \frac{dU}{dq} \cdot \frac{dq}{dt} \\
-&= IV \\
+&= VI \\
 &=I^{2}R \\
 &= \frac{V^{2}}{R}
 \end{align}

@@ -77,3 +77,60 @@ $$
 \end{align}
 $$
 
+# Cramer's Rule
+
+## Theorem
+
+Let $\mathbf{A}$ be an invertible $n\times n$ matrix. For any $\vec{b}$ in $\mathbb{R}^{n}$, the unique solution $\vec{x}$ of $\mathbf{A}\vec{x}=\vec{b}$ has entries given by
+
+$$
+x_{i} = \frac{\det \mathbf{A}_{i}(\vec{b})}{\det \mathbf{A}}
+$$
+
+## Proof
+
+## Practice
+
+Solve the system of linear equations using Cramer's Rule.
+
+$$
+\begin{equation}
+\begin{cases}
+2x_{1} + 3x_{2} - x_{3} = 5 \\
+-x_{1} + 2x_{2} + 3x_{3} = 0 \\
+4x_{1} - x_{2} + x_{3} = -1
+\end{cases}
+\end{equation}
+$$
+
+$$
+\begin{align}
+\mathbf{A} &= \begin{bmatrix}
+2 & 3 & -1  \\
+-1 & 2 & 3  \\
+4 & -1 & 1
+\end{bmatrix} \\
+\det \mathbf{A} &= 56 \\
+\mathbf{A}_{x_{1}} &= \begin{bmatrix}
+5 & 3 & -1 \\
+0 & 2 & 3 \\
+-1 & -1 & 1
+\end{bmatrix} \\
+\det \mathbf{A_{x_{1}}} &= 14 \\
+x_{1} &= \frac{1}{4} \\
+\mathbf{A}_{x_{2}} &= \begin{bmatrix}
+2 & 5 & -1 &  \\
+-1 & 0 & 3 \\
+4 & -1 & 1
+\end{bmatrix} \\
+\det \mathbf{A_{x_{2}}} &= 70 \\
+x_{2} &= \frac{5}{4} \\
+\mathbf{A}_{x_{3}} &= \begin{bmatrix}
+2 & 3 & 5 \\
+-1 & 2 & 0 \\
+4 & -1 & -1
+\end{bmatrix} \\
+\det \mathbf{A_{x_{3}}} &= -42 \\
+x_{3} &= -\frac{3}{4}
+\end{align}
+$$
