@@ -4,9 +4,11 @@ A $n\times n$ matrix is invertible if there is an $n\times n$ matrix $\mathbf{C}
 
 # Finding the Inverse
 
+## Row Operations
+
 We can use the product of **elementary matrices** to find the inverse of a matrix. Elementary matrices are matrices that can be derived from the identity matrix with one step.
 
-## Example
+### Example
 
 Find the inverse of $\mathbf{A}$
 
@@ -76,6 +78,55 @@ E_{6} = \begin{pmatrix}
 0 & 0 & 1
 \end{pmatrix} \\
 A^{-1} = E_{1}E_{2}E_{3}E_{4}E_{5}E_{6}
+\end{align}
+$$
+
+## Adjugate Matrix
+
+The adjugate matrix is the transpose of the matrix of cofactors of $\mathbf{A}$. A cofactor is defined as 
+
+$$
+C_{ij} = (-1)^{i + j}\lvert M_{ij} \rvert
+$$
+
+The determinant of a matrix $\mathbf{A}$ in terms of the adjuaget is 
+
+$$
+\mathbf{A}^{-1} = \frac{1}{\det \mathbf{A}}adj(\mathbf{A})
+$$
+
+### Example
+
+$$
+\begin{align}
+adj(\mathbf{A}) &= 
+\begin{pmatrix}
+2 & 1 & 3 \\
+1 & -1 & 1 \\
+1 & 4 & -2
+\end{pmatrix} \\
+&= \begin{pmatrix}
+-2 & 3 & 5 \\
+14 & -7 & -7 \\
+4 & 1 & -3
+\end{pmatrix} ^{T} \\
+&= \begin{pmatrix}
+-2 & 14 & 4 \\
+3 & -7 & 1 \\
+5 & -7 & -3
+\end{pmatrix} \\
+\det \mathbf{A} &= 2\cdot -2 + 1 \cdot 3 + 3 \cdot 5 \\
+&= 14 \\
+\mathbf{A}^{-1} &= \frac{1}{14} \begin{pmatrix}
+-2 & 14 & 4 \\
+3 & -7 & 1 \\
+5 & -7 & -3
+\end{pmatrix} \\
+&= \begin{pmatrix}
+-\frac{1}{7} & 1 & \frac{2}{7} \\
+\frac{3}{14} & -\frac{1}{2} & \frac{1}{14} \\
+\frac{5}{14} & -\frac{1}{2} & -\frac{3}{14}
+\end{pmatrix}
 \end{align}
 $$
 
