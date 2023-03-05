@@ -1,0 +1,1 @@
+RC circuits are circuits with a resistor and a capacitor. 

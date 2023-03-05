@@ -39,5 +39,3 @@ P = \frac{dU}{dt} &= \frac{dU}{dq} \cdot \frac{dq}{dt} \\
 &= \frac{V^{2}}{R}
 \end{align}
 $$
-
-# RC Circuit
