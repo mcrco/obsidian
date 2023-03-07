@@ -2,6 +2,7 @@
 
 - basic capacitor: two conductive plates that are set a distance apart from each other
 - holds charge by creating imbalance of charge in 2 sides
+- accumulates charge until voltage difference is equal to that of connected voltage source
 
 ![[Pasted image 20230227171723.png]]
 
