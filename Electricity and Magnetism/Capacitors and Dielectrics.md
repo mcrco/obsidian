@@ -63,6 +63,10 @@ Here are some examples of what these properties ensue:
 	- battery connected -> $V$ stays the same, $C, Q \times 2$, $E \times \frac{1}{2}$
 	- battery disconnected -> $Q$ stays the same, $C \times 2$, $E, V \times \frac{1}{2}$
 
+## Line Integral
+
+
+
 ## Capacitors in Parallel
 
 ![[Pasted image 20230227215818.png]]
