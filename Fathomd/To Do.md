@@ -1,3 +1,10 @@
+# 03/11/2023
+
+- [ ] Modals for class creation/session duplication
+	- [ ] server method result = undefined
+- [ ] rewrite class session tables using react tables
+- [ ] 
+
 # 12/9/22
 
 - [x] Sort classes by date in completed class section (maybe dropdown)
