@@ -115,6 +115,7 @@
 
     // Symbols
     {trigger: "ooo", replacement: "\\infty", options: "mA"},
+    {trigger: "tpose", replacement: "^\\intercal $0", options: "mA"},
     {trigger: "sum", replacement: "\\sum", options: "mA"},
     {trigger: "prod", replacement: "\\prod", options: "mA"},
     {trigger: "pm", replacement: "\\pm", options: "m"},

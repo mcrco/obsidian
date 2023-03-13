@@ -83,13 +83,7 @@ $$
 
 ## Adjugate Matrix
 
-The adjugate matrix is the transpose of the matrix of cofactors of $\mathbf{A}$. A cofactor is defined as 
-
-$$
-C_{ij} = (-1)^{i + j}\lvert M_{ij} \rvert
-$$
-
-The determinant of a matrix $\mathbf{A}$ in terms of the adjuaget is 
+The inverse of a matrix $\mathbf{A}$ in terms of the [[Determinants|determinant]] and its [[Adjugate Matrix|adjugate matrix]] is
 
 $$
 \mathbf{A}^{-1} = \frac{1}{\det \mathbf{A}}adj(\mathbf{A})
