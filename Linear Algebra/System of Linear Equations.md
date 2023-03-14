@@ -17,7 +17,7 @@ $$
 \end{align}
 $$
 
-But we can also use matrices. The original equation is
+But we can also use [[Row Reduction and Echelon Forms|matrices]]. The original equation is
 
 $$
 \begin{pmatrix}

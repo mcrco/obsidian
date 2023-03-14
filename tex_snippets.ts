@@ -155,7 +155,7 @@
     {trigger: "**", replacement: "\\cdot", options: "mA"},
     {trigger: "pal", replacement: "\\parallel", options: "mA"},
     {trigger: "mag", replacement: "\\lvert \\lvert $0 \\rvert \\rvert $1", options: "mA"},
-
+    {trigger: "in", replacement: "\\in", options: "mA"},
 
     {trigger: "xnn", replacement: "x_{n}", options: "mA"},
     {trigger: "xii", replacement: "x_{i}", options: "mA"},
