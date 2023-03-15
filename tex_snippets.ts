@@ -121,6 +121,8 @@
     {trigger: "prod", replacement: "\\prod", options: "mA"},
     {trigger: "pm", replacement: "\\pm", options: "m"},
     {trigger: "mp", replacement: "\\mp", options: "m"},
+    {trigger: "prm", replacement: "^\\prime", options: "mA"},
+    {trigger: "pprm", replacement: "^{\\prime \\prime}", options: "mA"},
     {trigger: "...", replacement: "\\dots", options: "mA"},
     {trigger: "<->", replacement: "\\leftrightarrow ", options: "mA"},
     {trigger: "<--", replacement: "\\leftarrow ", options: "mA"},
