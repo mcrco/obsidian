@@ -63,6 +63,7 @@
 
     // Operations
     {trigger: "te", replacement: "\\text{$0}", options: "m"},
+    {trigger: "gcd", replacement: "\\text{gcd}($0)$1", options: "m"},
     {trigger: "bf", replacement: "\\mathbf{$0}", options: "mA"},
     {trigger: "sr", replacement: "^{2}", options: "mA"},
     {trigger: "cb", replacement: "^{3}", options: "mA"},
