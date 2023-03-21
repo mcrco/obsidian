@@ -1,9 +1,9 @@
 # 03/11/2023
 
 - [ ] Modals for class creation/session duplication
-	- [ ] server method result = undefined
-- [ ] rewrite class session tables using react tables
-- [ ] 
+	- [x] server method result = undefined
+- [x] rewrite class session tables using react tables
+- [ ] player list
 
 # 12/9/22
 
@@ -24,5 +24,5 @@
 - [x] duplicate class option
 - [x] sessions
 - [x] use Sessions from session-collections.coffee to display sessions
-- [ ] change sessions to include classId
+- [x] change sessions to include classId
 - [x] create new class by copying code for create new session and tweaking
