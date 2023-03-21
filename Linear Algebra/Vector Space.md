@@ -1,4 +1,4 @@
-# Vector Space and Subspace
+# Vector Space
 
 A vector space is a nonempty set $V$ of vectors with the following properties for $\vec{u}, \vec{v}, \vec{w} \in V$ and all scalars $c, d$. 
 
@@ -12,3 +12,7 @@ A vector space is a nonempty set $V$ of vectors with the following properties fo
 8. $(c + d)\vec{u} = c\vec{u} + d\vec{u}$ (2nd distribution)
 9. $c(d\vec{u}) = (cd)\vec{u}$ (association of scalar multiplication)
 10. $\exists 1 \in V : 1(\vec{u}) = \vec{u}$ (1 is multiplicative identity)
+
+# Subspace
+
+For a subset of a vector space to be a subspace, it only needs the following properties 1, 4, 6.
