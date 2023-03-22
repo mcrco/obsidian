@@ -3,7 +3,12 @@
 - [ ] Modals for class creation/session duplication
 	- [x] server method result = undefined
 - [x] rewrite class session tables using react tables
-- [ ] player list
+- [x] player list
+- [ ] css row for game headers + button (horizontal)
+- [ ] css row for class config form buttons 
+- [ ] css for buttons
+- [ ] instructor resources for page
+- [ ] 
 
 # 12/9/22
 
