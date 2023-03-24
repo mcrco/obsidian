@@ -62,3 +62,4 @@ So
 $$
 \text{Nul}\mathbf{A} = \text{span}\{ \vec{x_{2}} \vec{x_{3}}, \vec{x_{4}}\}
 $$
+
