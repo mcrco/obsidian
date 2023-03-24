@@ -4,11 +4,13 @@
 	- [x] server method result = undefined
 - [x] rewrite class session tables using react tables
 - [x] player list
-- [ ] css row for game headers + button (horizontal)
-- [ ] css row for class config form buttons 
-- [ ] css for buttons
-- [ ] instructor resources for page
-- [ ] 
+- [x] css row for game headers + button (horizontal)
+- [x] css row for class config form buttons 
+- [x] css for buttons
+- [x] instructor resources for page
+- [ ] return to dashboard link
+- [ ] game session dupe/delete options
+- [x] game session table date sort
 
 # 12/9/22
 
