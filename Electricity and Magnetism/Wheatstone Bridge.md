@@ -1,6 +1,6 @@
 A wheatstone bridge circuit can be drawn as shown below.
 
-To find $R_{4}$ as a function of the other values, we first find $V_{g}$ as a function of the other values using Kirchoff's Voltage Law on the loop consisting of the positive terminal of the battery, $R_{1}$, the voltmeter, $R_{3}$, and the negative end of the battery and the loop consisting of the positive end of the battery, $R_{1}$, $R_{4}$, and the negative end of the battery.
+To find $R_{4}$ as a function of the other values, we first find $V_{g}$ as a function of the other values using [[Kirchoff's Circuit Laws|KVL]] on the loop consisting of the positive terminal of the battery, $R_{1}$, the voltmeter, $R_{3}$, and the negative end of the battery and the loop consisting of the positive end of the battery, $R_{1}$, $R_{4}$, and the negative end of the battery.
 
 $$
 \begin{cases}

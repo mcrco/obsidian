@@ -1,6 +1,6 @@
 # Relations
 
-- set of ordered pairs
+- [[Sets|set]] of ordered pairs
 - has domain set and range set
 - common domain and range
 

@@ -1,3 +1,5 @@
+Applies to [[Line Integrals]]
+
 # Theorem
 
 Let R be a simply connected region with piecewise smooth curves C, oriented counterclockwise.

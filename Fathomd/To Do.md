@@ -1,6 +1,6 @@
 # 03/11/2023
 
-- [ ] Modals for class creation/session duplication
+- [ ] Modals for class creation/session duplication/class deletion
 	- [x] server method result = undefined
 - [x] rewrite class session tables using react tables
 - [x] player list
@@ -8,8 +8,8 @@
 - [x] css row for class config form buttons 
 - [x] css for buttons
 - [x] instructor resources for page
-- [ ] return to dashboard link
-- [ ] game session dupe/delete options
+- [x] return to dashboard link
+- [x] game session dupe/delete options
 - [x] game session table date sort
 
 # 12/9/22

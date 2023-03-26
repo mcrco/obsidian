@@ -1,8 +1,7 @@
-Finally, you can choose to include a fundingUrl in your plugin manifest. Users will be shown a link in-app to donate to you. You can put your Buy Me A Coffee links or Ko-fi here.
-
 # Dot Product
 
 The dot product or scalar product is the index wise multiplication of two vectors, denoted by the syntax below
+
 $$
 \vec{u} \cdot \vec{v}
 $$
@@ -10,11 +9,16 @@ $$
 # Cross Product
 
 The cross product of two vectors produces a third vector that is orthogonal to the originals, and is denoted as shown below
+
 $$
 \vec{u} \times \vec{v}
 $$
 
 # Applications
+
+## Modeling Space
+
+Dot products are cross products are essential to calculations of relationships between vectors/[[Vector Fields]] such as those in [[Flux Integral]], [[Curl and Divergence]], [[Line Integrals]], and more.
 
 ## Angles
 

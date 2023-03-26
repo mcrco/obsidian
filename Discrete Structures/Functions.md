@@ -1,4 +1,4 @@
-- definition: one-way correspondence between two sets
+- definition: one-way correspondence between two [[Sets|sets]]
 - examples
 	- mod function
 		- $k\mod m: k \in \mathbb{R} \to \{ n| n \in Z, 0 \leq n < m \}$
@@ -36,5 +36,4 @@ Clearly there is only one x per y.
 
 ### Demonstration
 
-$f(x)=x^{2}$ is surjective but not injective for $D: \{ x|x\in\mathbb{R} \}$, $R:\{ y|y\in\mathbb{R} \}$
-
+ $f(x)=x^{2}$ is surjective but not injective for $D: \{ x|x\in\mathbb{R} \}$, $R:\{ y|y\in\mathbb{R} \}$

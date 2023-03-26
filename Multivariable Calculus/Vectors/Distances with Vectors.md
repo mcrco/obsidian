@@ -1,3 +1,5 @@
+[[Geometric Applications of Dot Products and Cross Products]].
+
 # Point to Line
 
 $$

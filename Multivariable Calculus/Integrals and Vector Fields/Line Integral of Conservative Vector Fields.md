@@ -1,4 +1,6 @@
- on particle moving counterclockwise around the closed path Recall $\vec{F}$ is a conservative vector field iff $\vec{F}=\nabla f$ for some function f.
+Extension of [[Line Integrals]].
+
+Recall $\vec{F}$ is a conservative vector field iff $\vec{F}=\nabla f$ for some function f.
 
 If $\vec{F}$ is a conservative vector field, the path is indpendent -- it doesn't matter which path we move from a to b because the same amount of wokr is done
 
@@ -7,7 +9,7 @@ If $\vec{F}$ is a conservative vector field, the path is indpendent -- it doesn'
 $$
 \begin{align}
 \int_{a}^{b} f(x) \, dx &= F(x)|_{b}^{a} 
-&= F(b) - F(a)
+= F(b) - F(a)
 \end{align}
 $$
 
