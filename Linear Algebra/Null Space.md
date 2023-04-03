@@ -1,4 +1,4 @@
-A null space of a $\mathbf{A}$ is the set of solutions to 
+A null space, or kernel, of a $\mathbf{A}$ is the set of solutions to 
 
 $$
 \mathbf{A}\vec{x} = \vec{0}
@@ -62,4 +62,11 @@ So
 $$
 \text{Nul}\mathbf{A} = \text{span}\{ \vec{x_{2}} \vec{x_{3}}, \vec{x_{4}}\}
 $$
+
+# [[Linear Transformations]] for Vector Spaces
+
+1. $T(\vec{u} + \vec{v}) = T(\vec{u}) + T(\vec{v})$
+2. $T(c\vec{u}) = cT(\vec{u})$
+
+The kernel of $T$ is the set of all $\vec{u} \in V : T(\vec{u}) = \vec{0}$.
 
