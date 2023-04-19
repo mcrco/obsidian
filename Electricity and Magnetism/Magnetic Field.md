@@ -35,6 +35,11 @@ Using the Biot-Savart Law for a moving charge, we rewrite it in terms of many mo
 $$
 \begin{align}
 \vec{B} &= \int \frac{\mu_{0}v\sin \theta}{4\pi r^{2}} \, dq \\
-&=  
+&= \int \frac{\mu_{0}\sin \theta}{4\pi r^{2}}\frac{dl}{dt} \, dq \\
+&= \int \frac{\mu_{0}\sin \theta}{4\pi r^{2}}I \, dl   \\
+&= \frac{\mu_{0}}{4\pi}I\int \frac{x}{r} \cdot \frac{1}{r^{2}} \, dl  \\
+&= \frac{\mu_{0}}{4\pi}I\int \frac{x}{\sqrt{ x^{2}+l^{2} }} \cdot \frac{1}{x^{2}+l^{2}} \, dl \\
+&= \frac{\mu_{0}}{4\pi}Ix\int_{-\infty}^{\infty} \frac{1}{(x^{2}+l^{2})^{\frac{3}{2}}} \, dl \\
+&= \frac{\mu_{0}Ix}{4\pi}
 \end{align}
 $$
