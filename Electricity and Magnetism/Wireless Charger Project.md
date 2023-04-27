@@ -20,7 +20,7 @@ Test 3 different wireless chargers and efficiencies:
 	- capacitance and resistance 
 - distance
 	- test all charger/receiver pair efficiency at 1cm, 5cm, 10cm, 15cm, 30cm
-
+ 
 # Materials
 
 - copper wire
@@ -29,6 +29,12 @@ Test 3 different wireless chargers and efficiencies:
 - voltmeter
 - ammeter
 - power source
+
+# Parts
+
+## Oscillator
+
+We use [[Colpitt's Oscillator]]
 
 # Regular Inductive Charging
 
