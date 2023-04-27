@@ -1,6 +1,6 @@
 # 03/11/2023
 
-- [ ] Modals for class creation/session duplication/class deletion
+- [x] Modals for class creation/session duplication/class deletion
 	- [x] server method result = undefined
 - [x] rewrite class session tables using react tables
 - [x] player list
