@@ -10,4 +10,19 @@
 	- 1 emitter bypass resistor
 -  1 indcutor
 	- 1mh
- - oscilloscope (or radio)
+ - oscilloscope (or radio)\
+
+# Derivation
+
+## LC
+
+We want 150 khz
+
+$$
+\begin{align}
+f &= \frac{1}{2\pi \sqrt{ LC }} \\
+150000 &= \frac{1}{2\pi \sqrt{ LC_{total} }} \\
+\implies C_{total} &= \frac{1}{9\cdot 10^{10}\pi^{2}L} \\
+\implies \frac{C_{1}C_{2}}{C_{1} + C_{2}} &= \frac{1}{9\cdot 10^{10}\pi^{2}L} \\
+\end{align}
+$$
