@@ -103,6 +103,7 @@
     {trigger: "lnot", replacement: "\\lnot", options: "mA"},
     {trigger: "not", replacement: "\\not", options: "mA"},
     {trigger: "tf", replacement: "\\therefore", options: "mA"},
+    {trigger: "choose", replacement: "{$0 \\choose $1} $2", options: "mA"},
 
 
     // Visual operations
