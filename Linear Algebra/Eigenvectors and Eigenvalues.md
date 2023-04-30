@@ -21,7 +21,7 @@ $$
 (\mathbf{A} - \lambda \mathbf{I})\vec{v} = 0
 $$
 
-Since the eigenvector is non-zero, we must have the whole product equal to 0. The only time this happens is in a matrix vector multiplicaiton, which can also be viewed as a [[Linear Transformations|linear transformation]], is when the [[Determinants|determinant]] of the matrix/linear transformation is 0. Solving as said,
+Since the eigenvector is non-zero, we must have the whole product equal to 0. The only time this happens is in a matrix vector multiplication, which can also be viewed as a [[Linear Transformations|linear transformation]], is when the [[Determinants|determinant]] of the matrix/linear transformation is 0. Solving as said,
 
 $$
 \begin{align}

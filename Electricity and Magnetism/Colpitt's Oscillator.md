@@ -26,3 +26,9 @@ f &= \frac{1}{2\pi \sqrt{ LC }} \\
 \implies \frac{C_{1}C_{2}}{C_{1} + C_{2}} &= \frac{1}{9\cdot 10^{10}\pi^{2}L} \\
 \end{align}
 $$
+
+We want feedback ratio to roughly be 1/3
+
+$$
+C_{1}/
+$$
