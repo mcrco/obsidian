@@ -3,15 +3,31 @@
 1. 5366280699654138 -> 0
 4. 419-6888-7169-444 -> invalid
 17. both
-18. neither
+18. neither=
 20. neither
 29. Every output has at most one input. For every number in the codomain in the form $2^{m}3^{n}$, there is at most one tuple of inputs since prime factorizations are unique. For every number in the codomain not in the form, there is no input.
 43. $X = \frac{Y - 2}{4}$
 44. $X = \log_{3}Y$
 45. $X = 2^{\frac{Y}{3}}$
-50. $f \circ f$
+50. $$
+\begin{align}
+f \circ f &= 4n + 3 \\
+g \circ g &= 9n - 4 \\
+f \circ g &= 6n - 1 \\
+g \circ f &= 6n + 2
+\end{align}
+$$
+
+96. 101
+98. 111
 
 # p. 137 #10, 45, 50, 73, 128, 142 (a, b, c), 146 
+
+10. 5
+45. 12
+50. 3
+73. 15
+74. 
 
 # p.150 #18, 19, 24 
 
