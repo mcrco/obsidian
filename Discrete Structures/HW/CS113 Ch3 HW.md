@@ -27,8 +27,66 @@ $$
 45. 12
 50. 3
 73. 15
-74. 
+128. Base Case
+$$
+\begin{align}
+z_{0} &= -1 \\
+z_{1} &= -14 \\
+z_{2} &= 7(-14) - 10(-1) = 3 \cdot 2^{2} - 4 \cdot 5^{2} = -88
+\end{align}
+$$
+Induction assuming $r_{n}$ is true:
+$$
+\begin{align}
+r_{n+1} &= 7r_{n} - 10r_{n-1} \\
+&= 7(3\cdot 2^{n} - 4 \cdot 5 ^{n}) - 10(3\cdot 2 ^{n-1} - 4 \cdot 5 ^{n-1}) \\
+&= 21 \cdot 2 ^{n} - 28 \cdot 5^{n} - 15 \cdot 2^{n} + 8 \cdot 5 ^{n} \\
+&= 6 \cdot 2 ^{n} - 20\cdot 5^{n} \\
+&= 3 \cdot 2^{n+1} - 4 \cdot 5^{n+1}
+\end{align}
+$$
+142. a. $baabcaaba$
+b. caababaab
+c. baabbaab
+146. 0, 1, 01, 10, 00, 11, 000, 001, 010, 011, 100, 101, 110, 111
 
 # p.150 #18, 19, 24 
 
-# p.156 #1, 5 or 9, 16, 18, 39 p. 164 #8, 17(a, b, c, d)
+18. $\{ (4,1), (5,2), (1,1), (2,2), (3,3), (4,4), (5,5) \}$
+19. $\{ (1,4), (2,5), (1,1), (2,2), (3,3), (4,4), (5,5) \}$
+24. not reflexive, symmetric, not antisymmetric, not transitive, not ordered
+
+# p.156 #1, 5 or 9, 16, 18, 39 
+
+1. equivalent
+5. equivalent
+16. yes
+
+# p. 164 #8, 17(a, b, c, d)
+
+8. $\{ (a, w), (w, a), (c, y), (y, c), (d, w), (w, d), (d, x), (x, d), (d, y), (y, d), (d, z), (z, d) \}$
+17. a. $$
+\begin{pmatrix}
+1 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix}
+$$
+b. $$
+\begin{pmatrix}
+0 & 0 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+1 & 1 & 0 & 0 \\
+1 & 1 & 1 & 0
+\end{pmatrix}
+$$
+c.$$
+\begin{pmatrix}
+3 & 2 & 1 & 0 \\
+2 & 1 & 1 & 0 \\
+1 & 1 & 0 & 0 \\
+1 & 1 & 1 & 0
+\end{pmatrix}
+$$
+d. $\{ (1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(4,1),(4,2),(4,3) \}$
