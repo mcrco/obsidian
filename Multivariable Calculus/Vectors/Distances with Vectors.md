@@ -1,4 +1,4 @@
-[[Geometric Applications of Dot Products and Cross Products]].
+[[Vectors for Geometry]].
 
 # Point to Line
 
