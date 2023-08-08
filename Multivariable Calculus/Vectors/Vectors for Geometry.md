@@ -14,13 +14,7 @@ $$
 \vec{u} \times \vec{v}
 $$
 
-# Applications
-
-## Modeling Space
-
-Dot products are cross products are essential to calculations of relationships between vectors/[[Vector Fields]] such as those in [[Flux Integral]], [[Curl and Divergence]], [[Line Integrals]], and more.
-
-## Angles
+# Angles
 
 With Law of Cosines, we can prove
 $$
@@ -31,16 +25,13 @@ $$
 \lvert \lvert \vec{u} \times \vec{v} \rvert \rvert = \lvert \lvert u \rvert \rvert \lvert \lvert \vec{v} \rvert \rvert \sin \theta
 $$
 
-## Component
-
-### Formula
+# Component
 
 $$
 comp_{\vec{u}}\vec{v} = \frac{\vec{u}\cdot \vec{v} }{\lvert \lvert u \rvert \rvert}
 $$
-### Derivation
 
-Component is the magnitude of one vector along another, so to find it we cna just multiply the magnitude of the projected vector by the sine of the angle between the two vectors. 
+Component is the magnitude of one vector along another, so to find it we can just multiply the magnitude of the projected vector by the sine of the angle between the two vectors. 
 
 $$
 \begin{align}
@@ -50,15 +41,11 @@ comp_{\vec{u}}\vec{v} &= \lvert \lvert \vec{v} \rvert \rvert \cdot \cos \theta \
 \end{align}
 $$
 
-## Projection
-
-### Formula
+# Projection
 
 $$
 proj_{\vec{u}}\vec{v} = \vec{u} \frac{\vec{u}\cdot \vec{v}}{\lvert \lvert u \rvert \rvert ^{2}}
 $$
-
-### Derivation
 
 Since the projection is like the component (but the vector), we can just multiply the component expression by the unit vector of vector being projected onto.
 
@@ -69,14 +56,11 @@ proj_{\vec{u}}\vec{v} &= \frac{\vec{u}}{\lvert \lvert \vec{u} \rvert \rvert } \c
 \end{align}
 $$
 
-## Area of Parallelogram
+# Area of Parallelogram
 
-### Formula
 $$
 A = \lvert \lvert \vec{u} \times \vec{v} \rvert \rvert
 $$
-
-### Derivation
 
 The formula for the area of a parallelogram is 
 $$
@@ -97,20 +81,16 @@ A &= \lvert \lvert \vec{u} \rvert \rvert \lvert \lvert \vec{v} \rvert \rvert \fr
 \end{align}
 $$
 
-## Volume of Parallelpiped
-
-### Formula
-
-The volume of a parallelpiped formed by vectors $\vec{a}, \vec{b}, \vec{c}$ can be found using the formula below:
+# Volume of Parallelpiped
 
 $$
-V = \lvert \lvert (\vec{a} \times \vec{b}) \cdot \vec{c} \rvert \rvert 
+V = \lvert \lvert (\vec{a} \times \vec{b}) \cdot \vec{c} \rvert \rvert,
 $$
 
-### Derivation
+where $\vec{a}, \vec{b}, \vec{c}$ form the parallelpiped
 
 We know that the volume of a parallelpiped is the product of the area of the base (formed by $\vec{a}$ and $\vec{b}$) and the height, we can plug in a few values we already know:
-12
+
 $$
 V = \lvert \lvert \vec{a} \times \vec{b} \rvert \rvert (\lvert \lvert \vec{c} \rvert \rvert \cos \phi)
 $$
@@ -128,3 +108,19 @@ V &= \lvert \lvert \vec{a} \times \vec{b} \rvert \rvert \lvert \lvert \vec{c} \r
 \end{align}
 $$
 
+
+# Modeling Space
+
+Dot products are cross products are essential to calculations of relationships between vectors/[[Vector Fields]] such as those in [[Flux Integral]], [[Curl and Divergence]], [[Line Integrals]], and more.
+
+## Line
+
+A line can be expressed in parametric form as a point on the line, $P$, a vector $v$, and a scalar $t$.
+
+$$
+L = P + t\vec{v}
+$$
+
+## Plane
+
+A plane can be expressed as a 

@@ -27,6 +27,27 @@ $$
 45. 12
 50. 3
 73. 15
+<<<<<<< HEAD
+128. Proving base case:
+$$
+\begin{align}
+z_{0} &= 2 \\
+z_{1} &= 9 \\
+\end{align}
+$$
+
+Proving inductive step:
+
+$$
+\begin{align}
+z_{n+1} &= 7z_{n}-10z_{n-1} \\
+&= 7(2+n)3^{n} - 10(2+n-1)3^{n-1} \\
+&= 14(3)^{n} + 7n(3)^{n} - 10(3)^{n-1}-10n(3)^{n-1} \\
+&= \frac{14}{3}3^{n+1} +\frac{7}{3}3^{n+1}-\frac{10}{9}3^{n+1}-\frac{10}{9}n3^{n+1} \\
+&= 
+\end{align}
+$$
+=======
 128. Base Case
 $$
 \begin{align}
@@ -49,6 +70,7 @@ $$
 b. caababaab
 c. baabbaab
 146. 0, 1, 01, 10, 00, 11, 000, 001, 010, 011, 100, 101, 110, 111
+>>>>>>> origin/main
 
 # p.150 #18, 19, 24 
 
