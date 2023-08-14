@@ -159,6 +159,8 @@
     {trigger: "del", replacement: "\\nabla", options: "mA"},
     {trigger: "xx", replacement: "\\times", options: "mA"},
     {trigger: "**", replacement: "\\cdot", options: "mA"},
+    {trigger: "circ", replacement: "\\circ", options: "mA"},
+    {trigger: "of", replacement: "\\circ", options: "mA"},
     {trigger: "pal", replacement: "\\parallel", options: "mA"},
     {trigger: "mag", replacement: "\\lvert \\lvert $0 \\rvert \\rvert $1", options: "mA"},
 

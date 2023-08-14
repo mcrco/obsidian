@@ -63,7 +63,7 @@ has only $\vec{0}$ as the solution.
 
 Given its transformation matrix $\mathbf{A}$, it must satisfy the condition that there are at least as many rows as columns, the columns are linearly independent, and there must be a pivot position in each column.
 
-Also called an [[Functions#Injective||injective function]].
+Also called an [[Discrete Structures/Functions#Injective||injective function]].
 
 # Onto Transformations
 
@@ -71,7 +71,7 @@ $T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is **onto** if each $\vec{b}$ in $\mathbb
 
 Given its transformation matrix $\mathbf{A}$, we know that the reduced form of $\mathbf{A}$ must have a pivot position in each row so that if you augment matrix $\mathbf{A}$ with a vector $\vec{b}$, there will be no constraints on the possible values of b in the rightmost column.
 
-Also called an [[Functions#Onto||onto function]].
+Also called an [[Discrete Structures/Functions#Onto||onto function]].
 
 # Example Problems for Linear Transformations
 
