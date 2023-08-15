@@ -68,4 +68,66 @@ Let $f:S\to T$ and $g:T\to R$ be functions. Show that if $g \circ f$ is injectiv
 
 ## Discussion
 
-We want to show that $f(x_{1}) = f(x_{2})$, then $x_{1}=x_{2}$. Since we know $g$ and $g \circ f$ are injective, we will use the fact that if $g \circ f(x_{1}) = g \circ f(x_{2})$ then $x_{1}=x_{2}$ to say that 
+We want to show that $f(x_{1}) = f(x_{2})$, then $x_{1}=x_{2}$. Since we know $g$ is well-defined, if $f(x_{1})=f(x_{2})$, then $g(f(x_{2}))=g(f(x_{2}))$. Since we know $g\circ f$ is injective, if $g(f(x_{1}))=g(f(x_{2}))$ , then $x_{1}=x_{2}$. We can use this to conclude $f$ is injective.
+
+## Proof
+
+Assume $f(x_{1}) = f(x_{2})$. Since $g$ is a function and therefore well-defined, $g(f(x_{1}))=g(f(x_{2}))$. Since we know $g \circ f$ is injective, if $g \circ f(x_{1}) = g \circ f(x_{2})$, then $x_{1}=x_{2}$. Thus, we can conclude that if $f(x_{1})=f(x_{2})$, then $x_{1} = x_{2}$, and $f$ is injective.
+
+# Question 4
+
+Let $C([0,1])$ be the set of all real, continuous functions on the interval $[0,1]$. That is,
+
+$$
+C([0,1]) = {f|f:[0,1] \to \mathbb{R} \text{ is a continuous function}}
+$$
+
+Consider the function $\varphi:C([0,1]) \to \mathbb{R}$ given by
+
+$$
+\varphi(f) = \int_{0}^{1} f(x) \, dx.
+$$
+
+a. Show that the function $\varphi$ is surjective by showing that for every $a \in \mathbb{R}$, there exists a pre-image $f \in C([0,1])$ such that $\varphi(f) = a$.
+
+## Discussion
+
+To prove surjectivity, we want to show there is some continuous function whose definite integral from $0$ to $1$ evaluates to $a$ for every $a \in \mathbb{R}$. To do this, we can just consider a constant function $g(x) = a$.
+
+## Proof
+
+Let $a \in \mathbb{R}$. Consider the constant function $g(x)=a$. Evaluating $\varphi(g)$, we get
+
+$$
+\begin{align}
+\varphi(g) &= \int_{0}^{1} a \, dx \\
+&= [ax]_{0}^{1} \\
+&= a
+\end{align}
+$$
+
+Since we have successfully shown that for every $a \in \mathbb{R}$, applying $\varphi$ to the constant function $g(x)=a$ gives us $a$, we have proven that there exists a continuous function in $C([0,1])$, the domain of $\varphi$, for every value in the codomain of $\varphi$.
+
+b. Show that the function $\varphi$ is not injective by finding 2 distinct functions $f,g \in C([0,1])$ such that $\varphi(f) = \varphi(g)$.
+
+## Discussion
+
+Not much to discuss, just need to come up with 2 functions that have the same integral but are different. For me, the first two that came to mind were $-x+1$ and $x$.
+
+## Proof
+
+To prove $\varphi$ is not injective, consider the functions $a(x) = -x + 1$ and $b(x)=x$. Evaluating $\varphi(a)$ and $\varphi(b)$, we get
+
+$$
+\begin{align}
+\varphi(a)&=\int_{0}^{1} -x + 1 \, dx \\
+&= \left[ -\frac{x^{2}}{2} + x \right]_{0}^{1} \\
+&= -\frac{1}{2}+1 \\
+&= \frac{1}{2} \\
+\varphi(b) &= \int_{0}^{1} x \, dx  \\
+&= \left[ \frac{x^{2}}{2} \right]_{0}^{1} \\
+&= \frac{1}{2}
+\end{align}
+$$
+
+Since $\varphi(a)=\varphi(b)$ but $a$ and $b$ are different functions, we can conclude $\varphi$ is not injective.
