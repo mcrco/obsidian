@@ -58,6 +58,6 @@ To prove that $|z|=\text{Re}(z)$ if and only if $z$ is a non-negative real numbe
 
 To prove the first statement, assume, $z$ is a non-negative real number. Thus $|z|=\sqrt{ z^{2}+0^{2} }=\sqrt{ z^{2} }$ since there is no complex part. $\sqrt{ z^{2} }$ is the absolute value of $z$, which is equal to $z$ when $z$ is non-negative. Because $z$ is the modulus and its own real part, if $z$ is non-negative real number, then $|z|=\text{Re}(z)$.
 
-To prove the second statement, 
+To prove the second statement, assume 
 
 b.  
