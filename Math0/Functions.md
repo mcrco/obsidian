@@ -22,6 +22,43 @@ To prove $f$ is surjective, we will assume $t \in R$ and show that $\exists s \i
 
 Since we have proven $f$ is both injective and surjective, we can conclude that $f$ is a bijection.
 
+b. Find the inverse $f^{-1}$ and show it's an inverse by demonstrating that
+
+$$
+f^{-1}(f(x)) = x
+$$
+
+## Discussion
+
+We can simply let $y = f(x)$ and swap $x$ and $y$ in the equation $y=mx+b$ to solve for $x$ in terms of $y$. The new $y$ is the inverse. Then, to demonstrate that it is in fact the inverse, we plug the value of $f(x)$ into the function $f^{-1}(x)$ to make sure the resulting value is $x$.
+
+## Proof
+
+Let $y=f(x)$. Thus, $f(x)=y=mx+b$. To find the inverse of $f(x)$, we can simpy swap $y$ and $x$ and solve for $y$ in terms of $x$ again to find the inverse. Solving, we get
+
+$$
+\begin{gather}
+y=mx+b \to x = my+b \\
+x - b = my \\
+\frac{x-b}{m} = y \\
+y = \frac{1}{m}x - \frac{b}{m}.
+\end{gather}
+$$
+
+and thus the inverse $f^{-1}(x) = \frac{1}{m}x - \frac{b}{m}$ .
+
+To prove that it truly is the inverse, we validate that $f^{-1}(f(x)) = x$. Plugging in, we get
+
+$$
+\begin{align}
+f^{-1}(f(x)) &= f^{-1}(mx+b) \\
+&= \frac{1}{m}(mx+b) - \frac{b}{m} \\
+&= x + \frac{b}{m} - \frac{b}{m} \\
+&= x.
+\end{align}
+$$
+
+Since the equation is true, $f^{-1}(x) = \frac{1}{m}x - \frac{b}{m}$.
 # Question 2
 
 Let $\gamma,\rho \in R$ be real numbers such that $\gamma \cdot \rho\neq 1$. Let $\mathbb{R}-\{ \gamma \}$ and $\mathbb{R-\{ -\rho \}}$ be the set of all real numbers $\mathbb{R}$ except for $\gamma$ and $-\rho$, respectively. Consider the function $f:\mathbb{R}-\{ -\rho \} \to \mathbb{R} - \{ \gamma \}$ given by 
