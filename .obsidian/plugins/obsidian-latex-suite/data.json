@@ -13,7 +13,7 @@
   "autofractionExcludedEnvs": "[\n        [\"^{\", \"}\"],\n        [\"\\\\pu{\", \"}\"]\n]",
   "autofractionBreakingChars": "+-=",
   "matrixShortcutsEnabled": true,
-  "matrixShortcutsEnvNames": "pmatrix, cases, align, bmatrix, Bmatrix, vmatrix, Vmatrix, array, matrix, gather",
+  "matrixShortcutsEnvNames": "pmatrix, cases, align, bmatrix, Bmatrix, vmatrix, Vmatrix, array, matrix, gather, gather*, align*",
   "taboutEnabled": true,
   "autoEnlargeBrackets": true,
   "autoEnlargeBracketsTriggers": "sum, int, frac, prod",
