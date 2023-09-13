@@ -68,3 +68,8 @@ By mathematical induction, we have proven the statement $S(n)$ given by $a\cdot 
 
 # Question 3
 
+a. Let $a,b,c \in N$ such that $c\neq 0$ and $a=b\cdot c$. Prove that $b\leq a$. 
+
+By the definition of multiplication, we get that $b\cdot c=b + b\cdot S^{-1}(c)$.  Since we know that $c\neq 0$ and $c \in \mathbb{N}$, $S^{-1}(c) \in \mathbb{N}$. Thus, $a=b+b\cdot S^{-1}(c)$ for $a,b,S^{-1}(c) \in \mathbb{N}$., We know that $b \cdot S^{-1}(c)\geq 0$ because the smallest possible result of a multiplication between 2 natural numbers is $0.$ Therefore, $a\geq b$ and $b\leq a$.
+
+b. 
