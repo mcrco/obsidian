@@ -261,3 +261,48 @@ if $p(w)=0$ for $w \in \mathbb{C}$, then $p(\bar{w})=0$.
 
 ## Proof
 
+Assume that $p(w)=a_{n}w^{n}+\dots+a_{0}=0$. Taking the conjugate, we get
+
+$$
+\overline{p(w)}=\overline{a_{n}w^{n}+a_{n-1}w^{n-1}+\dots+a_{1}w+a_{0}}.
+$$
+
+By the theorem we proved in part a, we can write
+
+$$
+\begin{align*}
+\overline{p(w)}&=\overline{a_{n}w^{n}+a_{n-1}w^{n-1}+\dots+a_{1}w+a_{0}} \\
+&= \overline{a_{n}w^{n}}+\overline{a_{n-1}w^{n-1}}+\dots+\overline{a_{1}w}+\overline{a_{0}}.
+\end{align*}
+$$
+
+Then, using the theorem we proved in part b, we can write
+
+
+$$
+\begin{align*}
+\overline{p(w)}&=\overline{a_{n}w^{n}}+\overline{a_{n-1}w^{n-1}}+\dots+\overline{a_{1}w}+\overline{a_{0}} \\
+&= \overline{a_{n}}\cdot \overline{w^{n}}+\overline{a_{n-1}}\overline{w^{n-1}}+\dots+\overline{a_{1}}\cdot \bar{w}+\overline{a_{0}} .
+\end{align*}
+$$
+
+Since the conjugate of a real number is the real number itself,
+
+$$
+\overline{p(w)}= a_{n}\cdot \overline{w^{n}}+a_{n-1}\overline{w^{n-1}}+\dots+a_{1}\cdot \bar{w}+a_{0}.
+$$
+
+Then, using the theorem in part c, we can write
+
+$$
+\begin{align*}
+\overline{p(w)}&= a_{n}\cdot \overline{w^{n}}+a_{n-1}\overline{w^{n-1}}+\dots+a_{1}\cdot \bar{w}+a_{0} \\
+&= a_{n}\cdot \bar{w}^{n}+a_{n-1}\bar{w}^{n-1}+\dots+a_{1}\cdot \bar{w}+a_{0}. 
+\end{align*}
+$$
+
+Notice that this is equal to $p(\bar{w}).$ Thus, we have proved
+
+$$
+\overline{p(w)}=\bar{0}=0=p(\bar{w}).
+$$
