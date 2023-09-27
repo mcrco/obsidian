@@ -54,7 +54,6 @@ cout << (iter != int_set.end());
 
 - contains: $\subseteq$
 - equals: $A \subseteq B, B \subset A \implies A = B$
-- 
 
 ## Power Set
 
