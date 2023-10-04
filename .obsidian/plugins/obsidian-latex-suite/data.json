@@ -9,7 +9,7 @@
   "colorPairedBracketsEnabled": true,
   "highlightCursorBracketsEnabled": true,
   "inlineMathPreviewEnabled": true,
-  "autofractionEnabled": false,
+  "autofractionEnabled": true,
   "autofractionExcludedEnvs": "[\n        [\"^{\", \"}\"],\n        [\"\\\\pu{\", \"}\"]\n]",
   "autofractionBreakingChars": "+-=",
   "matrixShortcutsEnabled": true,

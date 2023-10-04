@@ -1,0 +1,37 @@
+- $e^{-}$
+- $9.11\cdot 10^{-31}\text{ kg}$
+- forms cloud around nucleus
+
+# Quantum Numbers
+
+- electrons live in orbitals around nucleus
+	- orbitals have size, shape, energy
+- 4 quantum numbers describe nucleus
+	- principal quantum number (N)
+		- indexes energy level
+	- angular momentum quantum number $l$
+		- related to shape
+		- $l=0 \to s$, $l=1 \to p, l=2\to d, l=3\to f, l=4 \to g$
+	- magnetic qn, $M$
+		- integrals values $l \to -l$
+	- electron spin qn, $M_{s}$
+		- $+\frac{1}{2}, -\frac{1}{2}$
+		- 2 electrons live in orbital described by first 3 quantum numbers
+			- Hartree atomic orbital is first 3 quantum numbers
+- Aufhau principle
+	- describes ground state electron configuration of atom
+		- ground state: lowest energy state of atom
+	- built up by arranging the Hartree atomic orbitals in order of increasing energy
+	- electrons always fill lower energy orbitals before higher energy orbitals
+- Pauli Exclusion Principle: no 2 atoms can have same 4 qn
+- Hund's Rules
+	- when electrons are added to Hartree orbitals of equal energy, all orbitals will be singly occupied before any is doubly occupied
+		- lowest electron config has parallel spins
+- Example configurations:
+	- H: $1s ^{1}$
+	- He: $1s^{2}$
+	- Li: $1s^{2}, 2s ^{1}$
+	- B: $1s^{2}, 2s^{2}, 2p^{1}$
+	- C: $1s^{2}, 2s^{2}, 2p^{2}$
+- ionization energy: energy required to remove electron from orbitals to vacuum (0 energy)
+- 

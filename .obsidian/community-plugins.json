@@ -4,5 +4,8 @@
   "obsidian-tikzjax",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "dataview",
+  "mathlinks",
+  "math-booster"
 ]

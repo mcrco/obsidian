@@ -21,7 +21,7 @@ Chemistry is about
 
 ## Subparticles
 
-### Electrons
+### [[Electrons]]
 
 - $e^{-}$
 - $9.11\cdot 10^{-31}\text{ kg}$
