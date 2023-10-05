@@ -76,7 +76,6 @@ $$
 
 \end{align}
 $$
-
 # Cramer's Rule
 
 ## Theorem

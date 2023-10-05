@@ -4,6 +4,8 @@
   "cssTheme": "",
   "baseFontSize": 18,
   "enabledCssSnippets": [
-    "img-grids-floats"
-  ]
+    "img-grids-floats",
+    "translucent"
+  ],
+  "translucency": true
 }
