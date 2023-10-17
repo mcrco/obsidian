@@ -17,6 +17,8 @@
 
 # Periodic Trends
 
+![[Pasted image 20231006145456.png]]
+
 ## Size (Radial)
 
 - impacts reactivity, physical properties
@@ -46,5 +48,53 @@
 	- energy released when atom gains an electron
 
 - **INCREASES WHEN**
+	- going UP 
+		- less 
+	- going RIGHT
+		- elements like Li and K can become noble gas if giving away electron
+
+  
+# Electronegativity
+
+- **INCREASES WHEN** 
 	- going UP
 	- going RIGHT
+ 
+- tendency of an atom to attract share $e^{-}$
+	- bonds
+	- relative
+- example: Cl and Na
+	- electron from Na will go to Cl because Cl more stable
+	- $Na^{+}Cl^{-}$
+- causes dipoles in [[Bonds#Ionic Bond|ionic bonds]]
+
+## Scales
+
+### Mulliken
+
+$$
+EN=\frac{1}{2}C(1E_{1}+EA),
+$$
+
+$C$ is a proportionality constant.
+
+### Pauling
+
+$$
+EN=\pi
+$$
+
+- $\pi$ related to bond dissocation
+- A-A
+	- perfectly covalent
+	- $\Delta E_{AA}$ = bond dissociation E
+- B-B
+	- $\Delta E_{BB}$ = bond dissociation E
+- consider A-B
+	- covalent character of A-B = $\sqrt{ \Delta E_{A A} \Delta E_{B B} }$
+	- ionic character = $\Delta$ (excess bond energy)
+		- $\Delta=\Delta E_{AB}-\sqrt{ \Delta E_{A A} \Delta E_{B B} }$
+	- define $\pi$ in terms of $\Delta$
+		- $\pi_{A}-\pi_{B}=0.102\Delta^{1/2}$
+	- EN diff > 2 = ionic bond
+	- EN diff = 0 = covalent bond

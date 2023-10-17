@@ -21,6 +21,8 @@ Chemistry is about
 
 ## Subparticles
 
+![[Pasted image 20231006144939.png]]
+
 ### [[Electrons]]
 
 - $e^{-}$

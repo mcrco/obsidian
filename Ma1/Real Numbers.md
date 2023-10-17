@@ -102,7 +102,9 @@ In particular, $x>0$ iff $x \in \mathbb{R}_{+}$.
 > If it exists, the least upper bound of a subset $S$ of set $P$ is called the supremum of $S$, denoted $\text{sup}(S)$. 
 
 > [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Continuitiy Axiom","label":"continuitiy-axiom","_index":13}] Axiom 14 (Continuitiy Axiom).
-> Every nonempty set $S$ of $\mathbb{R}$ with an upper bound has a least upper bound or supremum
+> Every nonempty set $S$ of $\mathbb{R}$ with an upper bound has a least upper bound or supremum.
+
+^e56e85
 
 > [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":14}] Theorem 15.
 > The natural number $\mathbb{N}$ are unbounded above.
@@ -121,49 +123,3 @@ In particular, $x>0$ iff $x \in \mathbb{R}_{+}$.
 > Case B: $B^{2} < 2$. 
 > Choose $C\mid C<B$, $C < \frac{2-B^{2}}{3B}, C>0$. Then, $(B+C)^{2}=B^{2}+2BC+C^{2}$. That is $B^{2}+C(2B+C)<B^{2}+3BC<B^{2}+(2-B^{2})=2$, contradicting that $B=\text{sup}(S)$. 
 > `\end{proof}`
-
-# Sequence of Real Numbers
-
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"","label":"","_index":17}] Definition 18.
-> A sequence of real numbers is a set
-> $$
-> a_{1},a_{2},a_{3}\dots
-> $$
-> of real numbers indexed by the natural numbers. Usually, we write $(a_{n})_{n=1}^{\infty}$ or $a_{n}$.
-
-## Examples
-
-$a_{n}=\frac{1}{n}$: we can see that $a_{n} \to 0$ as $n\to \infty$, We can say that $a_{n}$ is converging to the limit $0$.
-
-$a_{n}=(-1)^{n} \implies (a_{n})_{n=1}^{\infty}=(-1, 1, -1, 1, \dots)$. This just oscillates and doesn't converge.
-
-Now, if $a_{n}=\frac{(-1)^{n}}{n}=(-1, \frac{1}{2}, -\frac{1}{3}, \frac{1}{4},\dots$, this also converges to the limit $0$.
-
-# Convergence
-
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Convergence","label":"convergence","_index":18}] Definition 19 (Convergence).
-> A sequence $(a_{n})^{\infty}_{n=1}$ converges to the limit $A$ iff for every $\forall \epsilon>0, \exists N=N(\epsilon): |a_{n}-A|<\epsilon , n\geq N$. We write $\lim_{ n \to \infty }a_{n}=A$.
-
-## Examples
-
-Show that $a_{n}=\frac{1}{n} \to 0$. 
-
-`\begin{proof}`
-Fix $\epsilon>0$ and choose $N>\dots$.
-
-Then, $\forall n\geq N$, we have
-
-$$
-| \frac{1}{n} - 0 | = \frac{1}{n} \leq \frac{1}{N} < \epsilon
-$$
-
-`\end{proof}`
-
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":19}] Lemma 20.
-> If $(a_{n})$ and $(b_{n})$ are sequences with $\lim_{ n \to \infty }a_{n}=A$ and $\lim_{ n \to \infty }b_{n}=B$, then 
-> a. $\lim_{ n \to \infty }(a_{n}+b_{n})=A+B$
-> `\begin{proof}`\Since $\lim_{ n \to \infty }a_{n}=A$, $\exists N\mid |a_{n_{1A|<}}-\frac{\epsilon}{2} \forall n_{1}\geq N_{1}$. If Since $\lim_{ n \to \infty }b_{n}=B$, $\exists N_{2} \mid |b_{n}-B|< \frac{\epsilon}{2}, \forall n_{2}\geq N_{2}$. 
-> If we let $N=max(N_{1},N_{2})$, then $\forall n\geq N$, $|a_{n}+b_{n}-(A+B)| = |(a_{n}-A) + (b_{n}-B)$ $\leq |a_{n}-A| + |b_{n} - B| < \frac{\epsilon}{2} + \frac{\epsilon}{2} = \epsilon$.
-> `\end{proof}`
-> b. $\lim_{ n \to \infty }ca_{n}=cA$ for $c \in \mathbb{R}$
-> c. $\lim_{ n \to \infty } \frac{a_{n}}{b_{n}}$

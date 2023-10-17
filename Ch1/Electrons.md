@@ -6,11 +6,13 @@
 
 - electrons live in orbitals around nucleus
 	- orbitals have size, shape, energy
- 
+
 ## 4 Quantum Numbers
 
 - principal quantum number (N)
 	- indexes energy level
+	- $n \propto E$ (energy)
+	- $n \propto r$ (distance from nucleus)
 - angular momentum quantum number $l$
 	- related to shape
 	- $l=0 \to s$, $l=1 \to p, l=2\to d, l=3\to f, l=4 \to g$
@@ -20,7 +22,9 @@
 	- $+\frac{1}{2}, -\frac{1}{2}$
 	- 2 electrons live in orbital described by first 3 quantum numbers
 		- Hartree atomic orbital is first 3 quantum numbers
-  
+
+![[Pasted image 20231006144917.png]]
+
 ## Rules 
 
 Basically, electrons ALWAYS go for LOWER ENERGY. This summarizes all of chemistry.
@@ -30,24 +34,28 @@ Basically, electrons ALWAYS go for LOWER ENERGY. This summarizes all of chemistr
 - describes ground state electron configuration of atom
 	- ground state: lowest energy state of atom
 - built up by arranging the Hartree atomic orbitals in order of increasing energy
-- electrons always fill lower energy orbitals before higher energy orbitals**
+- electrons always fill lower energy orbitals before higher energy orbitals
 - **exceptions** starting in period 4
 	- energy of $4s$ and $3d$ subshells are very similar
-	- $\epsilon_{4s} < \epsilon_{3d}$
+	- $\epsilon_{3d}< \epsilon_{4s}$
 		- $K:[Ar]3d^{0}4s_{1}$
 		- $Ca:[Ar]3d^{0}4s^{2}$
-	- $\epsilon_{3d}< \epsilon_{4s}$
+	- $\epsilon_{4s} < \epsilon_{3d}$
 		- when putting >3 electrons into 3d orbitals, there is electrostatic repulsion energy ($\epsilon_{\text{er}}$)
 		- $\epsilon_{\text{er d-orbital}} \gg \epsilon_{\text{er s-orbital}}$ because localized vs diffused
 		- $\epsilon_{\text{er d}} > |\epsilon_{3d} - \epsilon_{4s}|$
 	- half filled + fully filled shells -> lower energy -> $4s$ electrons sometimes go to $3d$ to fill last spot for fully filled/half filled subshell
 		- $Cu: [Ar]3d^{10}4s ^{1}$
 		- $Cr: [Ar]3d^{5}4s ^{1}$
-  
-- Pauli Exclusion Principle: no 2 atoms can have same 4 qn
-- Hund's Rules
-	- when electrons are added to Hartree orbitals of equal energy, all orbitals will be singly occupied before any is doubly occupied
-		- lowest electron config has parallel spins
+
+## Pauli's Exclusion Principle
+
+- no 2 atoms can have same 4 qn
+
+## Hund's Rules
+
+- when electrons are added to Hartree orbitals of equal energy, all orbitals will be singly occupied before any is doubly occupied
+	- lowest electron config has parallel spins
 
 ## Electron Configurations
 
@@ -61,10 +69,17 @@ Basically, electrons ALWAYS go for LOWER ENERGY. This summarizes all of chemistr
 ## Ionization Energy
 
 - energy required to remove electron from orbitals to vacuum (0 energy)
+- farther away from nucleus -> higher energy -> lower ionization energy
 - measured by **photoelectron spectroscopy**
 	- shots photon at electron with certain energy
 	- produces graph with peaks in energy that represents atomic subshells
+ 
+![[Pasted image 20231006145107.png]]
+
 - energy level differences $\to$ **valence** vs **core** electrons
+
+![[Pasted image 20231006144850.png]]
+
 - **valence electrons**
 	- outermost shells
 	- participate in bonding
