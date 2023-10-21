@@ -1,17 +1,30 @@
-# Breakdowns of Lewis Dot
-## Ozone
+# Lewis Dot
 
-- $O_{3}$
+- predicts structural formula -> sequence of atoms [[Bonds|bonded]]
+- diagrams with like formal charges on adjacent atoms -> unstable
+- opposite formal charges on adjacent atoms are good
+
+1. draw atom with valence $e^{-}$
+2. octet rule: main group surrounded by $8e^{-}$
+	- 2 in s orbital, 6 in p orbital
+	- exception is $H$, $He$ (surrounded by 2)
+	![[Pasted image 20231019112022.png]] ![[Pasted image 20231019112043.png]]
+3. assign formal charge
+	![[Pasted image 20231019112455.png]]
+
+## Exceptions
+
+### Ozone
+
 - unstable
 - rekt by CFC
 - bond length not predicted by lewis dot
 - resonance hybrid
 	- both bonds are 1.5 order
-	- 
 
 ![[Pasted image 20231021002613.png]]
 
-## Other
+### Other
 
 1. odd $e^{-}$ molecules (NO)
 	![[Pasted image 20231019111618.png]]
@@ -20,7 +33,7 @@
  3. valence shell expansion (3rd period and down)
 	 ![[Pasted image 20231019111826.png]]
 
-# Valence Shell Electron-Pair Repulsion Theory
+# Valence Shell Electron-Pair Repulsion Theory (VSEPR)
 
 - predicts shape of molecule based on Lewis Dot structure
 - electron pairs repel
@@ -49,19 +62,5 @@
 
 - unequal distribution of $e^{-}$, vector
 - good example: $H_{2}O$
-- bad exmaple: $C Cl_{4}$
+- bad example: $C Cl_{4}$
 	- nonpolar
-
-# Oxidation Number/States
-
-- oxidation numbers: ~~fictitious~~ charges on each atom in molecule
-	- $Cr^{3+}$ good for you, $Cr^{6+}$ gives you cancer
-	- $Co^{3+} \to Co^{4+} + e^{-}$ powers phones
-
-## Rules
-
-1. number of atoms in neutral molecular must add to charge of ion (0 if neutral)
-2. alkali-metal atoms = +1, alkaline earth atoms = +2 b/c noble gas
-3. $F=-1$ above all (unless $F_{2}$) and halogens = $-1$ because noble gas (unless other halides or $O$)
-4. $H=+1$ unless alkali metal then $H=-1$
-5. $O=-2$ unless with $F$ (rule 3)

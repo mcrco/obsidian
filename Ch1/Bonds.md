@@ -4,16 +4,48 @@
 	- example: graphene vs polyethylene
 	- insert hexagon vs chain
 
-Let's consider the simple molecule H2
-
-- forms of energy
-	- potential: energy due to position or composition
-	- kinetic: motion
- 
 ## Ionic Bond
 
 - complete transfer of one or more electrons from one atom to another
 - has dipoles
+- formed between 2 atoms of differing electronegativity
+- example: $NaCl$. electron goes from Na to. Cl
+	- IE of Na is 495.8
+	- IE of Cl is 1251.2 
+	- Cl is 3p orbital but less energy than Na because increased number of protons, but not increased principle quantum number (distance from nucleus)
+- atoms that form ions w/ noble gas configurations are very stable
+	- NaCl is example once again
+	- Na -> Ne, Cl -> Ar
+		- $Na \to Na^{+} + e^{-}$, $Cl + e^{-} = Cl^{-}$
+	- 8 electorns in valence shell
+	- octet rule: atoms with 8 electrons around them are stable
+	- general rule
+		- Group 1 likes to lose electron -> $A^{+}$
+		- Group 2 likes to lose 2 electrons -> $A^{2+}$
+		- Group 3 likes to lose 3 electrons -> $A^{3+}$
+		- Group 6 likes to gain 2 electrons -> $A^{2-}$
+		- Group 7 likes to gain electron -> $A^{-}$
+
+![[Pasted image 20231020223135.png]]
+
+To calculate the change of energy when K bonds with F,
+
+$$
+\begin{gather*}
+K \to K^{+} + e^{-}, \Delta E = IE_{1}=419 \frac{kJ}{mol} \\
+e^{-} + F \to F^{-}, \Delta E = -EA = -328 \frac{kJ}{mol} \\
+V_{\infty} = \Delta E_{\infty} \\
+V(R_{KF}) = \frac{q_{K}q_{F}}{4\pi\epsilon_{0}R_{KF}} + V_{\infty} \\
+\end{gather*}
+$$
+
+Basically, the potential energy for a distance of $R_{KF}$ between the two ions in terms of Joules per ion pair is the above. To get it in $\frac{kJ}{mol}$, we need to multiply by Avogadro's number and divide by 1000.
+
+$$
+V(R_{KF}) = \frac{q_{K}q_{F}(}{4\pi\epsilon_{0}R_{KF}}\left( \frac{N_{A}}{10^{3}} \right) + V_{\infty}
+
+$$
+
 
 ## Covalent Bonds
 
@@ -24,9 +56,18 @@ Let's consider the simple molecule H2
 - gray area between ionic and covalent
 - somewhat closer to one atom than another
 
+
+Let's consider the simple molecule H2
+
+- forms of energy
+	- potential: energy due to position or composition
+	- kinetic: motion
+ 
 # Energy
 
 Let's consider the simple molecule $H_{2}$.
+
+![[Pasted image 20231020222844.png]]
 
 ## Potential Energy
 
@@ -49,3 +90,52 @@ $$
 E = \sum \text{KE}_{e} + \sum \text{KE}_{n} + V
 $$
 
+
+# Bond Descriptors
+
+## Bond Length
+
+- distance between 2 atoms
+- shorter -> stronger
+
+## Energy
+
+- $\Delta E_{d}$ larger = more stable
+- reproducible from molecule to molecule
+- C-O $\Delta E_{d}$ is $\pm 10\%$
+- O-H  $\Delta \epsilon = 465 \frac{kJ}{mol}$
+
+## Order
+
+- number of shared electrons between 2 pairs of atoms
+- more electrons = stronger = shorter distance
+
+## Polarity
+
+- absolute value of the difference in electronegativity between 2 bonded atoms
+	- large difference > 2 => ionic
+	- small < 0.4 => covalent
+	- in between 0.4 -> 2 => polar covalent
+- $H^{\delta+}-F^{\delta-}$: $\Delta = |2.2-3.98| = 1.78$
+- $\delta$
+	- fraction of charge on each atom
+	- $q=\delta e$ is total charge
+	- $\delta$ is 1 and 0 for ionic bond
+	- measurable
+		- $\mu = (\frac{R}{0.2082 \mathcal{A}})\delta$ is dipole moment in debye
+		- $R$ is bond length in $\mathcal{A}$
+		- for HF, $\mu=1.82\text{D}, R=0.917\mathcal{A} \implies \delta = 1.82\text{D}(\frac{0.2082\mathcal{A}}{0.917\mathcal{A}}=0.41$ ionic
+  
+# Oxidation Number/States
+
+- oxidation numbers: ~~fictitious~~ charges on each atom in molecule
+	- $Cr^{3+}$ good for you, $Cr^{6+}$ gives you cancer
+	- $Co^{3+} \to Co^{4+} + e^{-}$ powers phones
+
+## Rules
+
+1. number of atoms in neutral molecular must add to charge of ion (0 if neutral)
+2. alkali-metal atoms = +1, alkaline earth atoms = +2 b/c noble gas
+3. $F=-1$ above all (unless $F_{2}$) and halogens = $-1$ because noble gas (unless other halides or $O$)
+4. $H=+1$ unless alkali metal then $H=-1$
+5. $O=-2$ unless with $F$ (rule 3)
