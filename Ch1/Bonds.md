@@ -8,7 +8,7 @@
 
 - complete transfer of one or more electrons from one atom to another
 - has dipoles
-- formed between 2 atoms of differing electronegativity
+- formed between 2 atoms of differing electronegativity ($\Delta \text{EN} > 2$)
 - example: $NaCl$. electron goes from Na to. Cl
 	- IE of Na is 495.8
 	- IE of Cl is 1251.2 
@@ -49,6 +49,7 @@ $$
 
 ## Covalent Bonds
 
+- $\Delta \text{EN} < 0.4$
 - electrons are shared evenly
 
 ## Polar-Covalent Bonds

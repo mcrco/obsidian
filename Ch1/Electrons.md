@@ -18,6 +18,9 @@
 	- $l=0 \to s$, $l=1 \to p, l=2\to d, l=3\to f, l=4 \to g$
 - magnetic qn, $m_{l}$
 	- integrals values $l \to -l$
+ 
+![[Pasted image 20231023214319.png]]
+
 - electron spin qn, $m_{s}$
 	- $+\frac{1}{2}, -\frac{1}{2}$
 	- 2 electrons live in orbital described by first 3 quantum numbers
@@ -35,7 +38,13 @@ Basically, electrons ALWAYS go for LOWER ENERGY. This summarizes all of chemistr
 	- ground state: lowest energy state of atom
 - built up by arranging the Hartree atomic orbitals in order of increasing energy
 - electrons always fill lower energy orbitals before higher energy orbitals
+	- [[Periodic Table]] spdf categorization is based on this
+		- start with $s$ on left, end with $p$ on right
+
+![[Pasted image 20231023213717.png]]
+
 - **exceptions** starting in period 4
+	- transition metals
 	- energy of $4s$ and $3d$ subshells are very similar
 	- $\epsilon_{3d}< \epsilon_{4s}$
 		- $K:[Ar]3d^{0}4s_{1}$
@@ -48,11 +57,11 @@ Basically, electrons ALWAYS go for LOWER ENERGY. This summarizes all of chemistr
 		- $Cu: [Ar]3d^{10}4s ^{1}$
 		- $Cr: [Ar]3d^{5}4s ^{1}$
 
-## Pauli's Exclusion Principle
+### Pauli's Exclusion Principle
 
 - no 2 atoms can have same 4 qn
 
-## Hund's Rules
+### Hund's Rules
 
 - when electrons are added to Hartree orbitals of equal energy, all orbitals will be singly occupied before any is doubly occupied
 	- lowest electron config has parallel spins
@@ -66,10 +75,15 @@ Basically, electrons ALWAYS go for LOWER ENERGY. This summarizes all of chemistr
 	- B: $1s^{2}, 2s^{2}, 2p^{1}$
 	- C: $1s^{2}, 2s^{2}, 2p^{2}$
 
-## Ionization Energy
+# Ionization Energy
+
+$$
+\text{X} + \text{IE} \to \text{X}^{+} + \text{e}^{-}
+$$
 
 - energy required to remove electron from orbitals to vacuum (0 energy)
-- farther away from nucleus -> higher energy -> lower ionization energy
+- farther away from nucleus -> shielding lower effective nuclear charge -> higher energy -> lower ionization energy
+- higher ionization energy -> more stable
 - measured by **photoelectron spectroscopy**
 	- shots photon at electron with certain energy
 	- produces graph with peaks in energy that represents atomic subshells
@@ -85,6 +99,60 @@ Basically, electrons ALWAYS go for LOWER ENERGY. This summarizes all of chemistr
 	- participate in bonding
 - **core electrons**
 	- all the others
+	- cause shielding
 	- (Ry) rydberg energy: $2.18\cdot {10}^{-18}$ J
 		- boundary between valence and core electrons
 		- $|e_{a}-e_{b}| < \text{Ry} \implies$ $e_{a}$ is valence electron if $e_{b}$ is valence electorn and vice versa
+
+# Electron Affinity
+
+$$
+\text{X}^{-} + \text{EA} \to \text{X} + \text{e}^{-}
+$$
+
+- energy required to detach electron from anion to yield neutral atom
+	- energy released when atom gains an electron
+
+# Electronegativity
+
+- tendency of an atom to attract share $e^{-}$
+	- bonds
+	- relative
+- atomic radius $\propto$ 1/EN
+- nuclear charge $\propto$ EN
+- shielding $\propto$ 1/EN
+- example: Cl and Na
+	- electron from Na will go to Cl because Cl more stable
+	- $Na^{+}Cl^{-}$
+- causes dipoles in [[Bonds#Ionic Bond|ionic bonds]]
+
+There are two scales:
+
+### Mulliken
+
+$$
+EN=\frac{1}{2}C(1E_{1}+EA),
+$$
+
+$C$ is a proportionality constant.
+
+### Pauling
+
+$$
+EN=\pi
+$$
+
+- $\pi$ related to bond dissocation
+- A-A
+	- perfectly covalent
+	- $\Delta E_{AA}$ = bond dissociation E
+- B-B
+	- $\Delta E_{BB}$ = bond dissociation E
+- consider A-B
+	- covalent character of A-B = $\sqrt{ \Delta E_{A A} \Delta E_{B B} }$
+	- ionic character = $\Delta$ (excess bond energy)
+		- $\Delta=\Delta E_{AB}-\sqrt{ \Delta E_{A A} \Delta E_{B B} }$
+	- define $\pi$ in terms of $\Delta$
+		- $\pi_{A}-\pi_{B}=0.102\Delta^{1/2}$
+	- EN diff > 2 = ionic bond
+	- EN diff = 0 = covalent bond
