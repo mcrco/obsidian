@@ -91,6 +91,22 @@ $$
 E = \sum \text{KE}_{e} + \sum \text{KE}_{n} + V
 $$
 
+## Morse Potential
+
+Morse potential curve describes the potential energy in a diatomic bond as a function of the radius. The basic version looks like the diagram below.
+
+![[Pasted image 20231020211919.png]]
+
+When the $r<r_{eq}$, the repulsion force between the electrons of one atom and another and the repulsion of the nuclei of each atom generate high potential energy. Then, as $r>r_{eq}$ the attractive force between the electrons of one atom and the nucleus of the other is what increases potential energy.
+
+Below is a diagram for an ionic bond. 
+
+![[Pasted image 20231025225747.png]]
+
+- strong ionic bond
+- the potential energy is less at $r_{eq}$ since the bond is super stable
+- $r_{eq}$ is shorter because stronger bond
+- potential energy is larger because of energy required to ionize both ions in the bond
 
 # Bond Descriptors
 

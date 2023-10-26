@@ -136,3 +136,68 @@ If $R > 1$, then $\lim_{ n \to \infty }a_{n} \neq 0$.
 
 ## Ratio Test
 
+Suppose
+
+$$
+\sum_{k=1}^{\infty}a_{k}:\forall k\geq 1, a_k>0, \lim_{ n \to \infty } \frac{a_{n+1}}{a_{n}} = L.
+$$
+
+1. If the [[Limits and Continuity|limit]] $L<1$, the series converges
+2. If $L>1$, the series diverges
+3. If $L=1$, inconclusive
+
+`\begin{proof}` If $L<1$, let $x:L<x<1$. Then, there exists $N$ such that $\frac{a_{n+1}}{a_{n}}<x$ for all $n\leq N$. This implies $\frac{a_{n+1}}{x^{n+1}}< \frac{a_{n}}{x_{n}}$ for all $n\geq N$. Thus, $\frac{a_{n}}{x^{n}}<c$ for some $c>0$, and $\sum_{}^{}a_{n}$ converges by the Comparison Test.
+
+If $L>1$, then $a_{n+1}>a_{n}$ for all $n\geq N$, which clearly doesn't converge.
+`\end{proof}`
+
+# Absolute Convergence
+
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Absolute Convergence","label":"absolute-convergence","_index":4}] Definition 5 (Absolute Convergence).
+> $\sum_{}^{}a_{n}$ is absolutely convergent if $\sum_{}^{}|a_{n}|$ converges. If $\sum_{}^{}a_{n}$ converges and $\sum_{}^{}|a_{n}|$ diverges, then $\sum_{}^{}a_{n}$ is conditionally convergent.
+
+Absolute convergence is useful because
+
+## Absolute Convergence Test
+
+> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":5}] Lemma 6.
+> If $\sum_{}^{}a_{n}$ is absolutely convergent, it is convergent.
+
+`\begin{proof}` Let $b_{n}=a_{n}+|a_{n}|$. Then $bn=0$ or $bn=2|a_{n}|$, so $0\leq b_{n}\leq 2|a_{n}|$. By Comparison Test, $\sum_{}^{}b_{n}$ converges, so $\sum_{}^{}a_{n}=\sum_{}^{}b_{n}-\sum_{}^{}|a_{n}|$ also converges.
+`\end{proof}`
+
+To find conditional convergence, we use
+
+## Alternating Series Test
+
+If $a_{n}$ is monotonically decreasing and $a_{n}\to{0}$, then $\sum_{}^{}(-1)^{n-1}a_{n}$ converges.
+
+`\begin{proof}` The partial sums $S_{2n}$ are monotonic increasing since
+
+$$
+S_{2n+2} - S_{2n} = a_{2n+1} - a_{2n+2} > 0
+.$$
+
+Similarly, $S_{2n+1}$ is decreasing.
+
+Both sequences are bounded below by $S_{2}$ and above by $S_{1}$. Then,
+
+$$
+\begin{align}
+\lim_{ n \to \infty } S_{2n} - \lim_{ n \to \infty } S_{2n-1} &= \lim_{ n \to \infty } S_{2n}-S_{2n-1} \\
+&= \lim_{ n \to \infty } -a_{2n} \\
+&= 0
+\end{align}
+$$
+
+Thus, $\sum_{}^{}a_{n}$ converges.
+`\end{proof}`
+
+# Power Series
+
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Power Series","label":"power-series","_index":6}] Definition 7 (Power Series).
+> A power series is an infinite series of the form
+> $$
+> \sum_{n=0}^{\infty}a_{n}(z-a)^{n}=a_{0}+a_{1}(z-a)+a_{2}(z-a)^{2}+\dots
+> $$
+
