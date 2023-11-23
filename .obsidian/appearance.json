@@ -5,7 +5,8 @@
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "img-grids-floats",
-    "translucent"
+    "translucent",
+    "img-center"
   ],
   "translucency": true
 }

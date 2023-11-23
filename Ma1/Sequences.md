@@ -44,7 +44,7 @@ $$
 > b. $\lim_{ n \to \infty }ca_{n}=cA$ for $c \in \mathbb{R}$
 > c. $\lim_{ n \to \infty } \frac{a_{n}}{b_{n}}$
 > d. $\lim_{ n \to \infty }a_{n}b_{n}=AB$. 
-## Monotone Sequnce
+## Monotone Sequence
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Monotonically Increasing Sequence","label":"monotonically-increasing-sequence","_index":3}] Definition 4 (Monotonically Increasing Sequence).
 > A sequence $(a_{n})_{n=1}^{\infty}$ is monotone increasing, written $a_{n} \uparrow$, if $a_{n} \leq a_{n+1}, \, \forall n\geq 1$ and is monotone decreasing, written $a_{n} \downarrow$ if $a_{n+1} \leq a_{n}, \, \forall n\geq 1$. In either case, $a_{n}$ is monotone

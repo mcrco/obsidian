@@ -98,8 +98,10 @@ In particular, $x>0$ iff $x \in \mathbb{R}_{+}$.
 > If there are 2 least upper bounds, $B_{1}$ and $B_{2}$, then $B_{1}\leq B_{2}$ and $B_{2}\leq B_{1}$ $\implies B_{1}=B_{2}$.
 > `\end{proof}`
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Supremum","label":"supremum","_index":12}] Definition 13 (Supremum).
-> If it exists, the least upper bound of a subset $S$ of set $P$ is called the supremum of $S$, denoted $\text{sup}(S)$. 
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Supremum and Infimum","label":"supremum-and-infimum","_index":12}] Definition 13 (Supremum and Infimum).
+> If it exists, the least upper bound of a subset $S$ of set $P$ is called the supremum of $S$, denoted $\text{sup}(S)$. The greatest lower bound is the infimum, denoted $\text{inf}(S)$.
+
+^56a279
 
 > [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Continuitiy Axiom","label":"continuitiy-axiom","_index":13}] Axiom 14 (Continuitiy Axiom).
 > Every nonempty set $S$ of $\mathbb{R}$ with an upper bound has a least upper bound or supremum.

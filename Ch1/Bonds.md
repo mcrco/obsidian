@@ -156,3 +156,10 @@ Below is a diagram for an ionic bond.
 3. $F=-1$ above all (unless $F_{2}$) and halogens = $-1$ because noble gas (unless other halides or $O$)
 4. $H=+1$ unless alkali metal then $H=-1$
 5. $O=-2$ unless with $F$ (rule 3)
+
+# Bonding in Different Families
+
+Different families of elements bond differently.
+
+1. Bonding in organic molecules
+2. [[Bonding in Transition Metals]]

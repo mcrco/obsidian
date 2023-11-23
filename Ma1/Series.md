@@ -201,3 +201,28 @@ Thus, $\sum_{}^{}a_{n}$ converges.
 > \sum_{n=0}^{\infty}a_{n}(z-a)^{n}=a_{0}+a_{1}(z-a)+a_{2}(z-a)^{2}+\dots
 > $$
 
+## Convergence
+
+> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":7}] Lemma 8.
+> If the power series $\sum_{}^{}a_{n}z^{n}$ converges for a particular $z=z_{1}\neq 0$, then it converges absolutely for all $z:|z|<|z_{1}|$.
+
+^d5c99e
+
+`\begin{proof}` Since $\sum_{}^{}a_{n}z_{1}^{n}$ converges, $a_{n}z_{1}^{n}\to0$ as $n\to \infty$. Therefore, there is $N \in \mathbb{N}$ s.t. $|a_{n}z_{1}^{n}|<1$ for all $n\geq N$. If $|z|<|z_{1}|$, then 
+
+$$
+|a_{n}z^{n}|=|a_{n}z_{1}^{n}| |\frac{z}{z_{1}}|^{n}< |\frac{z}{z_{1}}|^{n}
+$$
+
+for all $n\geq N$. Since $\sum_{}^{}|\frac{z}{z_{1}}|^{n}<\infty$, $\sum_{}^{}a_{n}z^{n}$ converges by comparison.
+`\end{proof}`
+
+## Radius of Convergence
+
+> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Radius of Convergence","label":"radius-of-convergence","_index":8}] Axiom 9 (Radius of Convergence).
+> If the $\sum_{}^{}a_{n}z^{n}$ converges for at least one $z=z_{1}\neq 0$ and diverges for $z=z_{2}\neq 0$, there exists a positive real number $R$ called the radius of convergence s.t. the series converges absolutely if $|z|<R$ and diverges if $|z|>R$.
+
+`\begin{proof}` Let $A$ be the set of $|z|$ for which $\sum_{}^{}a_{n}z^{n}$ converges. Then $A\neq \emptyset$ and the set is bounded by $|z_{2}|$. Therefore, $R=\text{sup} A$ exists. Then, $\sum_{}^{}a_{n}z^{n}$ diverges for all $|z|>R$. If $|z|<R$, then $\exists x$ with $|z|<x<R$ s.t. the series converges. So by [[#^d5c99e]], $a_{n}z^{n}$ also converges.
+`\end{proof}`
+We find the radius of convergence by using the [[Series#Ratio Test]].
+

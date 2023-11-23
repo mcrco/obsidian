@@ -4,6 +4,13 @@
 
 # Quantum Numbers
 
+- called quantum numbers because they are associated with [[Quantum Mechanics]]
+- atoms with quantum numbers $n,l,m$ (aka every Hartree orbital) are associated with a [[Quantum Mechanics#Interpreting Wave Function|wave function]] $\Psi_{nlm}$, where $\Psi(p)^{2}$ is the probability of finding the electron at position $p$.
+
+$$
+\Psi_{nlm}(r,\theta,\phi)=R_{nl}(r)Y_{lm}(\theta,\phi).
+$$
+
 - electrons live in orbitals around nucleus
 	- orbitals have size, shape, energy
 

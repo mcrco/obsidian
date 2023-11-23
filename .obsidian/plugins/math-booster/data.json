@@ -29,14 +29,18 @@
       "eqRefSuffix": "",
       "labelPrefix": "",
       "lineByLine": true,
-      "theoremCalloutStyle": "Framed",
-      "theoremCalloutFontInherit": false,
+      "theoremCalloutStyle": "MathWiki",
+      "theoremCalloutFontInherit": true,
       "beginProof": "\\begin{proof}",
       "endProof": "\\end{proof}",
       "insertSpace": true
     },
     "Ma1/Real Numbers.md": {
       "theoremCalloutStyle": "Plain"
+    },
+    "Ma1/Fundamental Theorem of Calculus.md": {
+      "theoremCalloutStyle": "MathWiki",
+      "theoremCalloutFontInherit": true
     }
   },
   "extraSettings": {

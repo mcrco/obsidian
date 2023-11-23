@@ -23,11 +23,11 @@ Chemistry is about
 
 ![[Pasted image 20231006144939.png]]
 
-### [[Electrons]]
+### [[Electrons in Atoms]]
 
 - $e^{-}$
 - $9.11\cdot 10^{-31}\text{ kg}$
-- forms cloud around nucleus
+- forms cloud around nucleus in orbitals
 
 ### Nucleus 
 

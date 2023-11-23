@@ -1,5 +1,5 @@
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Function","label":"function","_index":0}] Definition 1 (Function).
-> A function $f$ is a set of ordered pairs $(x,y)$ with $x,y \in \mathbb{R}$ such that no two ordered pairs have the same first number.
+> A function $f$ is a [[Sets|set]] of ordered pairs $(x,y)$ with $x,y \in \mathbb{R}$ such that no two ordered pairs have the same first number.
 
 - $y$ determined by $x$ $\implies$ $y=f(x)$
 - $f:X \to Y$, $X$ is domain, $Y$ is range or superset of range
@@ -31,3 +31,9 @@
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Neighborhod","label":"neighborhod","_index":4}] Definition 5 (Neighborhod).
 > Any open interval with $a$ as its midpoint is a neighborhood of $a$.
+
+# Extremum
+
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Extremum","label":"extremum","_index":5}] Definition 6 (Extremum).
+> $f$ has an absolute maximum on a set $S$ if there is at least one $c \in S\mid f(x)\leq f(c)$ for all $x \in S$. Absolute minimum is defined similarly. An extremum is an absolute max or min.
+

@@ -62,7 +62,7 @@
 
 
     // Operations
-    { trigger: "te", replacement: "\\text{$0}", options: "m" },
+    { trigger: "te", replacement: "\\text{$0}", options: "mA" },
     { trigger: "gcd", replacement: "\\text{gcd}($0)$1", options: "m" },
     { trigger: "bf", replacement: "\\mathbf{$0}", options: "mA" },
     { trigger: "sr", replacement: "^{2}", options: "mA" },
@@ -89,6 +89,7 @@
     { trigger: "conj", replacement: "^{*}", options: "mA" },
     { trigger: "bar", replacement: "\\bar{$0}", options: "mA" },
     { trigger: "oline", replacement: "\\overline{$0}", options: "mA" },
+    { trigger: "uline", replacement: "\\underline{$0}", options: "mA" },
     { trigger: "hat", replacement: "\\hat{$0}", options: "mA" },
     { trigger: "dot", replacement: "\\dot{$0}", options: "mA" },
     { trigger: "([^\\\\])(arcsin|arccos|arctan|arccot|arccsc|arcsec|sin|cos|tan|cot|csc)", replacement: "[[0]]\\[[1]]", options: "rmA" },
