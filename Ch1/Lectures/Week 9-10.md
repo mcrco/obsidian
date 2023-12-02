@@ -124,12 +124,19 @@ $$
 ## Kinetics
 
 - determines how fast rxn proceeds
-- current: flow of electrons = $\frac{C}{S}=I$
-	- $\frac{C}{S}=A$ (ampere)
+- current: flow of electrons = $\frac{C}{s}=I$
+	- $\frac{C}{s}=A$ (ampere)
 - $Q$: charge passed over some time
 	- Coulombs $\to$ moles of electrons $\to$ moles of atoms using half reaction formula
 
 $$
-W_{\text{elec}}=Q\Delta E_{\text{cell}}
+W_{\text{elec}}=Q\Delta E_{\text{cell}} = -nF\Delta E_{\text{cell}}
 $$
 
+Since we know $Q=It$
+
+$$
+n= \frac{It}{QF}.
+$$
+
+We can use this formula to figure out how many moles of reactants are consumed and products are formed if we know the current and the charge.

@@ -9,7 +9,7 @@ $$
 
 If $\text{div}\vec{F} = 0$, $\vec{F}$ is divergence free.
 
-In fluid motion, divergence freer vector fields are "imcompressible."
+In fluid motion, divergence free vector fields are "incompressible."
 
 In E&M, divergence free vector field is called "solenoidal."
 

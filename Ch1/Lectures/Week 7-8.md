@@ -136,7 +136,7 @@ $$
 2. molecules cluster -> less collisions
 
 $$
-P = \frac{nRT}{V-nb} - a\left( \frac{n^{2}}{v^{2}} \right)
+P = \frac{nRT}{V-nb} - a\left( \frac{n^{2}}{V^{2}} \right)
 $$
 
 # Intermolecular Forces
