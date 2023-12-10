@@ -58,6 +58,10 @@ is true because we can proven the corresponding statements for sequences. Anothe
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Limit at Infinity","label":"limit-at-infinity","_index":6}] Definition 7 (Limit at Infinity).
 > $\lim_{ x \to \infty }=A \iff$ $\forall\epsilon>0, \, \exists T>0: |f(x)-A|<\epsilon$ for all $x>T$. $\lim_{ x \to -\infty }f(x)$ is defined similarly.
 
+## [[L'Hopital's Rule]]
+
+Used for indeterminate forms.
+
 # Continuity
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Continuity","label":"continuity","_index":7}] Definition 8 (Continuity).

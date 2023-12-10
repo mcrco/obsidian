@@ -215,7 +215,7 @@ $$
 
 ## Interpreting Energy
 
-- potential $V(x,y,z)$ doesn't vary wth time $\implies$
+- potential $V(x,y,z)$ doesn't vary with time $\implies$
 - Schrodinger's equation can only be solved for specific values of $E$
 - thus, Schrodinger's equation $\implies$ energy quantization
 - time independent wave function state = **stationary state**
@@ -251,38 +251,16 @@ Normalization also implies that
 
 ## Solving the Equation
 
-We can simulate solving the equation with a [[Particle in a Box Model]] simulation. The solution for energy demonstrates energy quantization.
+- can simulate solving the equation with a [[Particle in a Box Model]] simulation
+	- not complete solution, only for one electron system
+- solution for energy demonstrates energy quantization
+- can't actually solve equation for real case scenarios
 
-- $Y$: angular part of $\Psi$
-	- given $n$, $Y_{lm}(\theta,\phi)$ has 2 lobes with + and - phase
+# Relationship to Atomic Orbitals
 
-![[Pasted image 20231102220800.png]]
-
-$$
-\Psi_{nlm}(r,\theta,\phi)=R_{nl}(r)Y_{lm}(\theta,\phi).
-$$
+- solution of Schrodinger's Equation for one-electron atom when replacing potential energy with Coulomb potential quantizes 3 values, known as [[Electrons in Atoms#Quantum Numbers|quantum numbers]]
 
 # Molecular Orbitals
 
-- quantum picture of a chemical bond
-- Morse potential predicts
-	- structure
-	- vibrations
-	- formation
+- Quantum mechanics can be used to explain [[Molecular Orbitals]]
 
-# Born-Oppenheimer Approximation
-
-- electrons move much faster than nuclei
-- assume nuclei are fixed in space when solving Schrodinger's equation
-
-$$
-2\sigma_{u}^{*}
-$$
-
-- 2: integer that tracks relative energies for each symetry type
-- $\sigma$: descirbes orientation around internuclear axis
-	- $\sigma$: cylindrical symmetry
-	- $\pi$: $\Psi$ has nodal plane that contains internuclear axis
-- $u$: describes inversion symmetry
-	- $u$: ungerade, $g$: gerade
-- \*: node on internuclear axis

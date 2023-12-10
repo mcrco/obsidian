@@ -10,26 +10,24 @@ Chemistry is about
 	- conservation of energy: energy cannot be created or detroyed
 	- can be converted
 
-# Atom
-
-## Dalton's Atomic Theory of Matter
+# Dalton's Atomic Theory of Matter
 
 1. Matter consists of indivisible atom
 2. All atoms of given element are identical in mass + properties
 3. Atoms are indestructible and retain IDs during reaction
 4. Atoms can combine to make compounds
 
-## Subparticles
+# Subparticles
 
 ![[Pasted image 20231006144939.png]]
 
-### [[Electrons in Atoms]]
+## [[Electrons in Atoms]]
 
 - $e^{-}$
 - $9.11\cdot 10^{-31}\text{ kg}$
 - forms cloud around nucleus in orbitals
 
-### Nucleus 
+## Nucleus 
 
 - proton
 	- $p^{+}$
@@ -44,7 +42,7 @@ Chemistry is about
 	- $_{19}K$
 	- defines element
 
-## Relation to mass
+# Relation to mass
 
 - need to correlate atoms to mass
 - use Avogadro's Number
@@ -61,16 +59,3 @@ Chemistry is about
 		- $12.011 g/mol + 2(15.999 g/mol) = 44.009 g/mol$
 		- To find molecules in $1g$, 
 		- $1g\cdot \frac{mol}{44.009g} \cdot \frac{6.022\cdot 10^{23} \text{molecules}}{mol} = 1.37\cdot 10^{32}$ molecules
-
-# Stoichiometry
-
-- relationship between number of reactant to number of product molecules
-
-Example:
-
-$$
-\begin{gather*}
-2H_{2}+O_{2} \to 2H_{2}O \\
-C_{3}H_{8} + 5O_{2} \to 3CO_{2} + 4H_{2}O \\
-\end{gather*}
-$$
