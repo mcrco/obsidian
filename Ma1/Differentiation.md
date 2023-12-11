@@ -85,7 +85,7 @@ If $f,g$ are differentiable at $a$, then
 
 `\begin{proof}` Using the limit definition of derivatives, we can expand and derive each formula`\end{proof}`
 
-## Chain Rule
+# Chain Rule
 
 Let $\varphi=g\circ f$ with $f$ differentiable at $a$ and $g$ differentiable at $b=f(a)$. Then $\varphi$ is differentiable at $a$ and $\varphi'(a)=g'(b)f'(a)$.
 
@@ -114,6 +114,25 @@ $$
 \end{gather}
 $$
 
+`\end{proof}`
+
+## Derivatives of Inverses
+
+One application of chain rule is
+
+$$
+\frac{d}{dx}f^{-1}(x) = \frac{1}{f'[f^{-1}(x)]}.
+$$
+
+`\begin{proof}` Let $y=f^{-1}(x)$, and $x=f(y)$. Then,
+
+$$
+\begin{gather}
+\frac{d}{dx}x = \frac{d}{dx}f(y) \\
+1 = f'(y)\cdot \frac{dy}{dx} \\
+\frac{dy}{dx} =\frac{1}{f'(y)}
+\end{gather}
+$$
 `\end{proof}`
 
 # Extrema
@@ -165,4 +184,3 @@ $$
 h'(c)=f'(c)(b-a)-(f(b)-f(a)) = 0.
 $$
 `\end{proof}`
-
