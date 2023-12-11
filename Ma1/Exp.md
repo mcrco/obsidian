@@ -11,11 +11,26 @@
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":2}] Proposition 3.
 > $\frac{d}{dx}\exp=\exp$
 
-`\begin{proof}`
+`\begin{proof}`Since $\frac{d}{dx}\log x=\frac{1}{x}\neq 0$, using [[Differentiation#Derivatives of Inverses|the formula for the derivative of an inverse]], 
+
+$$
+\frac{d}{dx}\exp(x)=\frac{1}{\frac{d}{dx}\log(\exp(x))}=\frac{1}{\frac{1}{\exp(x)}}=\exp(x)
+$$
 `\end{proof}`
 
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":3}] Proposition 4.
 > For $x,y \in \mathbb{R}$, $\exp(x+y)=\exp(x)\exp(y)$
+
+`\begin{proof}` For $x,y \in \mathbb{R}$, exists unique $u,v \in \mathbb{R}^{+}$ s.t. $x=\log u,y=\log v$.
+
+$$
+\begin{align}
+\exp(x+y)&= \exp(\log u+\log v) \\
+&= \exp(\log uv) \\
+&= 
+\end{align}
+$$
+`\end{proof}`
 
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":4}] Proposition 5.
 > $\exp$ is strictly increasing.

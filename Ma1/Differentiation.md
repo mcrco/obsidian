@@ -118,7 +118,7 @@ $$
 
 ## Derivatives of Inverses
 
-One application of chain rule is
+One application of chain rule is the formula for the derivative of the inverse:
 
 $$
 \frac{d}{dx}f^{-1}(x) = \frac{1}{f'[f^{-1}(x)]}.
@@ -130,8 +130,14 @@ $$
 \begin{gather}
 \frac{d}{dx}x = \frac{d}{dx}f(y) \\
 1 = f'(y)\cdot \frac{dy}{dx} \\
-\frac{dy}{dx} =\frac{1}{f'(y)}
+\frac{dy}{dx} =\frac{1}{f'(y)}.
 \end{gather}
+$$
+
+Plugging in $y=f^{-1}(x)$,
+
+$$
+\frac{d}{dx}f^{-1}(x)=\frac{1}{f'[f^{-1}(x)]}.
 $$
 `\end{proof}`
 
