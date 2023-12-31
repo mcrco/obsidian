@@ -27,7 +27,8 @@ $$
 \begin{align}
 \exp(x+y)&= \exp(\log u+\log v) \\
 &= \exp(\log uv) \\
-&= 
+&= uv \\
+&= \exp(x)\exp(y).
 \end{align}
 $$
 `\end{proof}`
@@ -35,14 +36,23 @@ $$
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":4}] Proposition 5.
 > $\exp$ is strictly increasing.
 
+`\begin{proof}`If $x>y$, let $x=\log(u),y=\log v$. $\log$ is strictly increasing, so $u>v$, and thus $u=\exp(x)>\exp(y)=v$.
+`\end{proof}`
+
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":5}] Proposition 6.
 > $\lim_{ x \to \infty }\exp(x)=\infty$, $\lim_{ x \to -\infty }(x)=0$
+
+`\begin{proof}` For the first limit, we must show $\exp(x)>M$ when $x>L$, or equivalently $\log x>\log L\implies x>\log M$, which is possible since we choose $L$. Similarly, for the second limit, we must show $x<L\implies \exp(x)<\epsilon$ or $\log x<\log L\implies x<\log\epsilon$.`\end{proof}`
 
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":6}] Proposition 7.
 > $\int \exp(x) \, dx=\exp(x)+C$
 
+`\begin{proof}`Since $\exp$ is differentiable, it is continuous. Thus, it is integrable on finite subintervals. We also know $\frac{d}{dx}\exp=\exp$.`\end{proof}`
+
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":7}] Proposition 8.
 > $\lim_{ x \to \infty } \frac{p(x)}{\exp(x)}=0$ and $\lim_{ x \to \infty }p(x)\exp(x)$ for polynomials $p$.
+
+`\begin{proof}``\end{proof}`
 
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":8}] Proposition 9.
 > $\int_{-\infty}^{b} \exp(x) \, dx=\exp(b)$
