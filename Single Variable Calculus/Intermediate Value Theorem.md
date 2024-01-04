@@ -1,7 +1,7 @@
 Note that because of [[Limits and Continuity|continuity]], 
 
 > [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":0}] Lemma 1.
-> If [[Ma1/Functions|function]] $f$ is continuous at $c$ and $f(c)\neq 0$, there is an interval $(c-\delta, c+\delta)$ around $c$ where $f$ has the same size as $c$.
+> If [[Single Variable Calculus/Functions|function]] $f$ is continuous at $c$ and $f(c)\neq 0$, there is an interval $(c-\delta, c+\delta)$ around $c$ where $f$ has the same size as $c$.
 
 ^54e2e4
 

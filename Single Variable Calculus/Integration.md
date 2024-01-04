@@ -8,7 +8,7 @@ First, we define
 > A partition of $[a,b]$ is a collection of points $t_{0}=a<t_{1}<t_{2}<\dots<t_{n-1}<b=t_{n}$. 
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Step Function","label":"step-function","_index":1}] Definition 2 (Step Function).
-> A [[Ma1/Functions|function]] $S$ defined on $[a,b]$ is a step function if there is a partition $P$ and constants $c_{1},\dots, c_{n}$ s.t. $S(x)=c_{j}$ for $x \in [t_{j-1},t_{j})$ and $S(t_{n})=c_{n}$.
+> A [[Single Variable Calculus/Functions|function]] $S$ defined on $[a,b]$ is a step function if there is a partition $P$ and constants $c_{1},\dots, c_{n}$ s.t. $S(x)=c_{j}$ for $x \in [t_{j-1},t_{j})$ and $S(t_{n})=c_{n}$.
 
 If we approximate a function as a step function for a given partition, we get that the integral is
 

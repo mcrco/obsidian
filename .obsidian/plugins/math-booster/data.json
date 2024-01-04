@@ -41,6 +41,9 @@
     "Ma1/Fundamental Theorem of Calculus.md": {
       "theoremCalloutStyle": "MathWiki",
       "theoremCalloutFontInherit": true
+    },
+    "Intro to Theory of Computation/Problems.md": {
+      "theoremCalloutFontInherit": true
     }
   },
   "extraSettings": {

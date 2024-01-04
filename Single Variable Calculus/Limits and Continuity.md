@@ -1,6 +1,6 @@
 # Limits
 
-Let $a \in \mathbb{R}$. Assume $f$ is [[Ma1/Functions|function]] defined on some [[Ma1/Functions#Intervals|neighborhood]] of $a$, except maybe $a$ itself.
+Let $a \in \mathbb{R}$. Assume $f$ is [[Single Variable Calculus/Functions|function]] defined on some [[Single Variable Calculus/Functions#Intervals|neighborhood]] of $a$, except maybe $a$ itself.
 
 Here are 3 definitions of a limit.
 

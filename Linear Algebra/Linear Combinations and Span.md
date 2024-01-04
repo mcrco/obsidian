@@ -1,4 +1,4 @@
-In xy plane, $\hat{i}$ and $\hat{j}$ are called **basis vectors**. 
+In $xy$ plane, $\hat{i}$ and $\hat{j}$ are called **basis vectors**. 
 
 Using a linear combination (scaled sum) of $\hat{i}$ and $\hat{j}$, we can reach any vector in 2D space. In this case, the 2D space is the **span** (set of all possible linear combinations) of $\hat{i}$ and $\hat{j}$. 
 

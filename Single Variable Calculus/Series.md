@@ -193,6 +193,36 @@ $$
 Thus, $\sum_{}^{}a_{n}$ converges.
 `\end{proof}`
 
+## Integral Test
+
+For $S=\sum_{n=1}^{\infty}a_{n}$ w/ $a_{n}=f(n)$ for $f>0$, monotone and decreasing on $[1,\infty]$, then $S$ converges iff $I=\int_{1}^{\infty} f(x) \, dx$ converges.
+
+`\begin{proof}`Partition $[1,N]$ into $1<2<3<\dots<N$ so
+
+$$
+\begin{align}
+U(f,P_{N})&=a_{1}+a_{2}+\dots+a_{N-1}\\
+L(f,P_{N})&=a_{2} + \dots + a_{N}
+.\end{align}
+$$
+
+We know
+
+$$
+L(f,P_{N})<\int_{1}^{N} f \, dx < \int_{1}^{\infty} f(x) \, d\mathbf{x}.
+$$
+
+Let $N\to \infty$, so $S-a_{1}<\int_{1}^{\infty} f(x) \, dx$.
+
+For the converse, notice
+
+$$
+\int_{1}^{N} f(x) \, dx =\sum_{j=1}^{j=N-1}\int_{j}^{j+1} f(x) \, dx.
+$$
+
+Let the $b_{j}=\int_{j}^{j+1} f(x) \, dx$. Clearly, $a_{n+1}<b_{n}\leq a_{n}$, so by [[#Comparison Test]], $S-a_{1}\leq\int_{1}^{\infty} f(x) \, dx\leq S$. 
+`\end{proof}`
+
 # Power Series
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Power Series","label":"power-series","_index":6}] Definition 7 (Power Series).

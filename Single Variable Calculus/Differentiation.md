@@ -25,10 +25,10 @@ Rearranging gives $f<M-\frac{1}{C}$ for all $x \in [a,b]$, contradicting that $M
 
 # Derivative
 
-Geometrically, the derivative of a [[Ma1/Functions|function]] $f$ at $a$ is the slope of $f$ at $a$. The formal definition uses [[Limits and Continuity|Limits]] to evaluate the slope of $f$ as two points get infinitely close.
+Geometrically, the derivative of a [[Single Variable Calculus/Functions|function]] $f$ at $a$ is the slope of $f$ at $a$. The formal definition uses [[Limits and Continuity|Limits]] to evaluate the slope of $f$ as two points get infinitely close.
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Derivative","label":"derivative","_index":2}] Definition 3 (Derivative).
-> A [[Ma1/Functions|function]] $f$ defined on a neighborhood of $a \in \mathbb{R}$ is differentiable if
+> A [[Single Variable Calculus/Functions|function]] $f$ defined on a neighborhood of $a \in \mathbb{R}$ is differentiable if
 >
 > $$
 > \lim_{ h \to 0 } \frac{f(a+h)-f(a)}{h}
