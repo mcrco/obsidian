@@ -1,16 +1,16 @@
-# Definition
+# Problem
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Problem","label":"problem","_index":0}] Definition 1 (Problem).
-> A problem associates each input to an output. Input and output are strings over a finite alphabet $\sum_{}^{}$. $\sum_{}^{\star}$ is infinite set of finite strings.
+> A problem associates each input to an output. Input and output are strings over a finite alphabet $\Sigma^{}$. $\Sigma^{\star}$ is infinite [[Sets|set]] of finite strings.
 > 
 > $$
-> f:\sum ^{\star} \to \sum^{\star}
+> f:\Sigma ^{\star} \to \Sigma^{\star}
 > $$
 
 More simply,
 
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Decision Problem","label":"decision-problem","_index":1}] Definition 2 (Decision Problem).
-> $f:\sum_{}^{\star} \to \{ \text{accept}, \text{reject} \}$
+> $f:\Sigma^{\star} \to \{ \text{accept}, \text{reject} \}$
 
 **Every problem has a simpler decision problem**.
 
@@ -24,7 +24,7 @@ $$
 f_{\text{factor}}:\{ 0,1 \}^{\star}\to \{ 0,1 \}^{\star}.
 $$
 
-$f_{\text{factor}}$ outputs set of prime factors.
+$f_{\text{factor}}$ outputs [[Sets|set]] of prime factors.
 
 ### Decision
 
@@ -45,6 +45,6 @@ $f$ outputs whether or not $m$ has a prime factor smaller than $k$. Can be paire
 > \end{cases}
 > $$
 
-- **language** $L \subset \sum_{}^{\star}$: subset of strings over $\sum_{}^{}$
-- set of strings that lead to accept is language **recognized** by machine
-- every other string leads to reject $\implies$ language is **decided** by the machine
+- **language** $L \subseteq \Sigma^{\star}$: subset of strings over $\Sigma^{}$
+- [[Sets|set]] of strings that lead to accept is language **recognized** by machine
+- every other string ($x \notin L$) leads to reject $\implies$ language is **decided** by the machine

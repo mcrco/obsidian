@@ -11,21 +11,49 @@
       "query": "path:\"Human Geography/\"  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 10048224
       }
     },
     {
-      "query": "path:\"Ch1/\"",
+      "query": "path:\"Ch1a/\"",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 14701166
       }
     },
     {
-      "query": "path:\"Ma1/\"",
+      "query": "path:\"Linear Algebra\"  ",
       "color": {
         "a": 1,
-        "rgb": 4221149
+        "rgb": 3710207
+      }
+    },
+    {
+      "query": "path: \"Single Variable Calculus\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3710207
+      }
+    },
+    {
+      "query": "path:\"Discrete Structures\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431439
+      }
+    },
+    {
+      "query": "path:\"Electricity and Magnetism\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14731602
+      }
+    },
+    {
+      "query": "path:\"Intro to Theory of Computation\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431439
       }
     }
   ],
@@ -39,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.37033251597907696,
+  "scale": 0.46822130772748,
   "close": false
 }

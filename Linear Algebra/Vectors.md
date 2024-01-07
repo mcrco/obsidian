@@ -41,6 +41,8 @@ $$
 > .$$
 > 
 
+^cbddf2
+
 **Intuition**: joining two arrows from tail to head
 
 ## Scalar Multiplication
@@ -58,6 +60,8 @@ $$
 >\end{pmatrix}
 >.$$
 >
+
+^85a8b3
 
 **Intuition**: scaling arrow in direction by $\alpha$.
 

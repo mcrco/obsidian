@@ -38,3 +38,13 @@
 - to the astronaut, the time taken for light to pulse back and forth from the source to the mirror to the receiver is $\frac{2D}{c}$
 - to the observer on earth, the light moves at an angle but still at speed $c$; thus, the time taken for light to pulse is $\frac{2s}{c}$
 - **time is dilated**
+
+$$
+\begin{align}
+\Delta t_{\text{between ship's light clock ticks to earth}} &= \frac{2D}{\sqrt{ c^{2}-V^{2} }} \\
+\end{align}
+$$
+$$
+t_{\text{moving clock}} = t_{\text{stationary clock}} \sqrt{ 1-V^{2} / c^{2} }
+$$
+

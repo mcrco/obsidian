@@ -1,4 +1,4 @@
-- set of infinite decimal expansions
+- [[Sets|set]] of infinite decimal expansions
 - $a_{0}.a_{1}a_{2}a_{3}\dots$, where $a_{0}\in\mathbb{Z}$ and $0\leq a_{i}\leq 9$ for $i\geq 1$.
 - 'fills in number line'
 - $0.\bar{9} = 1$
