@@ -31,7 +31,7 @@
 - velocity transformation
 - kinematics implications ($E,p,m$)
 
-## Time Dilation
+# Time Dilation
 
 ![[Pasted image 20240104115806.png]]
 
@@ -48,3 +48,39 @@ $$
 t_{\text{moving clock}} = t_{\text{stationary clock}} \sqrt{ 1-V^{2} / c^{2} }
 $$
 
+# Length Contraction
+
+[![28.3: Length Contraction - Physics LibreTexts](https://phys.libretexts.org/@api/deki/files/3414/Figure_29_03_03a.jpg?revision=1&size=bestfit&width=666&height=436)
+
+- to stationary observers earth and alpha centauri, time runs slower on the spaceship according to time dilation
+- to the observer on the spaceship, length contraction occurs because $L=VT=V\cdot \frac{T}{\gamma}<L_{0}$
+
+## Horizontal Light Clock
+
+Imagine a horizontal light clock moving at $v$.
+
+When the light moves forward, clock moves forward:
+
+$$
+\Delta T_{1} = \frac{V\Delta T_{1} + \frac{D}{\gamma}}{c}.
+$$
+
+When light moves backward, 
+
+$$
+\Delta T_{2} = \frac{-V\Delta T_{2} + \frac{D}{\gamma}}{c}.
+$$
+
+Full trip:
+
+$$
+T = \frac{2D}{c}\gamma
+$$
+
+# Simultaneity
+
+If you have two clocks moving together at $v$ and signal is emitted at center, leading clock lags by
+
+$$
+\Delta t = \frac{vD}{c^{2}}
+$$

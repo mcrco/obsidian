@@ -45,6 +45,13 @@ $f$ outputs whether or not $m$ has a prime factor smaller than $k$. Can be paire
 > \end{cases}
 > $$
 
-- **language** $L \subseteq \Sigma^{\star}$: subset of strings over $\Sigma^{}$
-- [[Sets|set]] of strings that lead to accept is language **recognized** by machine
-- every other string ($x \notin L$) leads to reject $\implies$ language is **decided** by the machine
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Langauge","label":"langauge","_index":3}] Definition 4 (Langauge).
+> $L \subseteq \Sigma^{\star}$: subset of strings over $\Sigma^{}$
+
+^3dcd80
+
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Recognition","label":"recognition","_index":4}] Definition 5 (Recognition).
+> [[Sets|set]] of strings that lead to accept is language **recognized** by machine
+
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Decision","label":"decision","_index":5}] Definition 6 (Decision).
+> every other string ($x \notin L$) leads to reject $\implies$ language is **decided** by the machine
