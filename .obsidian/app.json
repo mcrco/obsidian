@@ -4,10 +4,10 @@
   "vimMode": true,
   "pdfExportSettings": {
     "includeName": true,
-    "pageSize": "Tabloid",
+    "pageSize": "A4",
     "landscape": false,
     "margin": "1",
-    "downscalePercent": 42
+    "downscalePercent": 85
   },
   "newFileLocation": "current",
   "alwaysUpdateLinks": true
