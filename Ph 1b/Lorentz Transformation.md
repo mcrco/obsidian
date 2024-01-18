@@ -95,19 +95,3 @@ u' &= \frac{-0.99c - 0.99c}{1-\frac{(0.99)(-0.99)c^{2}}{c^{2}}} \\
 &= -0.99995c
 \end{align}
 $$
-
-# Intervals
-
-- $(ct,x,y,z)$: location in spacetime (event)
-
-$$
-\Delta s^{2}=-(c\Delta t)^{2}+(\Delta x)^{2}+(\Delta y)^{2}+(\Delta z)^{2}
-$$
-
-- if only $x$, can visualize events $A,B,C,D,E$ as
-
-![[Pasted image 20240111115723.png]]
-
-- $C-D$: $\Delta s^{2}=0 \implies$ null
-- $A-B$: $\Delta s^{2}>0 \implies$ time-like
-- $C-D$: $\Delta s^{2}<0 \implies$ space-like

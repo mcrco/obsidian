@@ -32,19 +32,15 @@ Now, we prove that $k$-state GNFA $G$ can be reduce to 2 states by simply rippin
 # Non Regular Languages
 
 > [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"title":"Pumping Lemma","label":"pumping-lemma","_index":3}] Lemma 4 (Pumping Lemma).
->For all regular languages L, there is a pumping length p such that for all words $w=xyz$ with $|w| > p$, 
-> - $w = xy^iz \in L$ for all $i\geq 0$
-> - $|y| > 0$
-> - $|xy| < p$
+>For all regular languages $L$, there is a pumping length $p$ s.t. for all words $w=xyz$ with $|w| > p$, 
+> 1. $w = xy^iz \in L$ for all $i\geq 0$
+> 2. $|y| > 0$
+> 3. $|xy| < p$
 
-## Examples
+We can prove a language is non-regular by
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":4}] Theorem 5.
-> $L=\{ 0^{i}1^{j}: i>j \}$ is not regular.
-
-`\begin{proof}`
-- assume $L$ is regular
-- let $p$ be the pumping length
-- choose $w=0^{p+1}1^{p}$
-- let ????
-`\end{proof}`
+1. assume $L$ is regular
+2. must exist pumping length $p$
+3. select string $w \in L$ of length $\geq p$
+4. no matter how you write $w=xyz$ satisfying rules 2 and 3, pumping $y$ cannot give string in $L$
+5. profit

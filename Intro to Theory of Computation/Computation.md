@@ -45,7 +45,7 @@ $f$ outputs whether or not $m$ has a prime factor smaller than $k$. Can be paire
 > \end{cases}
 > $$
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Langauge","label":"langauge","_index":3}] Definition 4 (Langauge).
+> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Language","label":"language","_index":3}] Definition 4 (Language).
 > $L \subseteq \Sigma^{\star}$: subset of strings over $\Sigma^{}$
 
 ^3dcd80

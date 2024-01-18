@@ -91,3 +91,7 @@ To prove NFA recognition $\implies$ FA recognition, we prove all NFA can be simu
 
 Now we should prove construction works by induction on number of steps of computation but nah.
 `\end{proof}`
+
+# Limitations
+
+We can prove that there are languages FA can't recognize through the existence of [[Regular Expression#Non Regular Languages]].
