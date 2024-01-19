@@ -50,7 +50,7 @@ $$
 
 # Length Contraction
 
-[![28.3: Length Contraction - Physics LibreTexts](https://phys.libretexts.org/@api/deki/files/3414/Figure_29_03_03a.jpg?revision=1&size=bestfit&width=666&height=436)
+![28.3: Length Contraction - Physics LibreTexts](https://phys.libretexts.org/@api/deki/files/3414/Figure_29_03_03a.jpg?revision=1&size=bestfit&width=666&height=436)
 
 - to stationary observers earth and alpha centauri, time runs slower on the spaceship according to time dilation
 - to the observer on the spaceship, length contraction occurs because $L=VT=V\cdot \frac{T}{\gamma}<L_{0}$

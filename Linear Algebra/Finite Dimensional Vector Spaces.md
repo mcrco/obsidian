@@ -35,6 +35,8 @@
 > [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Basis","label":"basis","_index":6}] Definition 7 (Basis).
 > Basis of $V$ ($\mathcal{B}(V)$) is a list of vectors that is linearly independent and spans $V$.
 
+^c71fc8
+
 > [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"title":"Basis","label":"basis","_index":7}] Proposition 8 (Basis).
 > $S \subset V$ is a basis $\iff$ every vector $\vec{v} \in V$ can be expressed uniquely as $\vec{v} = a_{1}\vec{v_{1}} + \dots + a_{n}\vec{v_{n}}$.
 
