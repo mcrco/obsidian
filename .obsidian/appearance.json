@@ -1,8 +1,9 @@
 {
   "enabledCssSnippets": [
     "img-grids-floats",
-    "img-center"
+    "img-center",
+    "translucent"
   ],
   "accentColor": "",
-  "translucency": false
+  "translucency": true
 }
