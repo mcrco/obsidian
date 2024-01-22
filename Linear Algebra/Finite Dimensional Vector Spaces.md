@@ -14,7 +14,7 @@
 > A [[Vector Spaces|vector space]] is finite dimensional if finite set of vectors spans it.
 
 - example: $\mathbb{R}^{2}$ is finite dimensional
-- $\vec{u} \in \mathbb{R}^{2} =a\vec{v}_{1} + b\vec{v}_{2}$ for $a,b \in \mathbb{R}$ if $\vec{v_{1}}, \vec{v_{2}}$ are not on the same line through $(0,0)$. 
+- $\vec{u} \in \mathbb{R}^{2} =a\vec{v}_{1} + b\vec{v}_{2}$ for $a,b \in \mathbb{R}$ if $\vec{v_{1}}, \vec{v_{2}}$ are not on the same line through $(0,0)$ 
 - this property of $\{ \vec{v_{1}},\vec{v_{2}} \}$ is called
 
 # Linear Independence
@@ -79,7 +79,10 @@ Thus, $|S|=|T|$.
 
 # Connection to [[Sets]]
 
-- finite set $\iff$ finite dimensional
-- $|A| \iff \text{dim}V$
-- $A_{1} \cup A_{2} \iff V_{1} + V_{2}$
-- $|A_{1} \cup A_{2}| = |A_{1}| + |A_{2}| - |A_{1} \cap A_{2}| \iff \text{dim}(V_{1}+V_{2}) = \text{dim}(V_{1}) + \text{dim}(V_{2}) - \text{dim}(V_{1} \cap V_{2})$
+| Set Theory                                                                                                  | Linear Algebra                                                                               |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| $A$ is a finite set                                                                                         | $V$ is finite dimensional                                                                    |
+| $A$                                                                                                         | $\text{dim}(V)$                                                                              |
+| $A_{1} \cup A_{2}$                                                                                          | $V_{1} + V_{2}$                                                                              |
+| $\lvert A_{1} \cup A_{2} \rvert = \lvert A_1 \rvert + \lvert A_{2} \rvert - \lvert A_{1} \cap A_{2} \rvert$ | $\text{dim}(V_{1}+V_{2})=\text{dim}(V_{1})+\text{dim}(V_{2}) - \text{dim}(V_{1} \cap V_{2})$ |
+| $\lvert \bigcup_{i=1}^{n}A_{i} \rvert = \sum_{i=1}^{n}\lvert A_{i} \rvert \iff \text{disjoint}$             | $\text{dim}\left( \sum_{i=1}^{n}V_{i} \right)=\sum_{i=1}^{n}\text{dim}(V_{i}) \iff \text{direct sum}$                                                                                             |

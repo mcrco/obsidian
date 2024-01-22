@@ -1,1 +1,11 @@
-{}
+{
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ]
+}

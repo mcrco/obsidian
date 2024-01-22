@@ -1,4 +1,4 @@
-- a vector space over a [[Fields|field]] $F$ is a set of of vectors where
+- a vector space over a [[Fields|field]] $F$ is a [[Sets|set]] of of vectors where
 	- addition is [[Vectors#^cbddf2]] 
 	- multiplication is [[Vectors#^85a8b3]] 
 - and satisfies the below axioms

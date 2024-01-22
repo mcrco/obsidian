@@ -1,12 +1,8 @@
 {
-  "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "",
-  "baseFontSize": 18,
   "enabledCssSnippets": [
     "img-grids-floats",
-    "translucent",
     "img-center"
   ],
-  "translucency": true
+  "accentColor": "",
+  "translucency": false
 }

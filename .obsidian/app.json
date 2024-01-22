@@ -1,14 +1,5 @@
 {
-  "livePreview": true,
-  "showLineNumber": true,
   "vimMode": true,
-  "pdfExportSettings": {
-    "includeName": true,
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "1",
-    "downscalePercent": 85
-  },
-  "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "livePreview": true,
+  "showLineNumber": true
 }
