@@ -14,7 +14,7 @@
   "sidebarWidth": "",
   "startOutlineCollapsed": false,
   "logLevel": "warning",
-  "incrementalExport": false,
+  "incrementalExport": true,
   "deleteOldExportedFiles": false,
   "addDarkModeToggle": true,
   "includeOutline": true,
@@ -29,7 +29,7 @@
   "graphEdgePruning": 100,
   "graphMinNodeSize": 3,
   "graphMaxNodeSize": 7,
-  "exportPath": "/Users/marco/obsidian/.website",
+  "exportPath": "/Users/marco/obsidian/docs",
   "filesToExport": [
     [
       "Ch1a/Lectures/10-10-23.md",
@@ -299,8 +299,8 @@
       "Multivariable Calculus/Vectors/Distances with Vectors.md",
       "Multivariable Calculus/Vectors/Vectors for Geometry.md",
       "Multivariable Calculus/test.tex",
-      "Multivariable Calculus/test.log",
       "Multivariable Calculus/test.fls",
+      "Multivariable Calculus/test.log",
       "Multivariable Calculus/test.fdb_latexmk",
       "Multivariable Calculus/test.aux",
       "Multivariable Calculus/test.synctex.gz",
