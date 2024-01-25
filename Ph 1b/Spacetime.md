@@ -114,3 +114,9 @@ $$
 - $(\Delta s)^{2}=0$
 	- **null**
 	- corresponds to two events along some lightray, since the spatial separation is the same as the time separation times $c$
+
+![[Pasted image 20240111115723.png]]
+
+- $C-D$: $\Delta s^{2}=0 \implies$ null
+- $A-B$: $\Delta s^{2}>0 \implies$ time-like
+- $C-D$: $\Delta s^{2}<0 \implies$ space-like

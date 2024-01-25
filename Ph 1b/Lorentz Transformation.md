@@ -86,7 +86,7 @@ ct' = \gamma\left( ct-\beta x \right)
 $$
 
 
-Notice this is just a [[Linear Transformations|linear transformation]]:
+- notice this is just a [[Linear Transformations|linear transformation]]:
 
 $$
 \begin{pmatrix}
