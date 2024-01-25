@@ -12,8 +12,6 @@ $$
 - $A-B$: $\Delta s^{2}>0 \implies$ time-like
 - $C-D$: $\Delta s^{2}<0 \implies$ space-like
 
-- insert cone diagram
-
 # 4-vector
 
 - can represent event as

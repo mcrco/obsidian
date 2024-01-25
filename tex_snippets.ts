@@ -91,6 +91,8 @@
     { trigger: "tilde", replacement: "\\tilde{$0}$1", options: "mA" },
     { trigger: "oline", replacement: "\\overline{$0}", options: "mA" },
     { trigger: "uline", replacement: "\\underline{$0}", options: "mA" },
+    { trigger: "oset", replacement: "\\overset{$0}{$1}$2", options: "mA" },
+    { trigger: "uset", replacement: "\\underset{$0}{$1}{$2}", options: "mA" },
     { trigger: "hat", replacement: "\\hat{$0}", options: "mA" },
     { trigger: "dot", replacement: "\\dot{$0}", options: "mA" },
     { trigger: "([^\\\\])(arcsin|arccos|arctan|arccot|arccsc|arcsec|sin|cos|tan|cot|csc)", replacement: "[[0]]\\[[1]]", options: "rmA" },

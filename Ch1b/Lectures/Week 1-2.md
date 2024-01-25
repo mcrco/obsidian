@@ -237,7 +237,7 @@ $$
 - lower vapor pressure $\implies$ higher BP
 - $\Delta T_{b}$: change in BP
 - $K_{b}$: constant, table 11.2 in book
-- $m$: molarity
+- $m$: molality
 
 $$
 \Delta T_{b}=K_{b}m
@@ -246,7 +246,7 @@ $$
 #### Freezing Point Depression
 
 $$
-\Delta T_{f}=K_{f}m
+\Delta T_{f}=-K_{f}m
 $$
 
 #### Osmotic Pressure

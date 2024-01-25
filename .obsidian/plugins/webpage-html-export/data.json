@@ -2,7 +2,7 @@
   "inlineCSS": false,
   "inlineJS": false,
   "inlineImages": false,
-  "includePluginCSS": "math-booster\nobsidian-tikzjax\ncm-editor-syntax-highlight-obsidian\nobsidian-git",
+  "includePluginCSS": "cm-editor-syntax-highlight-obsidian\nmath-booster",
   "includeSvelteCSS": true,
   "makeNamesWebStyle": true,
   "allowFoldingHeadings": true,

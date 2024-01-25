@@ -1,5 +1,8 @@
 {
   "vimMode": true,
   "livePreview": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }
