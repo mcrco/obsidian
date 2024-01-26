@@ -2,7 +2,8 @@ Series are the sum of [[Sequences]], where we take a sequence $(a_{n})_{n=1}^{\i
 
 # Convergence
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Series","label":"series","_index":0}] Definition 1 (Series).
+> [!definition] Series
+> %% label: series %%
 > A series $(a_{n})_{n=1}^{\infty}$ converges if the sequence of partial sums $S_{1}=a_{1}, S_{2}=a_{1}+a_{2}, S_{3}=a_{1}+a_{2}+a_{3}\dots$ converges. We then set $\sum_{k=1}^{\infty}a_{k}=\lim_{ n \to \infty }S_{n}$.
 
 ## Examples
@@ -53,12 +54,14 @@ converges.
 `\end{proof}`
 ## Sum of Two Converging Series
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"title":"Sum of 2 Converging Series","label":"sum-of--converging-series","_index":1}] Lemma 2 (Sum of 2 Converging Series).
+> [!lemma] Sum of 2 Converging Series
+> %% label: sum-of--converging-series %%
 > If $\sum a_{k}$ and $\sum b_{k}$ converge, then $\sum(\alpha a_{k}+\beta b_{k})$ converges for $\alpha,\beta \in \mathbb{R}$.
 
 ## Divergence of Harmonic Series
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"title":"Harmonic Series","label":"harmonic-series","_index":2}] Lemma 3 (Harmonic Series).
+> [!lemma] Harmonic Series
+> %% label: harmonic-series %%
 > $\sum_{k=1}^{\infty} \frac{1}{k}$ diverges. 
 
 `\begin{proof}`
@@ -98,7 +101,8 @@ $$
 
 ## Necessary Limit Condition
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"title":"Limit of Converging Series Term","label":"limit-of-converging-series-term","_index":3}] Lemma 4 (Limit of Converging Series Term).
+> [!lemma] Limit of Converging Series Term
+> %% label: limit-of-converging-series-term %%
 > If $\sum_{k=1}^{\infty} a_{n}$ converges, then $\lim_{ n \to \infty }a_{n}=0$.
 
 `\begin{proof}`
@@ -153,14 +157,15 @@ If $L>1$, then $a_{n+1}>a_{n}$ for all $n\geq N$, which clearly doesn't converge
 
 # Absolute Convergence
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Absolute Convergence","label":"absolute-convergence","_index":4}] Definition 5 (Absolute Convergence).
+> [!definition] Absolute Convergence
+> %% label: absolute-convergence %%
 > $\sum_{}^{}a_{n}$ is absolutely convergent if $\sum_{}^{}|a_{n}|$ converges. If $\sum_{}^{}a_{n}$ converges and $\sum_{}^{}|a_{n}|$ diverges, then $\sum_{}^{}a_{n}$ is conditionally convergent.
 
 Absolute convergence is useful because
 
 ## Absolute Convergence Test
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":5}] Lemma 6.
+> [!lemma]
 > If $\sum_{}^{}a_{n}$ is absolutely convergent, it is convergent.
 
 `\begin{proof}` Let $b_{n}=a_{n}+|a_{n}|$. Then $bn=0$ or $bn=2|a_{n}|$, so $0\leq b_{n}\leq 2|a_{n}|$. By Comparison Test, $\sum_{}^{}b_{n}$ converges, so $\sum_{}^{}a_{n}=\sum_{}^{}b_{n}-\sum_{}^{}|a_{n}|$ also converges.
@@ -225,7 +230,8 @@ Let the $b_{j}=\int_{j}^{j+1} f(x) \, dx$. Clearly, $a_{n+1}<b_{n}\leq a_{n}$, s
 
 # Power Series
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Power Series","label":"power-series","_index":6}] Definition 7 (Power Series).
+> [!definition] Power Series
+> %% label: power-series %%
 > A power series is an infinite series of the form
 > $$
 > \sum_{n=0}^{\infty}a_{n}(z-a)^{n}=a_{0}+a_{1}(z-a)+a_{2}(z-a)^{2}+\dots
@@ -233,7 +239,7 @@ Let the $b_{j}=\int_{j}^{j+1} f(x) \, dx$. Clearly, $a_{n+1}<b_{n}\leq a_{n}$, s
 
 ## Convergence
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":7}] Lemma 8.
+> [!lemma]
 > If the power series $\sum_{}^{}a_{n}z^{n}$ converges for a particular $z=z_{1}\neq 0$, then it converges absolutely for all $z:|z|<|z_{1}|$.
 
 ^d5c99e
@@ -249,7 +255,8 @@ for all $n\geq N$. Since $\sum_{}^{}|\frac{z}{z_{1}}|^{n}<\infty$, $\sum_{}^{}a_
 
 ## Radius of Convergence
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Radius of Convergence","label":"radius-of-convergence","_index":8}] Axiom 9 (Radius of Convergence).
+> [!axiom] Radius of Convergence
+> %% label: radius-of-convergence %%
 > If the $\sum_{}^{}a_{n}z^{n}$ converges for at least one $z=z_{1}\neq 0$ and diverges for $z=z_{2}\neq 0$, there exists a positive real number $R$ called the radius of convergence s.t. the series converges absolutely if $|z|<R$ and diverges if $|z|>R$.
 
 `\begin{proof}` Let $A$ be the set of $|z|$ for which $\sum_{}^{}a_{n}z^{n}$ converges. Then $A\neq \emptyset$ and the set is bounded by $|z_{2}|$. Therefore, $R=\text{sup} A$ exists. Then, $\sum_{}^{}a_{n}z^{n}$ diverges for all $|z|>R$. If $|z|<R$, then $\exists x$ with $|z|<x<R$ s.t. the series converges. So by [[#^d5c99e]], $a_{n}z^{n}$ also converges.

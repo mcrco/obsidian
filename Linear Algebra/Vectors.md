@@ -17,7 +17,8 @@ $$
 
 ## Addition
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Addition","label":"addition","_index":0}] Definition 1 (Addition).
+> [!definition] Addition
+> %% label: addition %%
 > 
 > 
 > For
@@ -47,7 +48,8 @@ $$
 
 ## Scalar Multiplication
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Scalar Multiplication","label":"scalar-multiplication","_index":1}] Definition 2 (Scalar Multiplication).
+> [!definition] Scalar Multiplication
+> %% label: scalar-multiplication %%
 > 
 >$$
 >\alpha\cdot \begin{pmatrix}
@@ -67,23 +69,27 @@ $$
 
 # Binary Operation
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"BInary Operation","label":"binary-operation","_index":2}] Definition 3 (BInary Operation).
+> [!definition] BInary Operation
+> %% label: binary-operation %%
 > For set $S$, binary operation $*$: $S\times S\to S$ 
 > Examples: $\times, +$ on $\mathbb{R}$, $\circ$ on $\{ f:\mathbb{R}\to\mathbb{R} \}$
 
 ^aed3cb
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Commutative","label":"commutative","_index":3}] Definition 4 (Commutative).
+> [!definition] Commutative
+> %% label: commutative %%
 > $*$ is commutative if $a*b=b*a$ for $a,b \in S$. 
 > Ex: $\times,+$ are commutative, $\circ$ is not.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Associative","label":"associative","_index":4}] Definition 5 (Associative).
+> [!definition] Associative
+> %% label: associative %%
 > $(a*b)*c=a*(b*c)$ for all $a,b,c \in S$
 > Example: $+, \circ, \times$ are all associative.
 
 ## Identity Element
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Identity Element","label":"identity-element","_index":5}] Definition 6 (Identity Element).
+> [!definition] Identity Element
+> %% label: identity-element %%
 > $e\in S$ is identity element for $*$ if 
 > $$
 > e * s = s * e = s
@@ -91,7 +97,8 @@ $$
 > for all $s \in S$.
 > Examples: $f(x)=x$ is identity element of $S=\{ f:\mathbb{R}\to\mathbb{R} \}$
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"title":"Unique Identity","label":"unique-identity","_index":6}] Proposition 7 (Unique Identity).
+> [!proposition] Unique Identity
+> %% label: unique-identity %%
 > Identity elements are unique.
 >
 >`\begin{proof}`Suppose $e,f$ are both identities. Then,
@@ -103,7 +110,8 @@ $$
 
 # Inverses
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Inverse","label":"inverse","_index":7}] Definition 8 (Inverse).
+> [!definition] Inverse
+> %% label: inverse %%
 > For $*$ with identity $e$, then $b \in S$ is inverse to $a \in S$ if $a*b=b*a=e$.
 
 ### Inverses for Composition

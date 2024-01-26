@@ -66,7 +66,7 @@ $$
 	- reduces to classical expression $\mathbf{p}=m\mathbf{v}$ when $v\ll c$
 - we can validate that above expression stays constant in any inertial frame by first assuming
 
-	$$
+$$
 (P_{\mu})_{\text{initial}} = (P_{\mu})_{\text{final}}
 $$
 
@@ -97,5 +97,7 @@ $$
 - however, still need to figure out if
 
 1. momentum is conserved in collisions of relativistic particles
-2. what is meaning of time component
+2. what is meaning of zeroth component?
 3. what is the meaning of invariant quantity
+
+- above questions are solved when considering [[Energy in Relativistic Physics]]

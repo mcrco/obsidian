@@ -1,14 +1,15 @@
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"exp","label":"exp","_index":0}] Definition 1 (exp).
+> [!definition] exp
+> %% label: exp %%
 > The inverse function of $\log$ from $\mathbb{R} \to \mathbb{R}^{+}$ is $\exp(x)$.
 
 # Properties
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":1}] Proposition 2.
+> [!proposition]
 > $\exp(0)=1$
 
 `\begin{proof}`$\exp(\log(y))=y, \log(1)=0$. `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":2}] Proposition 3.
+> [!proposition]
 > $\frac{d}{dx}\exp=\exp$
 
 `\begin{proof}`Since $\frac{d}{dx}\log x=\frac{1}{x}\neq 0$, using [[Differentiation#Derivatives of Inverses|the formula for the derivative of an inverse]], 
@@ -18,7 +19,7 @@ $$
 $$
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":3}] Proposition 4.
+> [!proposition]
 > For $x,y \in \mathbb{R}$, $\exp(x+y)=\exp(x)\exp(y)$
 
 `\begin{proof}` For $x,y \in \mathbb{R}$, exists unique $u,v \in \mathbb{R}^{+}$ s.t. $x=\log u,y=\log v$.
@@ -33,23 +34,23 @@ $$
 $$
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":4}] Proposition 5.
+> [!proposition]
 > $\exp$ is strictly increasing.
 
 `\begin{proof}`If $x>y$, let $x=\log(u),y=\log v$. $\log$ is strictly increasing, so $u>v$, and thus $u=\exp(x)>\exp(y)=v$.
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":5}] Proposition 6.
+> [!proposition]
 > $\lim_{ x \to \infty }\exp(x)=\infty$, $\lim_{ x \to -\infty }(x)=0$
 
 `\begin{proof}` For the first limit, we must show $\exp(x)>M$ when $x>L$, or equivalently $\log x>\log L\implies x>\log M$, which is possible since we choose $L$. Similarly, for the second limit, we must show $x<L\implies \exp(x)<\epsilon$ or $\log x<\log L\implies x<\log\epsilon$.`\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":6}] Proposition 7.
+> [!proposition]
 > $\int \exp(x) \, dx=\exp(x)+C$
 
 `\begin{proof}`Since $\exp$ is differentiable, it is continuous. Thus, it is integrable on finite subintervals. We also know $\frac{d}{dx}\exp=\exp$.`\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":7}] Proposition 8.
+> [!proposition]
 > $\lim_{ x \to \infty } \frac{p(x)}{\exp(x)}=0$ and $\lim_{ x \to -\infty }p(x)\exp(x) = 0$ for polynomials $p$.
 
 `\begin{proof}`Start with $\lim_{ x \to \infty } \frac{x^{j}}{\exp x}$. We know that $\frac{\exp x}{x^{j}} \to \infty$ since the $\log$ of the previous term is $x - j\log x = x(1-\frac{j\log x}{x}) \to \infty$. 
@@ -57,7 +58,7 @@ $$
 For $\lim_{ x \to -\infty }x^{j}\exp x$, check $\frac{1}{x\exp x}\to-\infty$, which is true since $\log\left( -\frac{1}{x\exp x} \right) = \log\left( -\frac{1}{x} \right)-x=x(\frac{\log x}{-x}-1)$.
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":8}] Proposition 9.
+> [!proposition]
 > $\int_{-\infty}^{b} \exp(x) \, dx=\exp(b)$
 
 `\begin{proof}`We need to show
@@ -66,7 +67,7 @@ $$
 L = \lim_{ x \to -\infty } \int_{x}^{b} \exp(t) \, dt=\lim_{ x \to -\infty } \exp b-\exp x .
 $$
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":9}] Lemma 10.
+> [!lemma]
 > If $f$ is differentiable on $(a,b)$ and $f'(x)=f(x) \forall x \in (a,b)$, then $\exists c$ s.t. $f(x)=c \exp x$ and if $f(0)=1$, $c=1$.
 
 We can prove this lemma is true by differentiating $h(x)=\frac{f(x)}{\exp(x)}$ using [[Differentiation#Properties|quotient rule]] to find that $h$ is constant, say $c$. 
@@ -76,7 +77,7 @@ We can prove this lemma is true by differentiating $h(x)=\frac{f(x)}{\exp(x)}$ u
 
 The number $e$ is defined as $e=\exp(1)$. 
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":10}] Proposition 11.
+> [!proposition]
 > $\exp(x)=e^{x}$.
 
 `\begin{proof}`Apply $\log$ to get $x=\log(e^{x})$.
@@ -109,7 +110,7 @@ $$
 
 Now, for every $a > 0, a^{x} = e^{x\log n}$, this is monotone so it has an inverse, all it $\log_a$. It is easy to see that
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":11}] Proposition 12.
+> [!proposition]
 > $\frac{d}{dx}a^{x}=a^{x}\log a$.
 
 ## Hyperbolic Functions

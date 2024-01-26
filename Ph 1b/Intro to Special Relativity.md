@@ -7,13 +7,13 @@
 
 # Special Relativity Postulates
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"_index":0}] Axiom 1.
+> [!axiom]
 > All inertial frames are equally valid - laws of physics are the same, no preferred frame.
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"","label":"","_index":1}] Axiom 2.
+> [!axiom]
 > Speed of light $c$ is the same in all frames regardless of relative motion of source and observer.
 
-> [!math|{"type":"remark","number":"auto","setAsNoteMathLink":false,"_index":2}] Remark 3.
+> [!remark]
 > $c$ is the speed at which massless things move - essentially a speed limit of nature. Since we measure events in terms of space and time, $c$ is simply a conversion factor between space and time.
 
 ## Significance

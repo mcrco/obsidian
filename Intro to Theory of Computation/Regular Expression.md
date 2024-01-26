@@ -1,4 +1,5 @@
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Regular Expression","label":"regular-expression","_index":0}] Definition 1 (Regular Expression).
+> [!definition] Regular Expression
+> %% label: regular-expression %%
 > $R$ is a regex if $R$ is
 > - $a \in \Sigma$
 > - $\epsilon$: empty string
@@ -11,7 +12,7 @@
 
 # Connection to [[Finite Automata]]
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":1}] Theorem 2.
+> [!theorem]
 > A [[Computation#^3dcd80|language]] is recognized by a [[Finite Automata#^02be7c|FA]] $\iff$ $L$ is described by a [[#^a8210c]].  
 
 `\begin{proof}`
@@ -21,7 +22,8 @@ By the rules of what a regex is by definition, we can see that the regex can des
 $\impliedby$ (L is described by regex if L is recognized):
 For a FA $M$, we can construct a GNFA:
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Generalized NFA","label":"generalized-nfa","_index":2}] Definition 3 (Generalized NFA).
+> [!definition] Generalized NFA
+> %% label: generalized-nfa %%
 > A [[Finite Automata#^4cf5d5|NFA]] that has transitions in the form of regex. 
 
 Notice that for a 2-state GNFA with just a start and accept state with transition $R$ (some regex), we have proven that the recognized language can be expressed by regex.
@@ -31,7 +33,8 @@ Now, we prove that $k$-state GNFA $G$ can be reduce to 2 states by simply rippin
 
 # Non Regular Languages
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"title":"Pumping Lemma","label":"pumping-lemma","_index":3}] Lemma 4 (Pumping Lemma).
+> [!lemma] Pumping Lemma
+> %% label: pumping-lemma %%
 >For all regular languages $L$, there is a pumping length $p$ s.t. for all words $w=xyz$ with $|w| > p$, 
 > 1. $w = xy^iz \in L$ for all $i\geq 0$
 > 2. $|y| > 0$

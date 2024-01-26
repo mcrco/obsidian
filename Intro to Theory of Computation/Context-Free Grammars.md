@@ -24,7 +24,8 @@
 
 # Formal Definition
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Context Free Grammar","label":"context-free-grammar","_index":0}] Definition 1 (Context Free Grammar).
+> [!definition] Context Free Grammar
+> %% label: context-free-grammar %%
 > CFG is a 4-tuple 
 > $$
 > (V,\Sigma,R,S)
@@ -51,7 +52,8 @@
 
 # NPDA CFG Equivalence
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"NPDA CFG Equivalence","label":"npda-cfg-equivalence","_index":1}] Theorem 2 (NPDA CFG Equivalence).
+> [!theorem] NPDA CFG Equivalence
+> %% label: npda-cfg-equivalence %%
 > A language $L$ is recognized by a NPDA **iff** $L$ is described by CFG.
 
 ## Proof

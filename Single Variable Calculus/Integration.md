@@ -4,10 +4,12 @@ Intuitively, the integral of a function is the area under the curve. Let's try a
 
 First, we define
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Partition","label":"partition","_index":0}] Definition 1 (Partition).
+> [!definition] Partition
+> %% label: partition %%
 > A partition of $[a,b]$ is a collection of points $t_{0}=a<t_{1}<t_{2}<\dots<t_{n-1}<b=t_{n}$. 
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Step Function","label":"step-function","_index":1}] Definition 2 (Step Function).
+> [!definition] Step Function
+> %% label: step-function %%
 > A [[Single Variable Calculus/Functions|function]] $S$ defined on $[a,b]$ is a step function if there is a partition $P$ and constants $c_{1},\dots, c_{n}$ s.t. $S(x)=c_{j}$ for $x \in [t_{j-1},t_{j})$ and $S(t_{n})=c_{n}$.
 
 If we approximate a function as a step function for a given partition, we get that the integral is
@@ -36,17 +38,20 @@ $$
 
 To define integration formally, we need more definitions.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Refinement","label":"refinement","_index":2}] Definition 3 (Refinement).
+> [!definition] Refinement
+> %% label: refinement %%
 > If $P,P'$ are partitions of $[a,b]$, $P'$ is a refinement of $P$ iff the set of points in $P$ is contained in the sets of points in $P'$.
 
 Note that $P,P'$ have a common refinement $P''$. Considering common refinements, we can show that the sum and product of step functions are step functions.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Span","label":"span","_index":3}] Definition 4 (Span).
+> [!definition] Span
+> %% label: span %%
 > If $f$ is bounded on $[a,b]$, its span is $\text{span}_{f}([a,b])=\text{sup}([a,b])-\text{inf}_{f}([a,b])$, where $\text{sup}_{f}$ and $\text{inf}_{f}$ are the supremum and infimum. 
 
 Now, we can define
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Integrable","label":"integrable","_index":4}] Definition 5 (Integrable).
+> [!definition] Integrable
+> %% label: integrable %%
 > A bounded function $f$ on $[a,b]$ is integrable iff for every $\epsilon>0$, there is a partition $P:t_{0}=a<t_{1}<\dots<b=t_{n}$ s.t. the sum 
 > $$
 > \Delta_{f}(P)=\sum_{j=1}^{n}(t_{j}-t_{j-1})\text{span}_{f}([t_{j-1},t_{j}]) < \epsilon
@@ -76,7 +81,7 @@ $$
 \end{align}
 $$
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":5}] Lemma 6.
+> [!lemma]
 > $\exists \underline{I} = \text{sup }\mathcal{L}(f)$ called the lower integral of $f$. $\exists \overline{I} = \text{inf }\mathcal{U}(f)$ called the upper integral of f called the upper integral of $f$.
 
 `\begin{proof}` We will show $\mathcal{L}$ is bounded above and $\mathcal{U}$. Suppose $P,P'$ are partitions of $[a,b]$. Let $P''$ be a common refinement. Then,
@@ -93,7 +98,8 @@ $$
 \underline{I}(f)\leq \overline{I}(f).
 $$
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"title":"Integrable","label":"integrable","_index":6}] Lemma 7 (Integrable).
+> [!lemma] Integrable
+> %% label: integrable %%
 > A bounded function $f$  is integrable over $[a,b]$ iff $\underline{I}(f)= \overline{I}(f)$.
 
 `\begin{proof}` If $f$ is integrable, then $\Delta_{f}(P) = U(f,P) - L(f,P)$ can be arbitrarily small, so $\underline{I}(f)=\overline{I}(f)$.
@@ -128,7 +134,8 @@ $$
 
 ## Properties
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"title":"Sum","label":"sum","_index":7}] Proposition 8 (Sum).
+> [!proposition] Sum
+> %% label: sum %%
 > If $f,g$ are integrable over $[a,b]$, 
 > 
 > $$
@@ -177,14 +184,15 @@ $$
 
 Similarly,
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"title":"Product of Integrable Functions and a Constant","label":"product-of-integrable-functions-and-a-constant","_index":8}] Proposition 9 (Product of Integrable Functions and a Constant).
+> [!proposition] Product of Integrable Functions and a Constant
+> %% label: product-of-integrable-functions-and-a-constant %%
 > If $f$ is integrable over $[a,b]$, so is $\alpha f$ and 
 > 
 > $$
 > \int_{a}^{b} \alpha f(x) \, dx = \alpha \int_{a}^{b} f(x) \, dx .
 > $$
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":9}] Proposition 10.
+> [!proposition]
 > If $a,b,c\in\mathbb{R}$ with $a<b<c$, $f$ is integrable on $[a,c]$ iff $f$ is integrable on $[a,b]$ and $[b,c]$, and 
 > 
 > $$

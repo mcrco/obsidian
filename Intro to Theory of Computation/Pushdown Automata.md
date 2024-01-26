@@ -4,7 +4,8 @@
 
 ![[Pasted image 20240122104623.png]]
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Non-deterministic Pushdown Automaton","label":"non-deterministic-pushdown-automaton","_index":0}] Definition 1 (Non-deterministic Pushdown Automaton).
+> [!definition] Non-deterministic Pushdown Automaton
+> %% label: non-deterministic-pushdown-automaton %%
 > NPDA $M=(Q,\Sigma,\Gamma,\delta,q_{0},F)$ 
 >
 >- $Q$: finite set of states
@@ -26,7 +27,8 @@
 - the symbol on the other side of the arrow is pushed onto stack
 - go to the next state
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"NPDA Acceptance","label":"npda-acceptance","_index":1}] Definition 2 (NPDA Acceptance).
+> [!definition] NPDA Acceptance
+> %% label: npda-acceptance %%
 > NPDA accepts string $w=\Sigma^{\star}$ if $w$ can be written as
 > $$
 > w_{1}w_{2}w_{3}\dots w_{m}\in(\Sigma \cup \{ \epsilon \})^{\star}

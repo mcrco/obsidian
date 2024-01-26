@@ -4,20 +4,24 @@ Let $a \in \mathbb{R}$. Assume $f$ is [[Single Variable Calculus/Functions|funct
 
 Here are 3 definitions of a limit.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Epsilon Delta","label":"epsilon-delta","_index":0}] Definition 1 (Epsilon Delta).
+> [!definition] Epsilon Delta
+> %% label: epsilon-delta %%
 > $f$ has limit $A$ as $x \to a$ iff for every $\epsilon>0$, $\exists \delta>0 : |f(x)-A| < \epsilon$, $\forall x: |x-a| < \delta, x \neq a$. We write $\lim_{ x \to a }f(x)=A$.
 
 Sometimes a function is defined piecewise on different sides of $x \in X$. Then, there is a left limit and right limit. 
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Left Limit","label":"left-limit","_index":1}] Definition 2 (Left Limit).
+> [!definition] Left Limit
+> %% label: left-limit %%
 > $\lim_{ x \to a^{+} }f(x)=A$ $\iff$ $\forall\epsilon>0$, $\exists \delta > 0 : 0 < x - a < \delta \implies |f(x)-A|<\epsilon$.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Right Limit","label":"right-limit","_index":2}] Definition 3 (Right Limit).
+> [!definition] Right Limit
+> %% label: right-limit %%
 > $\lim_{ x \to a^{+} }f(x)=A$ $\iff$ $\forall\epsilon>0$, $\exists \delta > 0 : 0 < a-x < \delta \implies |f(x)-A|<\epsilon$.
 
 Then,
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Right and Left Limit","label":"right-and-left-limit","_index":3}] Definition 4 (Right and Left Limit).
+> [!definition] Right and Left Limit
+> %% label: right-and-left-limit %%
 > $\exists\lim_{ x \to a } f(x) \iff \exists\lim_{ x \to a^{+} }f(x) \land \exists\lim_{ x \to a^{-} }f(x)$.
 
 Notice that the following are equivalent:
@@ -36,7 +40,7 @@ We will prove the contrapositive. Pick $\epsilon>0:\not\exists\delta$ for the ep
 
 $1 \iff 2$ is very powerful because can use sequences to prove properties of limits. For example,
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":4}] Theorem 5.
+> [!theorem]
 > Let $A=\lim_{ x \to a }f(x)$ and $B=\lim_{ x \to a }g(x)$. Then,
 > $$
 > \begin{gather}
@@ -50,12 +54,14 @@ is true because we can proven the corresponding statements for sequences. Anothe
 
 ## Squeeze Principle
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"Squeeze Principle","label":"squeeze-principle","_index":5}] Theorem 6 (Squeeze Principle).
+> [!theorem] Squeeze Principle
+> %% label: squeeze-principle %%
 > If $f(x)\leq g(x)\leq h(x)$ in some neighborhood of $a$ and $\lim_{ x \to a }f(x)=\lim_{ x \to a }h(x)=A$, then $\lim_{ x \to a }g(x)=A$.
 
 ## Limits at Infinity
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Limit at Infinity","label":"limit-at-infinity","_index":6}] Definition 7 (Limit at Infinity).
+> [!definition] Limit at Infinity
+> %% label: limit-at-infinity %%
 > $\lim_{ x \to \infty }=A \iff$ $\forall\epsilon>0, \, \exists T>0: |f(x)-A|<\epsilon$ for all $x>T$. $\lim_{ x \to -\infty }f(x)$ is defined similarly.
 
 ## [[L'Hopital's Rule]]
@@ -64,13 +70,14 @@ Used for indeterminate forms.
 
 # Continuity
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Continuity","label":"continuity","_index":7}] Definition 8 (Continuity).
+> [!definition] Continuity
+> %% label: continuity %%
 > $f$ is continuous at point $a$ if $f$ is defined at $a$ and $\lim_{ x \to a }f(x)=f(a)$. $f$ is continuous if it is continuous at every point where it is defined.
 
 - jump discontinuity: left and right limits exist but aren't equal
 - removable discontinuity: limit exists but not equal to $f(a)$; can redefine to remove discontinuity
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":8}] Proposition 9.
+> [!proposition]
 > $f$ is continuous at $a$ and $g$ is continuous at $b = f(a)$ $\implies$ $g\circ f: x \to g(f(x))$ is continuous at $a$.
 
 ^f84bec
@@ -82,7 +89,7 @@ Continuity of $f$ at $a$ $\implies$ $\forall \eta>0$, $\exists\delta>0: |x-a|<\d
 
 [[#^f84bec]]  is useful for creating new continuous functions. Another useful proposition is 
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":9}] Proposition 10.
+> [!proposition]
 > If $f$ is continuous at $a$ and $(x_{n})_{n=1}^{\infty}$ with $x_{n} \to a$ as $n \to \infty$, then $f(x_{n}) \to f(a)$ as $n \to \infty$.
 
 ^9f10f9

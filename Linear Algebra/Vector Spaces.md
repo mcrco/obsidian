@@ -5,36 +5,44 @@
 
 # Addition
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Commutativity","label":"commutativity","_index":0}] Axiom 1 (Commutativity).
+> [!axiom] Commutativity
+> %% label: commutativity %%
 > $\vec{u}+\vec{v}=\vec{v}+\vec{u}$.
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Associativty","label":"associativty","_index":1}] Axiom 2 (Associativty).
+> [!axiom] Associativty
+> %% label: associativty %%
 > $(\vec{u}+\vec{v})+\vec{w}=\vec{u}+(\vec{v}+\vec{w})$.
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Zero Vector","label":"zero-vector","_index":2}] Axiom 3 (Zero Vector).
+> [!axiom] Zero Vector
+> %% label: zero-vector %%
 > Exists a vector $\vec{0}$ s.t. $\vec{v}+\vec{0}=\vec{v}$.
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Additive Inverse","label":"additive-inverse","_index":3}] Axiom 4 (Additive Inverse).
+> [!axiom] Additive Inverse
+> %% label: additive-inverse %%
 > $\forall \, \vec{v} \in V$, $\exists \, \vec{w}$ s.t. $\vec{v}+\vec{w}=\vec{0}$. $\vec{w}=-\vec{v}$.
 
 ^7661b4
 
 ## Multiplication
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Multiplicative Identity","label":"multiplicative-identity","_index":4}] Axiom 5 (Multiplicative Identity).
+> [!axiom] Multiplicative Identity
+> %% label: multiplicative-identity %%
 > $\exists \, 1 \in V$ s.t. $1\vec{u} = \vec{u}$.
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Multiplicative Associativity","label":"multiplicative-associativity","_index":5}] Axiom 6 (Multiplicative Associativity).
+> [!axiom] Multiplicative Associativity
+> %% label: multiplicative-associativity %%
 > For scalars $c,d$, $c(d\vec{u}) = (cd)\vec{u}$.
 
 # Distribution
 
 - connects addition and multiplication
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"First Distribution","label":"first-distribution","_index":6}] Axiom 7 (First Distribution).
+> [!axiom] First Distribution
+> %% label: first-distribution %%
 > $c(\vec{u} + \vec{v}) = c\vec{u} + c\vec{v}$.
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Second Distribution","label":"second-distribution","_index":7}] Axiom 8 (Second Distribution).
+> [!axiom] Second Distribution
+> %% label: second-distribution %%
 > $(c + d)\vec{u} = c\vec{u} + d\vec{u}$.
 
 # Examples
@@ -49,26 +57,28 @@
 
 # Subspace
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Vector Subspace","label":"vector-subspace","_index":8}] Definition 9 (Vector Subspace).
+> [!definition] Vector Subspace
+> %% label: vector-subspace %%
 > If $V$ is a $K-$vector subspace then a subspace of $V$ is a subset $W \subset V$ s.t. $W$ is also a $K-$vector space using the same operations.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Closure under Operation","label":"closure-under-operation","_index":9}] Definition 10 (Closure under Operation).
+> [!definition] Closure under Operation
+> %% label: closure-under-operation %%
 > A subset $S \subset V$ is closed under $\star$ if given $\vec{s}_{1}, \vec{s}_{2} \in S$ then $\vec{s}_{1}\star\vec{s_{2}}\in S$.
 
 - vector spaces are also closed under addition and scalar multiplication, but didn't have to define since [[Vectors#^cbddf2|addition]] and [[Vectors#^85a8b3|multiplication]] are [[Vectors#^aed3cb|binary operations]] and closing by default
 - notice that
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":10}] Proposition 11.
+> [!proposition]
 > Nonempty $W \subset V$ is subspace $\iff$ $W$ is closed under addition and scalar multiplication
 
 ## Axioms
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"_index":11}] Axiom 12.
+> [!axiom]
 > $\vec{0} \in W$ always.
 
 `\begin{proof}`For any $\vec{w} \in W$, $0 \cdot \vec{w}=\vec{0} \implies \vec{w} \in W$.`\end{proof}`
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"_index":12}] Axiom 13.
+> [!axiom]
 > [[#^7661b4|Additive Inverse]] $\in W$ always
 > 
 
@@ -81,12 +91,12 @@
 - $L=\{ \lambda \cdot \vec{w} \mid \lambda \in \mathbb{R} \}$ is subspace (check for closure)
 	- $L$ is actually just a line through $\vec{0}$ if visualized on plane
 
-> [!math|{"type":"claim","number":"auto","setAsNoteMathLink":false,"_index":13}] Claim 14.
+> [!claim]
 > If $W \subset V$ is a subspace, it's either $\vec{0}, \mathbb{R}^{2}$, or line through $\vec{0}$.
 
 `\begin{proof}`Given $W$, assume it's not $\{ \vec{0} \}$
 `\end{proof}`
 
-> [!math|{"type":"claim","number":"auto","setAsNoteMathLink":false,"_index":14}] Claim 15.
+> [!claim]
 > Given any $\vec{u} \in \mathbb{R}^{2}$, can write $\vec{u}=\lambda \vec{w} + \mu \vec{v}$ for unique $\lambda,\mu$
 

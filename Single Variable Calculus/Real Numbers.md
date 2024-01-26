@@ -7,10 +7,12 @@
 
 On $\mathbb{R}$, there are 2 binary operations $+$ and $\cdot$ such that 
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Commutativity","label":"commutativity","_index":0}] Axiom 1 (Commutativity).
+> [!axiom] Commutativity
+> %% label: commutativity %%
 > $x=y=y+x$, $xy = yx$.
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Associativity","label":"associativity","_index":1}] Axiom 2 (Associativity).
+> [!axiom] Associativity
+> %% label: associativity %%
 > $$
 > \begin{gather*}
 > x+(y+z)\geq(x+y)+z, \\
@@ -20,12 +22,14 @@ On $\mathbb{R}$, there are 2 binary operations $+$ and $\cdot$ such that
 
 ^a925ed
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Distributivity","label":"distributivity","_index":2}] Axiom 3 (Distributivity).
+> [!axiom] Distributivity
+> %% label: distributivity %%
 > $$
 >x(y+z)=xy+xz
 >$$
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Existence of $0,1$","label":"existence-of-01","_index":3}] Axiom 4 (Existence of $0,1$).
+> [!axiom] Existence of $0,1$
+> %% label: existence-of-01 %%
 > $$
 > \begin{gather}
 > 0+x=0,  \\
@@ -33,7 +37,8 @@ On $\mathbb{R}$, there are 2 binary operations $+$ and $\cdot$ such that
 > \end{gather} 
 > $$
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Existence of Negatives","label":"existence-of-negatives","_index":4}] Axiom 5 (Existence of Negatives).
+> [!axiom] Existence of Negatives
+> %% label: existence-of-negatives %%
 > $$
 > \forall x \in \mathbb{R}, \exists y \mid y + x = 0
 > $$
@@ -41,7 +46,8 @@ On $\mathbb{R}$, there are 2 binary operations $+$ and $\cdot$ such that
 
 We may now define
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Comparator","label":"comparator","_index":5}] Definition 6 (Comparator).
+> [!definition] Comparator
+> %% label: comparator %%
 > 
 > $$
 > \begin{gather*}
@@ -51,7 +57,8 @@ We may now define
 > $$
 In particular, $x>0$ iff $x \in \mathbb{R}_{+}$.
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"title":"Transitivity of Comparator","label":"transitivity-of-comparator","_index":6}] Lemma 7 (Transitivity of Comparator).
+> [!lemma] Transitivity of Comparator
+> %% label: transitivity-of-comparator %%
 > If $a<b$ and $b<c$, then $a<c$. 
 > `\begin{proof}`
 > $a<b$ and $b<c$ mean that $b-a\in \mathbb{R}_{+}$ and $c-b\in\mathbb{R}_{+}$.
@@ -67,13 +74,13 @@ In particular, $x>0$ iff $x \in \mathbb{R}_{+}$.
 > $$
 > `\end{proof}`
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":7}] Lemma 8.
+> [!lemma]
 > If $a<b$ and $c>0$, then $ac<bc$.
 > `\begin{proof}`
 > $b-a>0$ and $c>0$ implies by \ref that $(b-a)c>0 \implies bc-ac>0 \implies ac<bc$.
 > `\end{proof}`
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":8}] Lemma 9.
+> [!lemma]
 > $$
 > a\neq 0\implies a^{2}>0
 > $$
@@ -83,40 +90,47 @@ In particular, $x>0$ iff $x \in \mathbb{R}_{+}$.
 > Assume $a^{2}\leq0$. Then, because $a\neq 0$, we must have $a<0$. However, that implies by axiom 8 that $-a>0 \implies (-a)^{2}>0 \implies a^{2}>0$, a contradiction.
 > `\end{proof}`
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"label":"upper-bound","_index":9,"title":"Upper Bound"}] Definition 10 (Upper Bound).
+> [!definition] Upper Bound
+> %% label: upper-bound %%
 >Suppose $S$ is a nonempty subset of $\mathbb{R}$ and $B \in \mathbb{R}$ is such that $x\leq B$ for all $x \in S$. Then, we can say $B$ is an upperbound for $S$. If $B \in S$, we call B the maximum of $S$.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Least Upper Bound","label":"least-upper-bound","_index":10}] Definition 11 (Least Upper Bound).
+> [!definition] Least Upper Bound
+> %% label: least-upper-bound %%
 > $B \in \mathbb{R}$ is a least upper bound for a nonempty set $S$ if 
 > 
 > 1. $B$ is an upper bound for $S$.
 > 2. No number less than $B$ is an upper bound for $S$
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"Unique upper bound","label":"unique-upper-bound","_index":11}] Theorem 12 (Unique upper bound).
+> [!theorem] Unique upper bound
+> %% label: unique-upper-bound %%
 > The least upper bound for a set $S$ is unique
 > `\begin{proof}`
 > If there are 2 least upper bounds, $B_{1}$ and $B_{2}$, then $B_{1}\leq B_{2}$ and $B_{2}\leq B_{1}$ $\implies B_{1}=B_{2}$.
 > `\end{proof}`
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Supremum and Infimum","label":"supremum-and-infimum","_index":12}] Definition 13 (Supremum and Infimum).
+> [!definition] Supremum and Infimum
+> %% label: supremum-and-infimum %%
 > If it exists, the least upper bound of a subset $S$ of set $P$ is called the supremum of $S$, denoted $\text{sup}(S)$. The greatest lower bound is the infimum, denoted $\text{inf}(S)$.
 
 ^56a279
 
-> [!math|{"type":"axiom","number":"auto","setAsNoteMathLink":false,"title":"Continuitiy Axiom","label":"continuitiy-axiom","_index":13}] Axiom 14 (Continuitiy Axiom).
+> [!axiom] Continuitiy Axiom
+> %% label: continuitiy-axiom %%
 > Every nonempty set $S$ of $\mathbb{R}$ with an upper bound has a least upper bound or supremum.
 
 ^e56e85
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":14}] Theorem 15.
+> [!theorem]
 > The natural number $\mathbb{N}$ are unbounded above.
 > `\begin{proof}`Suppose instead that $\mathbb{N}$ is bounded above. Then, by continuity axiom, it has a supremum $B$. So $B-1$ is not an upper bound, so there is some $n \in \mathbb{N} \mid n>B-1$. But then $n+1\in\mathbb{N}$ has $n+1>B$, contradicting that $B$ is an upper bound.`\end{proof}`
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"label":"archimedean-property","_index":15,"title":"Archimedean Property"}] Theorem 16 (Archimedean Property).
+> [!theorem] Archimedean Property
+> %% label: archimedean-property %%
 > If $x>0$ any $y\in\mathbb{R}$, $\exists n \mid nx>y$.
 > `\begin{proof}`If not, then $\frac{y}{x}\geq n$ for all $n\in \mathbb{N}$, so $\mathbb{N}$ would be bounded above.`\end{proof}`
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"$\\sqrt{2}$","label":"sqrt","_index":16}] Theorem 17 ($\sqrt{2}$).
+> [!theorem] $\sqrt{2}$
+> %% label: sqrt %%
 > 2 has a positive square root.
 > `\begin{proof}`Let $S=\{ x \in \mathbb{R} \mid x^{2}\leq 2 \}$. Consider $\text{sup}(S)$. We claim that $\text{sup}(S)^{2}=2$, so we need to disprove that $\text{sup}(S)^{2} > 2$ and $\text{sup}(S)^{2}<2$. But first, we need to show that $\text{sup}(S)$ exists. To see that $S$ is non-empty, note that $0^{2}\leq 2$. To see that $S$ is bounded above, note $2^{2}=4>2$. Thus, by Continuity Axiom, $\text{sup}(S)$ does exist.  
 > Let $B=\text{sup}(S)$. 

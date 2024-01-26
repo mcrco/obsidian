@@ -1,4 +1,5 @@
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Natural Logarithm","label":"natural-logarithm","_index":0}] Definition 1 (Natural Logarithm).
+> [!definition] Natural Logarithm
+> %% label: natural-logarithm %%
 > For any $x>0$, we define its natural logarithm by
 >
 > $$
@@ -7,15 +8,15 @@
 
 # Properties
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":1}] Proposition 2.
+> [!proposition]
 > $\log 1=0$
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":2}] Proposition 3.
+> [!proposition]
 > $\log x$ is differentiable on $(0,\infty)$ with derivative $\frac{1}{x}$
 
 `\begin{proof}`For any $x$, the function $\frac{1}{t}$ is continuous on $[1,x]$, so by the [[Fundamental Theorem of Calculus#The First Fundamental Theorem of Calculus|first fundamental theorem of calculus]], $\log x$ is differentiable with derivative $\frac{1}{x}$.`\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":3}] Proposition 4.
+> [!proposition]
 > For all $x,y>0$, $\log xy = \log x + \log y$.
 
 `\begin{proof}` Fix $y>0$ and consider the function given by
@@ -51,13 +52,13 @@ $$
 $$
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":4}] Proposition 5.
+> [!proposition]
 > $\log x$ is strictly increasing on $(0,\infty)$.
 
 `\begin{proof}` Since $\frac{d}{dx}\log x=\frac{1}{x}>0$ for all $x>0$, the function is strictly increasing. 
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":5}] Proposition 6.
+> [!proposition]
 > $\log x \to \infty$ as $x \to \infty$ and $\log x \to -\infty$ as $x \to 0$.
 
 `\begin{proof}` $\log x$ is strictly increasing and $\log 1=0$, so $\log 2>0$. Then,
@@ -78,7 +79,7 @@ as $n \to \infty$.
 `\end{proof}`
 
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":6}] Proposition 7.
+> [!proposition]
 >  $\log x$ is integrable on any finite subinterval of $(0,\infty)$ and 
 >  $$
 > \int \log x \, dx = x\log x - x + C   
@@ -96,7 +97,7 @@ $$
 
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":7}] Proposition 8.
+> [!proposition]
 > $$
 > \lim_{ x \to 0 } x\log x=0 \quad \text{and} \quad \lim_{ x \to 0 } \frac{\log x}{x} = 0
 > $$
@@ -124,7 +125,7 @@ $$
 $$
 `\end{proof}`
 
-> [!math|{"type":"proposition","number":"auto","setAsNoteMathLink":false,"_index":8}] Proposition 9.
+> [!proposition]
 > [[Integration#Improper Integrals|Improper integral]] of $\log x$ over $(0,b]$ exists for any $b>0$ and 
 > 
 > $$

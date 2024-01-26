@@ -1,6 +1,7 @@
 # Problem
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Problem","label":"problem","_index":0}] Definition 1 (Problem).
+> [!definition] Problem
+> %% label: problem %%
 > A problem associates each input to an output. Input and output are strings over a finite alphabet $\Sigma^{}$. $\Sigma^{\star}$ is infinite [[Sets|set]] of finite strings.
 > 
 > $$
@@ -9,7 +10,8 @@
 
 More simply,
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Decision Problem","label":"decision-problem","_index":1}] Definition 2 (Decision Problem).
+> [!definition] Decision Problem
+> %% label: decision-problem %%
 > $f:\Sigma^{\star} \to \{ \text{accept}, \text{reject} \}$
 
 **Every problem has a simpler decision problem**.
@@ -36,7 +38,8 @@ $f$ outputs whether or not $m$ has a prime factor smaller than $k$. Can be paire
 
 # Computation
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Computation","label":"computation","_index":2}] Definition 3 (Computation).
+> [!definition] Computation
+> %% label: computation %%
 > $$
 > \text{input} \to \text{machine} \to \begin{cases}
 > \text{accept} \\
@@ -45,13 +48,16 @@ $f$ outputs whether or not $m$ has a prime factor smaller than $k$. Can be paire
 > \end{cases}
 > $$
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Language","label":"language","_index":3}] Definition 4 (Language).
+> [!definition] Language
+> %% label: language %%
 > $L \subseteq \Sigma^{\star}$: subset of strings over $\Sigma^{}$
 
 ^3dcd80
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Recognition","label":"recognition","_index":4}] Definition 5 (Recognition).
+> [!definition] Recognition
+> %% label: recognition %%
 > [[Sets|set]] of strings that lead to accept is language **recognized** by machine
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Decision","label":"decision","_index":5}] Definition 6 (Decision).
+> [!definition] Decision
+> %% label: decision %%
 > every other string ($x \notin L$) leads to reject $\implies$ language is **decided** by the machine

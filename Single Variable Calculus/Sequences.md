@@ -1,4 +1,4 @@
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"","label":"","_index":0}] Definition 1.
+> [!definition]
 > A sequence of real numbers is a set
 > $$
 > a_{1},a_{2},a_{3}\dots
@@ -15,7 +15,8 @@ Now, if $a_{n}=\frac{(-1)^{n}}{n}=(-1, \frac{1}{2}, -\frac{1}{3}, \frac{1}{4},\d
 
 ## Convergence
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Convergence","label":"convergence","_index":1}] Definition 2 (Convergence).
+> [!definition] Convergence
+> %% label: convergence %%
 > A sequence $(a_{n})^{\infty}_{n=1}$ converges to the limit $A$ iff for every $\forall \epsilon>0, \exists N=N(\epsilon) \in \mathbb{N}: |a_{n}-A|<\epsilon , n\geq N$. We write $\lim_{ n \to \infty }a_{n}=A$.
 
 ## Examples
@@ -35,7 +36,7 @@ $$
 
 ## 
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":2}] Lemma 3.
+> [!lemma]
 > If $(a_{n})$ and $(b_{n})$ are sequences with $\lim_{ n \to \infty }a_{n}=A$ and $\lim_{ n \to \infty }b_{n}=B$, then 
 > a. $\lim_{ n \to \infty }(a_{n}+b_{n})=A+B$
 > `\begin{proof}`\Since $\lim_{ n \to \infty }a_{n}=A$, $\exists N\mid |a_{n_{1A|<}}-\frac{\epsilon}{2} \forall n_{1}\geq N_{1}$. If Since $\lim_{ n \to \infty }b_{n}=B$, $\exists N_{2} \mid |b_{n}-B|< \frac{\epsilon}{2}, \forall n_{2}\geq N_{2}$. 
@@ -46,10 +47,12 @@ $$
 > d. $\lim_{ n \to \infty }a_{n}b_{n}=AB$. 
 ## Monotone Sequence
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Monotonically Increasing Sequence","label":"monotonically-increasing-sequence","_index":3}] Definition 4 (Monotonically Increasing Sequence).
+> [!definition] Monotonically Increasing Sequence
+> %% label: monotonically-increasing-sequence %%
 > A sequence $(a_{n})_{n=1}^{\infty}$ is monotone increasing, written $a_{n} \uparrow$, if $a_{n} \leq a_{n+1}, \, \forall n\geq 1$ and is monotone decreasing, written $a_{n} \downarrow$ if $a_{n+1} \leq a_{n}, \, \forall n\geq 1$. In either case, $a_{n}$ is monotone
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"Monotone Sequence Convergence","label":"monotone-sequence-convergence","_index":4}] Theorem 5 (Monotone Sequence Convergence).
+> [!theorem] Monotone Sequence Convergence
+> %% label: monotone-sequence-convergence %%
 > Every bounded monotone sequence is convergent.
 > `\begin{proof}`
 > By the [[#^e56e85]] , $\{ a_{n} \}$ has a supremum $A$. Then, for any $\epsilon>0$, $A-\epsilon$ is not an uppre bound, so $\exists N\mid a_{n}>A-\epsilon$. But $(a_{n})$ is monotone increasing, so $a_{n} \geq a_{N} \geq A-\epsilon, \, \forall n\geq N$. 

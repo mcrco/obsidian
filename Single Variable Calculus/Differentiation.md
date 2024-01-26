@@ -1,13 +1,14 @@
 To talk about differentiation, we need to know [[Series]] and 
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":0}] Theorem 1.
+> [!theorem]
 > If $f \in C([a,b])$, then $f$ is bounded on $[a,b]$.
 
 ^621920
 
 `\begin{proof}` `\end{proof}`
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"Extremal Value Theorem","label":"extremal-value-theorem","_index":1}] Theorem 2 (Extremal Value Theorem).
+> [!theorem] Extremal Value Theorem
+> %% label: extremal-value-theorem %%
 > If $f \in C([a,b])$, there exists $c,d \in [a,b]$ s.t. $f(c)=\text{sup}f=\text{max}f$ and $f(d)=\text{inf }f=\text{min }f$.
 
 ^fe4b5f
@@ -27,7 +28,8 @@ Rearranging gives $f<M-\frac{1}{C}$ for all $x \in [a,b]$, contradicting that $M
 
 Geometrically, the derivative of a [[Single Variable Calculus/Functions|function]] $f$ at $a$ is the slope of $f$ at $a$. The formal definition uses [[Limits and Continuity|Limits]] to evaluate the slope of $f$ as two points get infinitely close.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Derivative","label":"derivative","_index":2}] Definition 3 (Derivative).
+> [!definition] Derivative
+> %% label: derivative %%
 > A [[Single Variable Calculus/Functions|function]] $f$ defined on a neighborhood of $a \in \mathbb{R}$ is differentiable if
 >
 > $$
@@ -52,12 +54,13 @@ $f'(a)$ exists iff left limit and right limit are equal.
 
 # Differentiability
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Differentiable","label":"differentiable","_index":3}] Definition 4 (Differentiable).
+> [!definition] Differentiable
+> %% label: differentiable %%
 > $f$ is differentiable on an open interval $I$ iff $f$ is differentiable at every point of $I$. $f'$ is a function on $I$. $f'$ might not be continuous, but if it is, $f$ is continuously differentiable. $f$ is twice differentiable if $f$ and $f'$ are both continuous. $f^{(n)}$ is the $n$th derivative of $f$. $f$ is $C^{n}$ at $a$ iff $f,f^{(1), \dots f^{(n)}}$ all exist and are continuous at $a$.
 
 ## Continuity
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":4}] Theorem 5.
+> [!theorem]
 > If $f$ is differentiable at $a$, then it is continuous at $a$. 
 
 `\begin{proof}` 
@@ -143,10 +146,11 @@ $$
 
 # Extrema
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Extrema","label":"extrema","_index":5}] Definition 6 (Extrema).
+> [!definition] Extrema
+> %% label: extrema %%
 > $f$ defined on a set $S$ has a local max at $c \in S$ if there is an open interval $I: c \in I$ s.t. $f(x)\leq f(c)$ for all $x \in I \cap S$. Local minima are defined similarly. Both are extrema of $f$.
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":6}] Theorem 7.
+> [!theorem]
 > Suppose $f$ is defined on open interval $I$. If $f$ is differentiable and has a local extremum at $a \in I$, then $f'(a)=0$.
 
 ^bc5512
@@ -162,14 +166,16 @@ $$
 
 # Critical Points
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Critical Point","label":"critical-point","_index":7}] Definition 8 (Critical Point).
+> [!definition] Critical Point
+> %% label: critical-point %%
 > $a \in \mathbb{R}$ is a critical point of a function $f$ which is differentiable at $a$ iff $f'(a)=0$.
 
 Thus, [[#^bc5512]] states that extrema must occur at critical points.
 
 ## Rolle's Theorem
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"Rolle's Theorem","label":"rolle-theorem","_index":8}] Theorem 9 (Rolle's Theorem).
+> [!theorem] Rolle's Theorem
+> %% label: rolle-theorem %%
 > Suppose $f$ is cont. and diff. on $[a,b]$ with $f(a)=f(b)$. Then, $\exists c\mid f'(c)=0$.
 
 ^5691b2
@@ -179,7 +185,8 @@ Thus, [[#^bc5512]] states that extrema must occur at critical points.
 
 ## Mean Value Theorem
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"Mean Value Theorem","label":"mean-value-theorem","_index":9}] Theorem 10 (Mean Value Theorem).
+> [!theorem] Mean Value Theorem
+> %% label: mean-value-theorem %%
 > If $f \in C([a,b]) \cap D((a,b))$, then there is $c \in (a,b)$ with $f(b)-f(a)=f'(c)(b-a)$. 
 
 Intuitively, this is like saying a car must be driving the average speed at some point during a trip.

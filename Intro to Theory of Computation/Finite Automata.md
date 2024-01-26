@@ -21,7 +21,8 @@
 
 ## Formal Definition
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Finite Automaton","label":"finite-automaton","_index":0}] Definition 1 (Finite Automaton).
+> [!definition] Finite Automaton
+> %% label: finite-automaton %%
 > A finite automaton is a 5-tuple
 > $$
 > \left( Q,\Sigma, \sigma, q_{0}, F \right)
@@ -58,7 +59,8 @@ But,
 - $x$ is accepted if there exists a way of inserting $\epsilon$'s into $x$ so that
 - there exists a path of transitions from start to accept state.
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Nondeterministic Finite Automaton","label":"nondeterministic-finite-automaton","_index":1}] Definition 2 (Nondeterministic Finite Automaton).
+> [!definition] Nondeterministic Finite Automaton
+> %% label: nondeterministic-finite-automaton %%
 > $$
 > (Q,\Sigma,\delta,q_{0},F)
 >$$
@@ -67,7 +69,8 @@ But,
 
 ^4cf5d5
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"NFA Operation","label":"nfa-operation","_index":2}] Definition 3 (NFA Operation).
+> [!definition] NFA Operation
+> %% label: nfa-operation %%
 > NFA $M$ accepts a string $w=w_{1}w_{2}w_{3}\dots w_{n} \in \Sigma^{*}$ if $w$ can be written as 
 > $$
 > y=y_{1}y_{2}y_{3}\dots y_{m} \in (\Sigma \cup \{ \epsilon \})^{*}
@@ -76,7 +79,7 @@ But,
 
 # NFA and FA Equivalence
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":3}] Theorem 4.
+> [!theorem]
 > A language $L$ is recognized by a finite automata iff $L$ is recognized by a non-deterministic finite automata.
 
 `\begin{proof}` Since FA are NFA, it is trivial to prove recognition by FA $\implies$ recognition by NFA.

@@ -24,7 +24,8 @@ Now, we have
 
 ## The First Fundamental Theorem of Calculus
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"First Fundamental Theorem of Calculus","label":"first-fundamental-theorem-of-calculus","_index":0}] Theorem 1 (First Fundamental Theorem of Calculus).
+> [!theorem] First Fundamental Theorem of Calculus
+> %% label: first-fundamental-theorem-of-calculus %%
 > Let $f$ be integrable on $[a,b]$ and $A$ its integral. If $c \in (a,b)$ and $f$ is continuous at $c$, then $A$ is differentiable at $c$ and $A'(c)=f(c)$.
 
 `\begin{proof}` To show that $A(x)$ is differentiable at $c$, we need to evaluate
@@ -73,12 +74,14 @@ Since $f$ is continuous at $c$, $f(c)=\lim_{ h \to 0 }i = \lim_{ h \to 0 }s$. He
 
 First, we define
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Primitive","label":"primitive","_index":1}] Definition 2 (Primitive).
+> [!definition] Primitive
+> %% label: primitive %%
 > Let $f$ be a function on an open interval $I$. A primitive $\phi$ of $f$ on $I$ is a differentiable function on $I$ with $\phi'(x)=f(x)$ for all $x \in I$. Not unique: $\phi \to \phi + c$.
 
 Now,
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"title":"Second Fundamental Theorem of Calculus","label":"second-fundamental-theorem-of-calculus","_index":2}] Theorem 3 (Second Fundamental Theorem of Calculus).
+> [!theorem] Second Fundamental Theorem of Calculus
+> %% label: second-fundamental-theorem-of-calculus %%
 > Suppose $f,\phi$ are functions on $[a,b]$ with $f$ integrable and $\phi$ is a primitive, defined and continuous. Then,
 > 
 > $$

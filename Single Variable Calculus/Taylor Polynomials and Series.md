@@ -8,7 +8,7 @@ Taylor polynomials are good approximations for functions.
 
 # Useful Taylor Polynomials
 
-> [!math|{"type":"lemma","number":"auto","setAsNoteMathLink":false,"_index":0}] Lemma 1.
+> [!lemma]
 > If $f(x)=a_{0}+a_{1}x+a_{2}x^{2}+\dots+a_{m}x^{m}$, then $f$ is infinitely differentiable and 
 > 
 > $$

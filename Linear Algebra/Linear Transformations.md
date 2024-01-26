@@ -1,6 +1,7 @@
 - we can move from one [[Vector Spaces|vector space]] to another by a 
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"title":"Linear Map","label":"linear-map","_index":0}] Definition 1 (Linear Map).
+> [!definition] Linear Map
+> %% label: linear-map %%
 > A **linear map** from $V$ to $W$ is a function $T:V\to W$ s.t. it obeys
 > - additivity: $T(u+v)=T(u)+T(v)$ for all $u,v \in V$
 > - homogeneity: $T(\lambda u)=\lambda T(u)$ for all $u \in V$, $\lambda \in \mathbb{F}$
@@ -20,7 +21,7 @@
 
 # Linear Maps as [[Vector Spaces]]
 
-> [!math|{"type":"theorem","number":"auto","setAsNoteMathLink":false,"_index":1}] Theorem 2.
+> [!theorem]
 > Suppose $\{ v_{1},\dots,v_n \}$ is a basis of $V$ and $\{ w_{1},\dots,w_{n} \}$ is a basis of $W$. There **exists** a **unique** linear map s.t. the following is true for $k=1,2,\dots,n$
 > $$
 > Tv_{k}=w_{k}
@@ -36,12 +37,12 @@ TODO
 - **unique** condition $\implies$ fixing basis of $V$ that maps to a basis in $W$ $\implies$ $T$ is determined for $V$
 - can use this to claim
 
-> [!math|{"type":"claim","number":"auto","setAsNoteMathLink":false,"_index":2}] Claim 3.
+> [!claim]
 > $\mathcal{L}(V,W)$ is a [[Vector Spaces|vector space]].
 
 - by defining
 
-> [!math|{"type":"definition","number":"auto","setAsNoteMathLink":false,"_index":3}] Definition 4.
+> [!definition]
 > For $S,T \in \mathcal{L}(V,W)$, we define operations on maps as follows for $v \in V$
 > - **addition**: $(S+T)(v) = S(v) + T(V)$
 > - **scalar multiplication**: $(\lambda S)(v)=\lambda\cdot S(v)$
